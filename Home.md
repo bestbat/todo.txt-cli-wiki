@@ -35,5 +35,6 @@ Get support and ask questions on [the mailing list](http://groups.yahoo.com/grou
 - Licensed under the [GPL](http://www.gnu.org/copyleft/gpl.html)
 - [[Todo.sh Add-on Directory]]
 - [Known Bugs](http://github.com/ginatrapani/todo.txt-cli/issues)
-- [[Todo.sh Changelog]]
+- [Todo.sh Changelog](https://github.com/todotxt/todo.txt-cli/blob/master/CHANGELOG.md)
 - [[Other Todo.txt Projects]]
+

@@ -31,7 +31,7 @@ $ git commit ...
 $ git push origin master
 ```
 
-The changes now appear in your repository in your GitHub clone; you'll see the commits listed in the GitHub web interface. You can now initiate a pull request by clicking the _Pull Request_ button. Send the request to the maintainers. You will receive a message (in GitHub and via Email) when she has merged in your changes; or just occasionally check [the changelog](http://github.com/todotxt/todo.txt-cli/). 
+The changes now appear in your repository in your GitHub clone; you'll see the commits listed in the GitHub web interface. You can now initiate a pull request by clicking the _Pull Request_ button. Send the request to the maintainers. You will receive a message (in GitHub and via Email) when she has merged in your changes; or just occasionally check [the changelog]. 
 
 ### Pulling in Upstream
 
@@ -41,3 +41,6 @@ Some time has passed, the upstream repo has changed and you want to update your 
 $ git fetch upstream
 $ git merge upstream/master
 ```
+
+[the changelog]: https://github.com/todotxt/todo.txt-cli/blob/master/CHANGELOG.md
+
