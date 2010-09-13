@@ -132,7 +132,7 @@ A Python script @birdseye.py@ (called with the @birdseye@ action) analyzes the @
 
 "Project Page":http://github.com/ginatrapani/todo.txt-cli/tree/addons
 
-h2(#adddopri). __paper__: print your todo list
+h2(#paper). __paper__: print your todo list
 
 This will print your todo list.
 
