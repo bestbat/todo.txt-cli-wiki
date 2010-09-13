@@ -5,6 +5,7 @@ Todo.sh CHANGELOG
 ** Bugfix: Replace now echoes old item AND new item, like it used to
 ** Parameterized the .todo.actions.d directory
 ** Bugfix: Depri no longer wipes out tasks with more than just the priority in parentheses
+** Bugfix: Now throws an error if you try to prioritize with more than one letter, ie, todo.sh pri AA doesn't work any more.
 
 * 4/2/2009 v 2.3
 ** Separated _list function for reuse by various versions of list command to reduce duplicate code
