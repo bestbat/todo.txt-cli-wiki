@@ -42,7 +42,7 @@ _todo()
     cur="${COMP_WORDS[COMP_CWORD]}"
     prev="${COMP_WORDS[COMP_CWORD-1]}"
 
-    COMMANDS="add a addto app append archive command del       \
+    COMMANDS="add a addto app append archive birdseye command del       \
               rm depri dp do help list ls listall lsa listcon  \
               lsc listfile lf listpri lsp listproj lsproj move \
               mv prepend prep pri p replace report"
