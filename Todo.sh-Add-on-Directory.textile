@@ -92,6 +92,8 @@ Commit all changes to existing Git repository in @$TODO_DIR@.
 
 "Download file":http://github.com/fnd/todo.txt-cli/raw/extensions/commit
 
-h1. Other Add-ons
+h2. __birdseye__: generate a textual report on incomplete and done items in all projects and contexts
 
-[TBD]
+A Python script @birdseye.py@ (called with the @birdseye@ action) analyzes the @todo.txt@ and @done.txt@ files to generate its report.
+
+"Project Page":http://github.com/ginatrapani/todo.txt-cli/tree/01a250c702af65b693c8e000ebb5c4f34b2df54f/.todo.actions.d
