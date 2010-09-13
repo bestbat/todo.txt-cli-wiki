@@ -2,7 +2,7 @@ List your Todo.sh add-ons here. Include a short description and a link to the Gi
 
 h1. Filters
 
-Since version 2.4, `todo.sh` provides `TODOTXT_SORT_COMMAND` and `TODOTXT_FINAL_FILTER` which can be used to modify the list commands' output.
+Since version 2.4, _todo.sh_ provides @TODOTXT_SORT_COMMAND@ and @TODOTXT_FINAL_FILTER@ which can be used to modify the list commands' output.
 
 h2. Future Tasks
 
@@ -106,7 +106,7 @@ Commit all changes to existing Git repository in @$TODO_DIR@.
 
 "Download file":http://github.com/fnd/todo.txt-cli/raw/extensions/commit
 
-h2. __birdseye__: your productivity report 
+h2. __birdseye__: your productivity report
 
 A Python script @birdseye.py@ (called with the @birdseye@ action) analyzes the @todo.txt@ and @done.txt@ files to generate a report of completed and incomplete items in every context and project.  (Requires Python and both @birdseye.py@ and @birdseye@ files to run.)
 
