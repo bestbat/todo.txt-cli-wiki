@@ -16,7 +16,9 @@ Example:
 
 I don't see how to solve it easily with "sort", the only way I see is to explicitly show and sort prioritized items then show and sort other items. Anybody has an idea how to do it nicely within the new _list()?
 
-"discussion thread":http://tech.groups.yahoo.com/group/todotxt/message/2040 --phil
+"discussion thread":http://tech.groups.yahoo.com/group/todotxt/message/2040
+
+--phil
 
 h3. _prepend_ not correct on prioritized tasks
 
@@ -27,4 +29,21 @@ h3. _prepend_ not correct on prioritized tasks
 * TODO: 114 prioritized (A).
 * $ t prepend 114
 * Prepend: pretest         
-* 114: pretest (A) test
+* 114: **pretest (A)** test
+
+--phil
+
+h3. _do_: no safeguard to do twice
+
+If by accident you repeat @todo.sh do@ twice on the same task, this should be ignored but instead we have:
+
+* $ t add test
+* TODO: 'test' added on line 114.
+* $ t do 114
+* 114: x 2009-03-21 test
+* TODO: 114 marked as done.
+* $ t do 114
+* 114: **x 2009-03-21 x 2009-03-21** test
+* TODO: 114 marked as done.
+
+--phil
