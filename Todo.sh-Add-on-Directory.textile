@@ -139,4 +139,4 @@ Example below:
 </code>
 </pre>
 
-"Download file":http://github.com/the1ts/todo.txt-plugins/tree/master
+"Download file":http://github.com/the1ts/todo.txt-plugins/blob/master/projectview
