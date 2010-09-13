@@ -2,15 +2,18 @@ List your Todo.sh add-ons here. Include a short description and a link to the Gi
 
 h3. Table of Contents
 
-Filters
+* Filters
+** "Future Tasks":#futuretasks
 
-* "Future Tasks":#futuretasks
-
-New/Enhanced Actions
-
-* "Add and do or prioritize in one step":#adddopri
-* "Archive only selected done items":#archiveselected
-
+* New/Enhanced Actions
+** "Add and do or prioritize in one step":#adddopri
+** "Archive only selected done items":#archiveselected
+** "Edit in a designated text editor":#edit
+** "cd":#cd
+** "nav":#nav
+** "birdseye":#birdseye
+** "projectview::#projectview
+** "commit":#commit
 
 h1. Filters
 
@@ -72,7 +75,7 @@ Note that if the keyword is a number it is interpreted as an item number
 
 "Download file":http://github.com/doegox/todo.txt-cli/raw/extras/todo.actions.d/archive
 
-h2. __edit__: open in text editor
+h2(#edit). __edit__: open in text editor
 
 To open @$TODO_DIR/todo.txt@ in your default text editor (@$EDITOR@ environment variable):
 
@@ -91,7 +94,7 @@ Adaptations:
 * "dhein":http://github.com/dhein/todo.txt-cli/blob/pub-addons/edit ("discussion thread":http://tech.groups.yahoo.com/group/todotxt/message/2153)
 * "FND":http://github.com/fnd/todo.txt-cli/blob/extensions/edit ("discussion thread":http://tech.groups.yahoo.com/group/todotxt/message/2156)
 
-h2. __cd__: display directory paths
+h2(#cd). __cd__: display directory paths
 
 Outputs the command necessary to change the current directory to the directory holding the todotxt files, the directory holding add-ons or the directory holding the configuiration file.
 
@@ -101,7 +104,7 @@ Outputs the command necessary to change the current directory to the directory h
 
 "Download file":http://github.com/dhein/todo.txt-cli/raw/pub-addons/cd
 
-h2. __nav__: open item's URL in browser
+h2(#nav). __nav__: open item's URL in browser
 
  todo.sh add Should have a look at http://github.com/ginatrapani ASAP
 
@@ -113,7 +116,7 @@ TODO: 'Should have a look at http://github.com/ginatrapani ASAP' added on line 1
 
 "Download file":http://github.com/doegox/todo.txt-cli/raw/extras/todo.actions.d/nav
 
-h2. __commit__: record state in local Git repository
+h2(#commit). __commit__: record state in local Git repository
 
 Commit all changes to existing Git repository in @$TODO_DIR@.
 
@@ -123,13 +126,13 @@ Commit all changes to existing Git repository in @$TODO_DIR@.
 
 "Download file":http://github.com/fnd/todo.txt-cli/raw/extensions/commit
 
-h2. __birdseye__: your productivity report
+h2(#birdseye). __birdseye__: your productivity report
 
 A Python script @birdseye.py@ (called with the @birdseye@ action) analyzes the @todo.txt@ and @done.txt@ files to generate a report of completed and incomplete items in every context and project.  (Requires Python and both @birdseye.py@ and @birdseye@ files to run.)
 
 "Project Page":http://github.com/ginatrapani/todo.txt-cli/tree/addons
 
-h2. __projectview__: sorts tasks by projects
+h2(#projectview). __projectview__: sorts tasks by projects
 
 List tasks categorized by project.
 
