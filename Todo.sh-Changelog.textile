@@ -4,7 +4,7 @@ Todo.sh CHANGELOG
 ** Cleanup: removing annoying trailing space on pri tasks
 ** Cleanup: Don't set colors in default todo.cfg.
 ** Cleanup: Don't set sort command in default todo.cfg.
-** Added support for TODOTXT_FINAL_FILTER to provide a final custom list filter ("details":http://github.com/ginatrapani/todo.txt-cli/commit/a67d0de6254bed5f066e21f1cdcef5bbd8c34ec4)
+** Added support for TODOTXT_FINAL_FILTER to provide a final custom list filter (http://github.com/ginatrapani/todo.txt-cli/commit/a67d0de6254bed5f066e21f1cdcef5bbd8c34ec4)
 ** Added support for custom sorting (can set in todo.cfg)
 ** Added parameterize for .todo.actions.d directory
 ** Bugfix: listcon and listproj now work correctly on Mac OS X 10.5
