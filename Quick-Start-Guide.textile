@@ -1,0 +1,67 @@
+h2. Download and Install Todo.txt CLI
+
+
+1. "Download the latest stable release of Todo.txt CLI":http://github.com/ginatrapani/todo.txt-cli/downloads (available as a ZIP or TAR archive) and extract it.
+
+2. Using the text editor of your choice, edit the section of the todo.cfg file that reads:
+
+<pre>
+      # Your todo.txt directory
+      TODO_DIR="/Users/gina/Documents/todo"
+</pre>
+
+Replace "/Users/gina/Documents/todo" to wherever your todo.txt file lives.
+
+3. Make the todo.sh script exectuable:
+
+<pre>
+      $ chmod +x todo.sh
+</pre>
+
+
+4. Move the @todo.cfg@ configuration file to your home directory:
+
+<pre>
+      mv todo.cfg ~/.
+</pre>
+
+5. Type @./todo.sh@ to see the usage message.
+
+h2. Tips and Tricks
+
+
+___Access todo.sh from anywhere in the file tree.___ Add the following to your ~/.bashrc file (~/.bash_profile for Mac and Cygiwn users):
+
+<pre>
+          PATH=$PATH:"/path/to/your/todo/scripts"
+</pre>
+
+
+___Avoid typing todo.sh every time.___ Add the following to your @~/.bashrc file@ (@~/.bash_profile@ for Mac and Cygwin users):
+
+<pre>
+          alias t='todo.sh -d /path/to/your/todo.cfg'
+</pre>
+
+Then you simply type @t add laundry@ from anywhere in your file tree to add a task.
+
+___Hide the configuration file by renaming it @.todo.cfg@.___
+
+Access your remote server's @todo.txt@ via ssh. If you have a shell account on @remote.server.com@, alias your @todo.sh@ commands to do the same thing as usual but prepend @ssh username@remote.server.com@ to them. Something like:
+
+<pre>
+      ssh username@remote.server.com todo.sh list
+</pre>
+
+Displays the remote todo list.
+
+
+h2. Platform Compatibility
+
+@todo.sh@ has been tested on:
+
+* Cygwin for Windows
+* Mac OS X 10.4+ Terminal
+* Ubuntu 5.10 / Sed 4.1.4 / Grep 2.5.1 / Cat 5.2.1 / wc 5.2.1
+
+"Let us know":http://groups.yahoo.com/group/todotxt/ if you're using @todo.sh@ successfully anywhere else.
