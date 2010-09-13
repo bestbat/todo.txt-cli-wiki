@@ -56,9 +56,11 @@ Adaptations:
 * "dhein":http://github.com/dhein/todo.txt-cli/blob/pub-addons/edit ("discussion thread":http://tech.groups.yahoo.com/group/todotxt/message/2153)
 * "FND":http://github.com/fnd/todo.txt-cli/blob/extensions/edit ("discussion thread":http://tech.groups.yahoo.com/group/todotxt/message/2156)
 
-h2. __edit__: display path to @$TODO_DIR@
+h2. __cd__: display directory paths
 
-"Discussion thread":http://tech.groups.yahoo.com/group/todotxt/message/2153)
+Outputs the command necessary to change the current directory to the directory holding the todotxt files, the directory holding add-ons or the directory holding the configuiration file.
+
+"Discussion thread":http://tech.groups.yahoo.com/group/todotxt/message/2153
 
 "Project page":http://github.com/dhein/todo.txt-cli/blob/pub-addons/cd
 
