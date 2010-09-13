@@ -45,10 +45,10 @@ shift
 </pre>
 
 Then we'll load the config file as it's content is not exported in the environment.
-But the path to the config file is in the environment so we can "source" it:
+But the path to the config file is in the environment so we can "source" it (use quotes so Windows people with spaces in paths will be happy too):
 
 <pre>
-. $TODOTXT_CFG_FILE
+. "$TODOTXT_CFG_FILE"
 </pre>
 
 Then the core of our customized action: are we in the regular "add" case or in the custom cases of marking the item as done immediately or prioritized immediately?
@@ -72,10 +72,10 @@ Because  we want to use the original built-in "add" we call todo.sh with the act
 As we've sourced the config file, the todo file is reachable with $TODO_FILE .
 
 <pre>
-if $TODO_SH command add "$@"; then
+if "$TODO_SH" command add "$@"; then
     # getting the number item: it's simply the last item added to the file
     line=`wc -l "$TODO_FILE" | cut -d' ' -f1`
-    [ $PRIORITY != false ] && $TODO_SH command pri "$line" $PRIORITY
-    $DO && $TODO_SH command do "$line"
+    [ $PRIORITY != false ] && "$TODO_SH" command pri "$line" $PRIORITY
+    $DO && "$TODO_SH" command do "$line"
 fi
 </pre>
