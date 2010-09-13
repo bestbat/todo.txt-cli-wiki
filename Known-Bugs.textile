@@ -8,11 +8,11 @@ h3. problem in sorting items: some non-prioritized interleaved in prioritized
 
 Example:
 
-@075 +aaa test todotxt
-033 (A) +proj1 ...
-041 (B) +proj1 ...
-074 +breaking_project
-111 (C) +proj3 ...@
+* 075 +aaa test todotxt
+* 033 (A) +proj1 ...
+* 041 (B) +proj1 ...
+* 074 +breaking_project
+* 111 (C) +proj3 ...
 
 I don't see how to solve it easily with "sort", the only way I see is to explicitly show and sort prioritized items then show and sort other items. Anybody has an idea how to do it nicely within the new _list()?
 
