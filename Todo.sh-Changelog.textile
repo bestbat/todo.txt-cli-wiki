@@ -7,8 +7,8 @@ Todo.sh CHANGELOG
 * 4/2/2009 v 2.3
 ** Separated _list function for reuse by various versions of list command to reduce duplicate code
 ** Added Hide priority, context, and projects options now enabled -P, -@ and -+
-** Exported variables for use in plug-ins
-** Enabled recursive call of todo.sh from plug-ins
+** Exported variables for use in add-ons
+** Enabled recursive call of todo.sh from add-ons
 ** Set ls as the default action
 ** Added -vv option for debugging output
 ** Various cleanup 
