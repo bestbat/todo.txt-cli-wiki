@@ -1,4 +1,4 @@
-To contribute to Todo.txt CLI, fork "the repository":http://github.com/ginatrapani/todo.txt-cli/tree/master and make your changes, including tests. Then issue a pull request via GitHub to submit your changes for review and possible inclusion in the master. Big or disruptive changes are best discussed on the "mailing list":http://groups.yahoo.com/group/todotxt/ first. 
+To contribute to Todo.txt CLI, *fork "the repository":http://github.com/ginatrapani/todo.txt-cli/tree/master* and make your changes, including tests. *Then issue a pull request* via GitHub to submit your changes for review and possible inclusion in the master. Big or disruptive changes are best discussed on the "mailing list":http://groups.yahoo.com/group/todotxt/ first. 
 
 * [[Creating Add-ons: Examples]]
 * [[Using the Makefile]]
