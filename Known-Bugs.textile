@@ -1,5 +1,1 @@
-* On todo.sh replace, the original item isn't listed in the replace output.  It should be:
-<pre>[original item]
-replaced by
-[new item]</pre>
-** "Mailing list discussion":http://tech.groups.yahoo.com/group/todotxt/message/1829
+* On todo.sh replace, the original item isn't listed in the replace output.  "Mailing list thread":http://tech.groups.yahoo.com/group/todotxt/message/1829
