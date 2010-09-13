@@ -2,10 +2,6 @@ h1. TODO.TXT Command Line Interface (CLI)
 
 A simple and extensible shell script for managing your todo.txt file.
 
-* Original anemic release by "Gina Trapani":http://ginatrapani.org on 5/11/2006
-* Raised to great heights by "brainy and dedicated volunteers":http://github.com/ginatrapani/todo.txt-cli/network
-* Licensed under the "GPL":http://www.gnu.org/copyleft/gpl.html. Go forth and fork.
-
 h2. "Downloads":http://github.com/ginatrapani/todo.txt-cli/downloads
 
 "Download the latest stable release":http://github.com/ginatrapani/todo.txt-cli/downloads for use on your desktop or server.
@@ -21,3 +17,12 @@ Contribute to Todo.txt CLI and build your own custom add-ons.
 h2. "Mailing List":http://groups.yahoo.com/group/todotxt/
 
 Get support and ask questions.
+
+h2. Quick Links
+
+* Original anemic release by "Gina Trapani":http://ginatrapani.org on 5/11/2006.
+* Raised to great heights by "brainy and dedicated volunteers":http://github.com/ginatrapani/todo.txt-cli/network.
+* Licensed under the "GPL":http://www.gnu.org/copyleft/gpl.html
+* [[Todo.sh Add-on Directory]]
+* [[Known Bugs]]
+* [[Todo.sh Changelog]]
