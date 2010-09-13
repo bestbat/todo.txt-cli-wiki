@@ -1,10 +1,22 @@
 List your Todo.sh add-ons here. Include a short description and a link to the GitHub repository or other location.
 
+h3. Table of Contents
+
+Filters
+
+* "Future Tasks":#futuretasks
+
+New/Enhanced Actions
+
+* "Add and do or prioritize in one step":#adddopri
+* "Archive only selected done items":#archiveselected
+
+
 h1. Filters
 
 Since version 2.4, _todo.sh_ provides @TODOTXT_SORT_COMMAND@ and @TODOTXT_FINAL_FILTER@, which can be used to modify the list commands' output.
 
-h2. Future Tasks
+h2(#future tasks). Future Tasks
 
 Hide tasks containing a date threshold (@t:YYYY-MM-DD@) until the specified point in the future.
 
@@ -23,7 +35,7 @@ h1. New or Enhanced Commands/Actions
 
 To learn how to use one of those add-ons, see [[Creating and Installing Add-ons]].
 
-h2. __add__ and __do__ / __add__ and __pri__ in one step
+h2(#adddopri). __add__ and __do__ / __add__ and __pri__ in one step
 
 This is the example detailed here: [[Creating Add-ons: Examples]]
 
@@ -43,7 +55,7 @@ Variations:
 * __add__ and __do__  "Gina's addx":http://github.com/ginatrapani/todo.txt-cli/blob/addons/.todo.actions.d/addx
 * __add__ and __pri__ "Gina's adda":http://github.com/ginatrapani/todo.txt-cli/blob/addons/.todo.actions.d/adda
 
-h2. Archive only selected done items
+h2(#archiveselected). Archive only selected done items
 
 This allows to archive selectively one single item or a set of items matching a given keyword.
 For example to archive all done items related to project1:
@@ -127,11 +139,11 @@ Example:
  ===== Projects =====
 
  --- Project1 ---
- 01 item 1 +Project1
+ 01 item 1 
 
  --- Project2 ---
- 02 item 2 +Project2
- 04 item 4 +Project2
+ 02 item 2 
+ 04 item 4 
 
  --- Not in projects ---
  03 item3
