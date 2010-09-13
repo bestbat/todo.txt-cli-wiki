@@ -2,7 +2,7 @@ Conky is a system monitor for X, that can also display the output of shell comma
 
 Displaying your todo.txt file on your desktop is a simple task thanks to Conky. The most basic code to display the todo.txt file is: <code>${execpi 10 todo.sh -p ls}</code> This will cause your todo.txt file to be displayed as it would from the command line, minus the color, and it will refresh every 10 seconds. Using the grep command you can get a bit more fancy and color code your todo items.
 
-Unless you want your todo list to be truncated, you will also need to play with the <code>text_buffer_size variable</code> in your .conkyrc file. The default setting is 128 bytes, but I found that to be inadequate for my todo.txt file, so I raised the variable to 1024 bytes. The higher your <code>text_buffer_size</code>, the more resources that Conky will use, so raise sparingly.
+Unless you want your todo list to be truncated, you will also need to play with the <code>text_buffer_size variable</code> in your @.conkyrc@ file. The default setting is 128 bytes, but I found that to be inadequate for my todo.txt file, so I raised the variable to 1024 bytes. The higher your <code>text_buffer_size</code>, the more resources that Conky will use, so raise sparingly.
 
 !http://farm4.static.flickr.com/3316/3343839756_612804f1fe_o.png!
 
@@ -34,7 +34,7 @@ export DEFAULT='${color}'
 source ~/.todo/config 
 </pre>
 
-Embed todo.txt with this special configuration: <code>${execpi 10 todo.sh -d ~/.todo/config-conky ls</code>
+Embed the todo.txt call with this special configuration inside your @.conkyrc@ (see below for an example @.conkyrc@ file): <code>${execpi 10 todo.sh -d ~/.todo/config-conky ls</code>
 
 !http://farm4.static.flickr.com/3561/3343839752_b7e47f7c16_o.png!
 
@@ -45,7 +45,7 @@ h2. Resources
 
 ---
 
-Example @.conkyrc@ for Conky 1.8.0 on Ubuntu Lucid with todo.txt v 2.4
+Example @~/.conkyrc@ for Conky 1.8.0 on Ubuntu Lucid with todo.txt v 2.6
 
 <pre>
 # Conky, a system monitor embedding into the Linux desktop. 
