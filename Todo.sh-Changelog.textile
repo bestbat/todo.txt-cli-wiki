@@ -6,6 +6,7 @@ Todo.sh CHANGELOG
 ** Added highlighting of done, but not yet archived tasks via COLOR_DONE
 ** Exporting die() function for use in custom commands
 ** 'prepend' and 'replace' actions keep prepended date, 'append' considers sentence delimiters
+** Color map (BLACK, ...) now supports spaces in the color definitions, making it possible to override the default ANSI escape codes with e.g. Conky tags (@${color black}@)
 ** Tests: several regression tests added
 
 * 5/11/2010 v 2.6
