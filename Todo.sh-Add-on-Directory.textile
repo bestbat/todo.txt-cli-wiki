@@ -54,7 +54,7 @@ h2. Fire a browser with the URL contained in a todo line
 
  todo.sh add Should have a look to http://github.com/ginatrapani ASAP
 
- TODO: 'Should have a look to http://github.com/ginatrapani ASAP' added on line 111.
+TODO: 'Should have a look to http://github.com/ginatrapani ASAP' added on line 111.
 
  todo.sh nav 111
 
