@@ -1,5 +1,9 @@
 Todo.sh CHANGELOG
 
+* v 2.4 (currently in development!)
+** Added support for custom sorting (can set in todo.cfg)
+
+
 * 4/2/2009 v 2.3
 ** Separated _list function for reuse by various versions of list command to reduce duplicate code
 ** Added Hide priority, context, and projects options now enabled -P, -@ and -+
