@@ -46,8 +46,8 @@ To open $TODO_DIR/done.txt:
 
  todo.sh edit done
 
-''Project page'':http://github.com/mbrubeck/todo.txt-cli/blob/master/todo.actions.d/edit
+"Project page":http://github.com/mbrubeck/todo.txt-cli/blob/master/todo.actions.d/edit
 
-''Download file'':http://github.com/mbrubeck/todo.txt-cli/raw/master/todo.actions.d/edit
+"Download file":http://github.com/mbrubeck/todo.txt-cli/raw/master/todo.actions.d/edit
 
 h1. Other Add-ons
