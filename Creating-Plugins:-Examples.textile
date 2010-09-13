@@ -51,6 +51,8 @@ But the path to the config file is in the environment so we can "source" it (use
 . "$TODOTXT_CFG_FILE"
 </pre>
 
+**UPDATE**: since recent versions of todo.cfg, its content is exported so you don't need the line above anymore it you've such a todo.cfg.
+
 Then the core of our customized action: are we in the regular "add" case or in the custom cases of marking the item as done immediately or prioritized immediately?
 
 <pre>
