@@ -10,7 +10,7 @@ h2. Coloring
 
 The approach by Duane Hubbard uses a wrapper @color_todo.sh@ script that augments the plain todo.txt output with Conky's @${color yellow}@ tags. Starting with todo.txt v 2.5, one can simply redefine todo.txt's built-in color map to achieve the same effect. No wrapper and postprocessing is needed, and this will work together with the new feature of highlighting more than priorities A, B & C. 
 
-Add a separate todo.txt configuration in @~/.todo/conky-config@: 
+Add a separate todo.txt configuration in @~/.todo/config-conky@: 
 
 <pre>
 # todo.txt configuration for Conky highlighting. 
