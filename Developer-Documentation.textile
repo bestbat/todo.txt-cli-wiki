@@ -3,3 +3,36 @@ To contribute to Todo.txt CLI, fork "the repository":http://github.com/ginatrapa
 * [[Creating Add-ons: Examples]]
 * [[Using the Makefile]]
 * "Known Bugs":http://github.com/ginatrapani/todo.txt-cli/issues
+
+h2. Contributing patches and enhancements via Git / GitHub
+
+h3. Initial Fork
+
+You need to register on GitHub first - it's free and quick to do. After registering, you need to add your SSH public keys to be able to push your changes to your repository. On the "Todo.txt GitHub pages":http://github.com/ginatrapani/todo.txt-cli/tree/master, click the __Fork this project__ button. This will create your personal fork git@github.com:username/projectname.git. 
+
+On your dev system, install Git and clone your repository: 
+
+<pre>
+git clone git@github.com:username/todo.txt-cli.git
+git remote add upstream git://github.com/maintainer/todo.txt-cli.git
+git fetch upstream
+</pre>
+
+h3. Publishing Changes
+
+<pre>
+git add ...
+git commit ...
+git push origin master
+</pre>
+
+The changes now appear in your repository in your GitHub clone; you'll see the commits listed in the GitHub web interface. You can now initiate a pull request by clicking the __Pull Request__ button. 
+
+h3. Pulling in Upstream
+
+Some time has passed, the upstream repo has changed and you want to update your fork before you submit a new patch. Do this to bring your dev system up-to-date: 
+
+<pre>
+git fetch upstream
+git merge upstream/master
+</pre>
