@@ -13,6 +13,7 @@ h3. Table of Contents
 ** "nav - Open URLs in a web browser":#nav
 ** "birdseye - Project progress report":#birdseye
 ** "projectview - Group output by project":#projectview
+** "paper - Print your todo list":#paper
 ** "commit - record state in local Git repository":#commit
 
 h1. Filters
