@@ -1,6 +1,7 @@
 h2. Getting Started
 
-* [[Quick Start Guide]] -- download and install TODO.TXT CLI
+* [[Quick Start Guide]] -- how to download and install TODO.TXT CLI
+* [[The TODO.TXT Format]] -- built-in project and context notations
 * [[Todo.sh Changelog]] -- the latest fixes and feature news
 
 h2. Tips and Tricks
