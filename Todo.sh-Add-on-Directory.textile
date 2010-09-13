@@ -14,8 +14,9 @@ h3. Table of Contents
 ** "birdseye - Project progress report":#birdseye
 ** "projectview - Group output by project":#projectview
 ** "paper - Print your todo list":#paper
-** "commit - record state in local Git repository":#commit
-** "rtm - sync with Remember the Milk":#rtm
+** "commit - Record state in local Git repository":#commit
+** "rtm - Sync with Remember the Milk":#rtm
+** "schedule - Work with date threshold":#schedule
 
 h1. Filters
 
@@ -195,3 +196,11 @@ You will need a web browser to accept the
 "Project page":http://github.com/paradoq/todo.txt-cli/blob/master/actions/rtm
 
 "Download file":http://github.com/paradoq/todo.txt-cli/raw/master/actions/rtm
+
+h2(#schedule). __schedule__: work with date threshold
+
+Set, remove or change date threshold of an item. Works best together withe the __Future Tasks__ filter. 
+
+"Project page":http://github.com/FND/todo.txt-cli/blob/extensions/schedule
+
+"Download file":http://github.com/FND/todo.txt-cli/raw/extensions/schedule
