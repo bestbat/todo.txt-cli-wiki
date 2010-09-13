@@ -17,4 +17,4 @@ h2. Project References
 
 h2. Related Projects
 
-* "Simple, iPhone-friendly web interface for todo.txt-cli,":http://github.com/smajda/todo.txt-web/tree/master
+* "Simple, iPhone-friendly web interface for todo.txt-cli":http://github.com/smajda/todo.txt-web/tree/master
