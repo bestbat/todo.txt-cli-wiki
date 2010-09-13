@@ -175,8 +175,7 @@ Example:
 
 "Discussion thread":http://tech.groups.yahoo.com/group/todotxt/message/2333
 
-"Project page":http://github.com/the1ts/todo.txt-plugins/blob/master/projectview
-
+"Project page":http://github.com/the1ts/todo.txt-plugins/blob/master/README.projects
 "Download file":http://github.com/the1ts/todo.txt-plugins/raw/master/actions/projectview/projectview
 
 h2(#rtm). __rtm__: sync with Remember the Milk
