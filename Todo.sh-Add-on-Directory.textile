@@ -20,4 +20,20 @@ It also allows to set a priority when adding an item using the following syntax:
 
 "Download file":http://github.com/doegox/todo.txt-cli/raw/extras/todo.actions.d/add
 
+h2. Archive only one or a few done items
+
+It allows to archive selectively one single item or a set of items matching a given keyword. For example to archive all done items related to project1:
+
+ todo.sh archive +project1
+
+To archive item #17:
+
+ todo.sh archive 17
+
+Note that if the keyword is a number it is interpreted as an item number
+
+"Project page":http://github.com/doegox/todo.txt-cli/blob/extras/todo.actions.d/archive
+
+"Download file":http://github.com/doegox/todo.txt-cli/raw/extras/todo.actions.d/archive
+
 h1. Other Add-ons
