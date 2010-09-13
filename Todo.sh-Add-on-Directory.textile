@@ -2,11 +2,11 @@ List your Todo.sh add-ons here. Include a short description and a link to the Gi
 
 h1. New or enhanced commands/actions
 
-To learn how to use one of those add-ons, see [[Creating and Installing Plugins]]
+To learn how to use one of those add-ons, see [[Creating and Installing Add-ons]]
 
 h2. Add and do / add and pri in one step
 
-This is the example detailed here: [[Creating Plugins: Examples]]
+This is the example detailed here: [[Creating Add-ons: Examples]]
 
 It allows to add an item and mark it as done in one shot with the following syntax:
 
