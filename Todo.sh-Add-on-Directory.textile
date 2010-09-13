@@ -16,6 +16,8 @@ It also allows to set a priority when adding an item using the following syntax:
 
  todo.sh add pri A "Need to write plugin example on Gina's wiki" 
 
-"Project page":http://github.com/doegox/todo.txt-cli/blob/extras/todo.actions.d/add "Download file":http://github.com/doegox/todo.txt-cli/raw/extras/todo.actions.d/add
+"Project page":http://github.com/doegox/todo.txt-cli/blob/extras/todo.actions.d/add 
+
+"Download file":http://github.com/doegox/todo.txt-cli/raw/extras/todo.actions.d/add
 
 h1. Other Add-ons
