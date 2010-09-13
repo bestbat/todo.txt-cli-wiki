@@ -14,7 +14,12 @@ On your dev system, install Git and clone your repository:
 
 <pre>
 git clone git@github.com:username/todo.txt-cli.git
-git remote add upstream git://github.com/maintainer/todo.txt-cli.git
+</pre>
+
+We'll add Gina's authoritative repository as __upstream__, so that you can easily sync with it: 
+
+<pre>
+git remote add upstream git://github.com/ginatrapani/todo.txt-cli.git
 git fetch upstream
 </pre>
 
