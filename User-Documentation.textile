@@ -1,6 +1,6 @@
 h2. Getting Started
 
-* [[Quick Start Guide]] -- must port this over from http://ginatrapani.github.com/todo.txt-cli/
+* [[Quick Start Guide]] -- download and install TODO.TXT CLI
 * [[Todo.sh Changelog]] -- the latest fixes and feature news
 
 h2. Tips and Tricks
