@@ -27,3 +27,49 @@ Displays the remote todo list.
 * "Windows with Samurize":http://lifehacker.com/software/plain-text/download-of-the-day-samurize-189273.php
 * "Mac OS X with GeekTool":http://www.lifehacker.com/software/top/download-of-the-day--geektool-185802.php
 * [[Linux with Conky]]
+
+*Bash completion*
+
+Add this to /etc/bash_completion.d/todo:
+
+<pre>
+#have todo &&
+_todo() 
+{
+    local cur prev opts
+    COMPREPLY=()
+    cur="${COMP_WORDS[COMP_CWORD]}"
+    prev="${COMP_WORDS[COMP_CWORD-1]}"
+
+    COMMANDS="add a addto app append archive command del       \
+              rm depri dp do help list ls listall lsa listcon  \
+              lsc listfile lf listpri lsp listproj lsproj move \
+              mv prepend prep pri p replace report"
+
+    OPTS="-@ -@@ -+ -d -f -h -p -P -a -n -t -v -vv -V"
+
+    case "${prev}" in
+        #-*)
+        #    return 0
+        #    ;;
+
+        #add|a|addto|append|app|archive|del|rm|depri|dp|do|help| \
+        #list|ls|listall|lsa|listcon|lsc|listfile|lf|listpri|lsp|\
+        #listproj|lsprj|move|mv|prepend|prep|pri|p|replace|      \
+        #report|)
+        #    return 0
+        #    ;;
+        *)
+            completions="$COMMANDS $OPTS"
+            ;;
+    esac
+
+    COMPREPLY=( $( compgen -W "$completions" -- $cur ))
+    return 0
+}
+#[ -n "${have:-}" ] && complete -F _todo $filename todo
+
+complete -F _todo todo
+</pre>
+
+Now you could type $todo ad[tab] and bash'll autocomplete to $todo add
