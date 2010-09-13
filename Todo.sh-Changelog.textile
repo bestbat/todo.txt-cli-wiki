@@ -1,5 +1,19 @@
 Todo.sh CHANGELOG
 
+* 8/3/2010 v 2.7
+** Cleanup: help messages, consistent output messages
+** Added generalization of the PRI_X color support to all priorities
+** Added highlighting of done, but not yet archived tasks via COLOR_DONE
+** Exporting die() function for use in custom commands
+** 'prepend' and 'replace' actions keep prepended date, 'append' considers sentence delimiters
+** Tests: several regression tests added
+
+* 5/11/2010 v 2.6
+** ???
+
+* 5/5/2010 v 2.5
+** ???
+
 * 5/11/2009 v 2.4
 ** Cleanup: removing annoying trailing space on pri tasks
 ** Cleanup: Don't set colors in default todo.cfg.
