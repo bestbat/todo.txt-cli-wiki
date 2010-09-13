@@ -1,0 +1,16 @@
+h2. Getting Started
+
+* [[Quick Start Guide]] -- must port this over from http://ginatrapani.github.com/todo.txt-cli/
+* [[Todo.sh Changelog]] -- the latest fixes and feature news
+
+h2. Tips and Tricks
+
+* Integrate your todo.txt onto your desktop
+** "Windows with Samurize":http://lifehacker.com/software/plain-text/download-of-the-day-samurize-189273.php
+** "Mac OS X with GeekTool":http://www.lifehacker.com/software/top/download-of-the-day--geektool-185802.php
+** [[Linux with Conky]]
+
+h2. Customize Todo.txt CLI with Add-ons
+
+* [[Todo.sh Add-on Directory]]
+** [[Creating and Installing Add-ons]]
