@@ -1,7 +1,7 @@
 h2. Getting Started
 
 * [[Quick Start Guide]] -- how to download and install TODO.TXT CLI
-* [[The TODO.TXT Format]] -- built-in project and context notations
+* [[The Todo.txt Format]] -- what your @todo.txt@ file will look like, and Todo.txt CLI's built-in project and context notation support
 * [[Todo.sh Changelog]] -- the latest fixes and feature news
 
 h2. Tips and Tricks
