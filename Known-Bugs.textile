@@ -3,3 +3,17 @@ h3. _replace_ command does not report original item
 On @todo.sh replace@, the original item isn't listed in the replace output.
 
 "discussion thread":http://tech.groups.yahoo.com/group/todotxt/message/1829
+
+h3. problem in sorting items: some non-prioritized interleaved in prioritized
+
+Example:
+
+075 +aaa test todotxt
+033 (A) +proj1 ...
+041 (B) +proj1 ...
+074 +breaking_project
+111 (C) +proj3 ...
+
+I don't see how to solve it easily with "sort", the only way I see is to explicitly show and sort prioritized items then show and sort other items. Anybody has an idea how to do it nicely within the new _list()?
+
+"discussion thread":http://tech.groups.yahoo.com/group/todotxt/message/2040
