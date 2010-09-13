@@ -9,6 +9,9 @@ h2. Future Tasks
 Hide tasks containing a date threshold (@t:YYYY-MM-DD@) until the specified point in the future.
 
 Note: The @date@ command "can be used":http://tech.groups.yahoo.com/group/todotxt/message/1843 to append date thresholds (e.g. @todo.sh append <#> "t:`date -d '1 day' +%F`"@).
+The "schedule":http://github.com/FND/todo.txt-cli/blob/extensions/schedule command provides a wrapper for this.
+
+Caveats: Currently there is no distinction between regular list commands and @listall@ - i.e. future tasks will never be displayed.
 
 "Discussion thread":http://tech.groups.yahoo.com/group/todotxt/message/2296
 
