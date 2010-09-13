@@ -4,21 +4,6 @@ On @todo.sh replace@, the original item isn't listed in the replace output.
 
 "discussion thread":http://tech.groups.yahoo.com/group/todotxt/message/1829
 
-h3. problem in sorting items: some non-prioritized interleaved in prioritized
-
-Example:
-
-* 075 +aaa test todotxt
-* 033 (A) +proj1 ...
-* 041 (B) +proj1 ...
-* 074 +breaking_project
-* 111 (C) +proj3 ...
-
-The solution is to use @LC_COLLATE=C sort -f -k2@, thanks Ed! This will be fixed in the repo soon.
-
-"discussion thread":http://tech.groups.yahoo.com/group/todotxt/message/2040
-
---phil
 
 h3. _prepend_ not correct on prioritized tasks
 
