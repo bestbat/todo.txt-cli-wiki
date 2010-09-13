@@ -132,6 +132,22 @@ A Python script @birdseye.py@ (called with the @birdseye@ action) analyzes the @
 
 "Project Page":http://github.com/ginatrapani/todo.txt-cli/tree/addons
 
+h2(#adddopri). paper - print your todo list
+
+This will print your todo list.
+
+ todo.sh paper
+
+Also you can choose your printer:
+
+ todo.sh paper -d 'Canon-MP240'
+
+Requires CUPS.
+
+"Project page":http://github.com/paradoq/todo.txt-cli/blob/master/actions/paper
+
+"Download file":http://github.com/paradoq/todo.txt-cli/raw/master/actions/paper
+
 h2(#projectview). __projectview__: sorts tasks by projects
 
 List tasks categorized by project.
