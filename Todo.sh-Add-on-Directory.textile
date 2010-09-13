@@ -1,14 +1,21 @@
 List your Todo.sh add-ons here. Include a short description and a link to the GitHub repository or other location.
 
-h1.New or enhanced actions
+h1. New or enhanced actions
+
 To learn how to use one of those add-ons, see [[Creating and Installing Plugins]]
 
-h2.Add and do / add and pri in one step
-This is the example detailed here: [[Creating Plugins: Examples]]
-It allows to add an item and mark it as done in one shot with the following syntax:
- todo.sh add x Helping colleague to install linux
-It also allows to set a priority when adding an item using the following syntax:
- todo.sh add pri A "Need to write plugin example on Gina's wiki" 
-"Project page":http://github.com/doegox/todo.txt-cli/blob/extras/todo.actions.d/add "raw file":http://github.com/doegox/todo.txt-cli/raw/extras/todo.actions.d/add
+h2. Add and do / add and pri in one step
 
-h1.Other Add-ons
+This is the example detailed here: [[Creating Plugins: Examples]]
+
+It allows to add an item and mark it as done in one shot with the following syntax:
+
+ todo.sh add x Helping colleague to install linux
+
+It also allows to set a priority when adding an item using the following syntax:
+
+ todo.sh add pri A "Need to write plugin example on Gina's wiki" 
+
+"<Project page>":http://github.com/doegox/todo.txt-cli/blob/extras/todo.actions.d/add "<Download file>":http://github.com/doegox/todo.txt-cli/raw/extras/todo.actions.d/add
+
+h1. Other Add-ons
