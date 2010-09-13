@@ -2,22 +2,25 @@ Welcome to the Todo.txt Command Line Interface wiki!
 
 To see what's new, check out the [[Todo.sh Changelog]].
 
-h2. HOWTO's
+h2. User HOWTO's
 
 * Integrate your todo.txt onto your desktop
 ** "Windows with Samurize":http://lifehacker.com/software/plain-text/download-of-the-day-samurize-189273.php
 ** "Mac OS X with GeekTool":http://www.lifehacker.com/software/top/download-of-the-day--geektool-185802.php
 ** [[Linux with Conky]]
-* [[Creating and Installing Add-ons]]
-* [[Using the Makefile]]
-
-
-h2. Project References
-
 * [[Todo.sh Add-on Directory]]
+** [[Creating and Installing Add-ons]]
+
+
+h2. Developer Reference
+
+* [[Creating Add-ons: Examples]]
+* [[Using the Makefile]]
 * [[Known Bugs]]
 
 
 h2. Related Projects
 
 * "Simple, iPhone-friendly web interface for todo.txt-cli":http://github.com/smajda/todo.txt-web/tree/master
+* "Bird's Eye Todo.txt report":http://github.com/ginatrapani/todo.txt-birdseye/tree/master
+* "Todo.txt AIM Bot":http://github.com/ginatrapani/todo.txt-aim-bot/tree/master
