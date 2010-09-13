@@ -1,5 +1,19 @@
 List your Todo.sh add-ons here. Include a short description and a link to the GitHub repository or other location.
 
+h1. Filters
+
+Since version 2.4, `todo.sh` provides `TODOTXT_SORT_COMMAND` and `TODOTXT_FINAL_FILTER` which can be used to modify the list commands' output.
+
+h2. Future Tasks
+
+Hide tasks tagged with a date threshold until the specified point in the future:
+
+"Discussion thread":http://tech.groups.yahoo.com/group/todotxt/message/2296
+
+"Project page":http://github.com/FND/todo.txt-cli/blob/extensions/futureTasks
+
+"Download file":http://github.com/FND/todo.txt-cli/raw/extensions/futureTasks
+
 h1. New or Enhanced Commands/Actions
 
 To learn how to use one of those add-ons, see [[Creating and Installing Add-ons]].
