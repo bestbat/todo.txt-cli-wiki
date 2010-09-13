@@ -1,4 +1,4 @@
-*Access todo.sh from anywhere in the file tree.* Add the following to your ~/.bashrc file (~/.bash_profile for Mac and Cygiwn users):
+*Access todo.sh from anywhere in the file tree.* Add the following to your ~/.bashrc file (~/.bash_profile for Mac and Cygwin users):
 
 <pre>
           PATH=$PATH:"/path/to/your/todo/scripts"
