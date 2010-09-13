@@ -9,7 +9,7 @@ Here's how to install and run the Todo.txt CLI:
       TODO_DIR="/Users/gina/Documents/todo"
 </pre>
 
-Replace "/Users/gina/Documents/todo" to wherever your todo.txt file lives.
+Replace "/Users/gina/Documents/todo" to wherever your todo.txt file lives. The directory must exist.
 
 3. Make the todo.sh script exectuable:
 
