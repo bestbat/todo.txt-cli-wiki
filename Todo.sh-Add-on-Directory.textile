@@ -1,6 +1,6 @@
 List your Todo.sh add-ons here. Include a short description and a link to the GitHub repository or other location.
 
-h1. New or enhanced actions
+h1. New or enhanced commands/actions
 
 To learn how to use one of those add-ons, see [[Creating and Installing Plugins]]
 
@@ -49,5 +49,14 @@ To open $TODO_DIR/done.txt:
 "Project page":http://github.com/mbrubeck/todo.txt-cli/blob/master/todo.actions.d/edit
 
 "Download file":http://github.com/mbrubeck/todo.txt-cli/raw/master/todo.actions.d/edit
+
+h2. Fire a browser with the URL contained in a todo line
+
+ todo.sh add Should have a look to http://github.com/ginatrapani ASAP
+ TODO: 'Should have a look to http://github.com/ginatrapani ASAP' added on line 111.
+ todo.sh nav 111
+
+"Project page":http://github.com/doegox/todo.txt-cli/blob/extras/todo.actions.d/nav
+"Download file":http://github.com/doegox/todo.txt-cli/raw/extras/todo.actions.d/nav
 
 h1. Other Add-ons
