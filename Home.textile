@@ -33,5 +33,5 @@ h2. Quick Links
 * Raised to great heights by "brainy and dedicated volunteers":http://github.com/ginatrapani/todo.txt-cli/network.
 * Licensed under the "GPL":http://www.gnu.org/copyleft/gpl.html
 * [[Todo.sh Add-on Directory]]
-* [[Known Bugs]]
+* "Known Bugs":http://github.com/ginatrapani/todo.txt-cli/issues
 * [[Todo.sh Changelog]]
