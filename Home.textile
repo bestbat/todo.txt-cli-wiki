@@ -1,7 +1,5 @@
 Welcome to the Todo.txt Command Line Interface wiki!
 
-[[Todo.sh Changelog]]
-
 h2. HOWTO's
 
 * Integrate your todo.txt onto your desktop
@@ -9,3 +7,10 @@ h2. HOWTO's
 ** "Mac OS X with GeekTool":http://www.lifehacker.com/software/top/download-of-the-day--geektool-185802.php
 ** [[Linux with Conky]]
 * [[Creating and Installing Plugins]]
+
+
+h2. Project References
+
+* [[Todo.sh Add-on Directory]]
+* [[Known Bugs]]
+* The pre-GitHub [[Todo.sh Changelog]]
