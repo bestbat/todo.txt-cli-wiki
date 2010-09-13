@@ -5,6 +5,6 @@ Welcome to the Todo.txt Command Line Interface wiki!
 h2. HOWTO's
 
 * Integrate your todo.txt onto your desktop
-** Windows with Samurize
-** Mac OS X with GeekTool
+** "Windows with Samurize":http://lifehacker.com/software/plain-text/download-of-the-day-samurize-189273.php
+** "Mac OS X with GeekTool":http://www.lifehacker.com/software/top/download-of-the-day--geektool-185802.php
 ** [[Linux with Conky]]
