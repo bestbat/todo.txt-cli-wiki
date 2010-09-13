@@ -6,7 +6,7 @@ Since version 2.4, _todo.sh_ provides @TODOTXT_SORT_COMMAND@ and @TODOTXT_FINAL_
 
 h2. Future Tasks
 
-Hide tasks tagged with a date threshold until the specified point in the future:
+Hide tasks tagged with a date threshold (@t:_YYYY_-_MM_-_DD_@)until the specified point in the future:
 
 "Discussion thread":http://tech.groups.yahoo.com/group/todotxt/message/2296
 
