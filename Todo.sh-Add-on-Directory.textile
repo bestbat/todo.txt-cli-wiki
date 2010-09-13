@@ -2,11 +2,11 @@ List your Todo.sh add-ons here. Include a short description and a link to the Gi
 
 h1. Filters
 
-Since version 2.4, _todo.sh_ provides @TODOTXT_SORT_COMMAND@ and @TODOTXT_FINAL_FILTER@ which can be used to modify the list commands' output.
+Since version 2.4, _todo.sh_ provides @TODOTXT_SORT_COMMAND@ and @TODOTXT_FINAL_FILTER@, which can be used to modify the list commands' output.
 
 h2. Future Tasks
 
-Hide tasks tagged with a date threshold (@t:_YYYY_-_MM_-_DD_@)until the specified point in the future:
+Hide tasks tagged with a date threshold (@t:YYYY-MM-DD@)until the specified point in the future:
 
 "Discussion thread":http://tech.groups.yahoo.com/group/todotxt/message/2296
 
