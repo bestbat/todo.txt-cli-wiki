@@ -67,3 +67,17 @@ message:
 * TODOTXT_CFG_FILE -- complete path to user's todo.sh configuration file
 
 h2. [[Creating Add-ons: Examples]]
+
+h2. Aliasing Add-ons
+
+You may want to allow short aliases for those new commands (e.g. "pv" as alias for "projectview")
+
+There is a small issue if you simply duplicate or symlink the add-on file: the corresponding help snippet will be duplicated as well in th eoutput of the todo.sh help command. To avoid that, you can create aliases by creating short add-ons such as this example (replace projectview by the command you want to call with your alias):
+<pre>
+#!/bin/bash
+
+[ "$1" = "usage" ] && exit 0
+shift
+
+"$TODO_SH" projectview "$@"
+</pre>
