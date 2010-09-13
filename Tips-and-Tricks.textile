@@ -1,0 +1,29 @@
+*Access todo.sh from anywhere in the file tree.* Add the following to your ~/.bashrc file (~/.bash_profile for Mac and Cygiwn users):
+
+<pre>
+          PATH=$PATH:"/path/to/your/todo/scripts"
+</pre>
+
+*Avoid typing todo.sh every time.* Add the following to your @~/.bashrc file@ (@~/.bash_profile@ for Mac and Cygwin users):
+
+<pre>
+          alias t='todo.sh -d /path/to/your/todo.cfg'
+</pre>
+
+Then you simply type @t add laundry@ from anywhere in your file tree to add a task.
+
+*Hide the configuration file by renaming it @.todo.cfg@.*
+
+Access your remote server's @todo.txt@ via ssh. If you have a shell account on @remote.server.com@, alias your @todo.sh@ commands to do the same thing as usual but prepend @ssh username@remote.server.com@ to them. Something like:
+
+<pre>
+      ssh username@remote.server.com todo.sh list
+</pre>
+
+Displays the remote todo list.
+
+*Integrate your todo.txt onto your desktop*
+
+* "Windows with Samurize":http://lifehacker.com/software/plain-text/download-of-the-day-samurize-189273.php
+* "Mac OS X with GeekTool":http://www.lifehacker.com/software/top/download-of-the-day--geektool-185802.php
+* [[Linux with Conky]]
