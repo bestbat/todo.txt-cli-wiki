@@ -19,3 +19,4 @@ h2. Related Projects
 
 * "Simple, iPhone-friendly web interface for todo.txt-cli":http://github.com/smajda/todo.txt-web/tree/master
 * "Todo.txt AIM Bot":http://github.com/ginatrapani/todo.txt-aim-bot/tree/master
+* "Get Milk":http://github.com/jdevera/get-milk/ is a Bash script that imports all pending tasks from a user's account in "Remember The Milk":http://www.rememberthemilk.com/
