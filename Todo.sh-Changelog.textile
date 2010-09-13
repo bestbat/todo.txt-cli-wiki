@@ -2,13 +2,13 @@ Todo.sh CHANGELOG
 
 * 5/11/2009 v 2.4
 ** Cleanup: removing annoying trailing space on pri tasks
-** Cleanup: Don't set colors in default todo.cfg. 
+** Cleanup: Don't set colors in default todo.cfg.
 ** Cleanup: Don't set sort command in default todo.cfg.
-** "Added support for TODOTXT_FINAL_FILTER to provide a "final custom list filter":http://github.com/ginatrapani/todo.txt-cli/commit/a67d0de6254bed5f066e21f1cdcef5bbd8c34ec4
+** Added support for TODOTXT_FINAL_FILTER to provide a "final custom list filter":http://github.com/ginatrapani/todo.txt-cli/commit/a67d0de6254bed5f066e21f1cdcef5bbd8c34ec4
 ** Added support for custom sorting (can set in todo.cfg)
 ** Added parameterize for .todo.actions.d directory
 ** Bugfix: listcon and listproj now work correctly on Mac OS X 10.5
-** Bugfix: pri accepted priorities of more than a single letter 
+** Bugfix: pri accepted priorities of more than a single letter
 ** Bugfix: support commands combination for TODOTXT_SORT_COMMAND; e.g. piped commands can be used: export TODOTXT_SORT_COMMAND=" env LC_COLLATE=C sort -f -k2 - | grep -m 10  .")
 ** Bugfix: Replace now echoes old item AND new item, like it used to
 ** Bugfix: Depri no longer wipes out tasks with more than just the priority in parentheses
@@ -22,7 +22,7 @@ Todo.sh CHANGELOG
 ** Enabled recursive call of todo.sh from add-ons
 ** Set ls as the default action
 ** Added -vv option for debugging output
-** Various cleanup 
+** Various cleanup
 ** Added short usage statement (that fits on one screen) with -h
 ** Added Makefile dist infrastructure for versioned releases in Downloads area on GitHub
 
@@ -71,7 +71,7 @@ Todo.sh CHANGELOG
 ** New Feature:  Action listall displays tasks from both todo.txt and done.txt
 ** New Feature:  Option -h displays full help message.
 ** Update:  A very short version of usage message displays by default instead of the long version.
-** Update:  -q option deprecated;  Use -v to turn on verbose mode 
+** Update:  -q option deprecated;  Use -v to turn on verbose mode
 ** Bug fix:  No colors display for done tasks (tx, Tanja!)
 ** Bug fix:  Sort is now case-insensitive (tx, Lonnie!)
 ** Style:  Comment in info about .todo file being required
@@ -81,7 +81,7 @@ Todo.sh CHANGELOG
 ** Bug fix:  Windows config files with spaces now work (tx Ron)
 * 7/5/2006, v 1.6.1
 ** Bug fix:  No colors mode (-p) now works as expected
-** Change:  The default location of your .todo file is now $HOME/.todo    
+** Change:  The default location of your .todo file is now $HOME/.todo
 * 7/4/2006, v 1.6
 ** New feature:  New action prepend adds text to an item at the beginning of the line
 ** New feature:  Configuration file is now separated from script into .todo file
