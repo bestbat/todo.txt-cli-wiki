@@ -1,1 +1,3 @@
-* On todo.sh replace, the original item isn't listed in the replace output.  "Mailing list thread":http://tech.groups.yahoo.com/group/todotxt/message/1829
+* _replace_ command does not report original item
+On @todo.sh replace@, the original item isn't listed in the replace output.
+"discussion thread":http://tech.groups.yahoo.com/group/todotxt/message/1829
