@@ -53,10 +53,13 @@ To open $TODO_DIR/done.txt:
 h2. Fire a browser with the URL contained in a todo line
 
  todo.sh add Should have a look to http://github.com/ginatrapani ASAP
+
  TODO: 'Should have a look to http://github.com/ginatrapani ASAP' added on line 111.
+
  todo.sh nav 111
 
 "Project page":http://github.com/doegox/todo.txt-cli/blob/extras/todo.actions.d/nav
+
 "Download file":http://github.com/doegox/todo.txt-cli/raw/extras/todo.actions.d/nav
 
 h1. Other Add-ons
