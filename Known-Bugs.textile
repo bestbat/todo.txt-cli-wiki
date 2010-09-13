@@ -1,3 +1,13 @@
+h3. __add__ does not escape line breaks:
+$ t a "foo
+> bar
+> baz"
+This will add three separate items. By default this shouldn't happen (though an add-on that overrides the add command and allows for multiple line entry in one shot is a good idea).
+
+[Discussion thread]http://tech.groups.yahoo.com/group/todotxt/message/2146
+
+
+
 h3. _prepend_ not correct on prioritized tasks
 
 * $ t add test
