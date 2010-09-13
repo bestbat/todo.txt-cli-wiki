@@ -1,7 +1,7 @@
 Todo.sh CHANGELOG
 
 * 4/2/2009 v 2.3
-** Separated out _list command for easier updates
+** Separated _list function for reuse by various versions of list command to reduce duplicate code
 ** Added Hide priority, context, and projects options now enabled -P, -@ and -+
 ** Exported variables for use in plug-ins
 ** Enabled recursive call of todo.sh from plug-ins
@@ -10,6 +10,7 @@ Todo.sh CHANGELOG
 ** Various cleanup 
 ** Added short usage statement (that fits on one screen) with -h
 ** Added Makefile dist infrastructure for versioned releases in Downloads area on GitHub
+
 
 
 * 3/2009 v 2.2 -- NO VERSION LISTED IN SCRIPT
