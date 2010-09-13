@@ -1,8 +1,9 @@
-h2. Welcome to the Todo.txt Command Line Interface wiki!
+Welcome to the Todo.txt Command Line Interface wiki!
 
 [[Todo.sh Changelog]]
 
 h2. HOWTO's
+
 * Integrate your todo.txt onto your desktop
 ** Windows with Samurize
 ** Mac OS X with GeekTool
