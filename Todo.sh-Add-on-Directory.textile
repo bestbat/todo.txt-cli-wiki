@@ -143,4 +143,4 @@ Example:
 
 "Project page":http://github.com/the1ts/todo.txt-plugins/blob/master/projectview
 
-"Download file":http://github.com/the1ts/todo.txt-plugins/raw/master/projectview
+"Download file":http://github.com/the1ts/todo.txt-plugins/raw/master/actions/projectview/projectview
