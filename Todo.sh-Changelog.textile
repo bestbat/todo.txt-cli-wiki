@@ -1,5 +1,20 @@
 Todo.sh CHANGELOG
 
+* 4/2/2009 v 2.3
+** Separated out _list command for easier updates
+** Added Hide priority, context, and projects options now enabled -P, -@ and -+
+** Exported variables for use in plug-ins
+** Enabled recursive call of todo.sh from plug-ins
+** Set ls as the default action
+** Added -vv option for debugging output
+** Various cleanup 
+** Added short usage statement (that fits on one screen) with -h
+** Added Makefile dist infrastructure for versioned releases in Downloads area on GitHub
+
+
+* 3/2009 v 2.2 -- NO VERSION LISTED IN SCRIPT
+** For awhile here during the GitHub transition, we stripped the version # from todo.sh and updated it kind of willy-nilly, so we're back-versioning all unversioned copies v 2.2.
+
 * 2/23/2009 v 2.1
 ** NEW FEATURE: Added "pluggability" with ~/.todo.actions.d/ support (tx Tammy http://tech.groups.yahoo.com/group/todotxt/message/1739 and Ed for pointing it out)
 ** NEW FEATURE: Added -t param, off by default. When specified, it automatically prepends the current date to new todo's on add
