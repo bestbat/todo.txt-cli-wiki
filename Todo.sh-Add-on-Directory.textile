@@ -39,11 +39,11 @@ Note that if the keyword is a number it is interpreted as an item number
 
 h2. __edit__: open in text editor
 
-To open $TODO_DIR/todo.txt in your default text editor ($EDITOR environment variable):
+To open @$TODO_DIR/todo.txt@ in your default text editor (@$EDITOR@ environment variable):
 
  todo.sh edit
 
-To open $TODO_DIR/done.txt:
+To open @$TODO_DIR/done.txt@:
 
  todo.sh edit done
 
@@ -52,8 +52,17 @@ To open $TODO_DIR/done.txt:
 "Download file":http://github.com/mbrubeck/todo.txt-cli/raw/master/todo.actions.d/edit
 
 Adaptations:
+* "doegox":http://github.com/doegox/todo.txt-cli/blob/extras/todo.actions.d/edit
 * "dhein":http://github.com/dhein/todo.txt-cli/blob/pub-addons/edit ("discussion thread":http://tech.groups.yahoo.com/group/todotxt/message/2153)
 * "FND":http://github.com/fnd/todo.txt-cli/blob/extensions/edit ("discussion thread":http://tech.groups.yahoo.com/group/todotxt/message/2156)
+
+h2. __edit__: display path to @$TODO_DIR@
+
+"Discussion thread":http://tech.groups.yahoo.com/group/todotxt/message/2153)
+
+"Project page":http://github.com/dhein/todo.txt-cli/blob/pub-addons/cd
+
+"Download file":http://github.com/dhein/todo.txt-cli/raw/pub-addons/cd
 
 h2. __nav__: open item's URL in browser
 
@@ -68,6 +77,8 @@ TODO: 'Should have a look at http://github.com/ginatrapani ASAP' added on line 1
 "Download file":http://github.com/doegox/todo.txt-cli/raw/extras/todo.actions.d/nav
 
 h2. __commit__: record state in local Git repository
+
+Commit all changes to existing Git repository in @$TODO_DIR@.
 
 "Discussion thread":http://tech.groups.yahoo.com/group/todotxt/message/2150
 
