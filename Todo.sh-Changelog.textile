@@ -4,6 +4,7 @@ Todo.sh CHANGELOG
 ** Added support for custom sorting (can set in todo.cfg)
 ** Bugfix: Replace now echoes old item AND new item, like it used to
 ** Parameterized the .todo.actions.d directory
+** Bugfix: Depri no longer wipes out tasks with more than just the priority in parentheses
 
 * 4/2/2009 v 2.3
 ** Separated _list function for reuse by various versions of list command to reduce duplicate code
