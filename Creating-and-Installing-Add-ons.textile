@@ -62,8 +62,8 @@ variables including the following documented in todo.sh's usage message:
 and the following environmental variables not documented in the usage
 message:
 
-* TODO_SH -- filename for the todo.sh script
-* TODO_FULL_SH -- complete path to calling todo.sh script
+* TODO_SH -- name of the todo.sh script, use in the usage message
+* TODO_FULL_SH -- complete path to calling todo.sh script, use for invoking todo.sh
 * TODOTXT_CFG_FILE -- complete path to user's todo.sh configuration file
 * TODO_DIR -- complete path to the todo.txt file
 
