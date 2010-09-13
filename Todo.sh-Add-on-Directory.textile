@@ -9,11 +9,11 @@ h3. Table of Contents
 ** "Add and do or prioritize in one step":#adddopri
 ** "Archive only selected done items":#archiveselected
 ** "Edit in a designated text editor":#edit
-** "cd":#cd
-** "nav":#nav
-** "birdseye":#birdseye
-** "projectview::#projectview
-** "commit":#commit
+** "cd - Display directory paths":#cd
+** "nav - Open URLs in a web browser":#nav
+** "birdseye - Project progress report":#birdseye
+** "projectview - Group output by project":#projectview
+** "commit - record state in local Git repository":#commit
 
 h1. Filters
 
