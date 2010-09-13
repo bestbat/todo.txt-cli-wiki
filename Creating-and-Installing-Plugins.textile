@@ -64,3 +64,5 @@ message:
 
 * TODO_SH -- complete path to calling Todo.sh script
 * TODOTXT_CFG_FILE -- complete path to user's todo.sh configuration file
+
+h2. [[Creating Plugins: Examples]]
