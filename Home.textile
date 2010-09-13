@@ -1,5 +1,7 @@
 Welcome to the Todo.txt Command Line Interface wiki!
 
+To see what's new, check out the [[Todo.sh Changelog]].
+
 h2. HOWTO's
 
 * Integrate your todo.txt onto your desktop
@@ -13,7 +15,7 @@ h2. Project References
 
 * [[Todo.sh Add-on Directory]]
 * [[Known Bugs]]
-* The pre-GitHub [[Todo.sh Changelog]]
+
 
 h2. Related Projects
 
