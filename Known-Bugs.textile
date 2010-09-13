@@ -1,0 +1,4 @@
+* On todo.sh replace, the original item isn't listed in the replace output.  It should be:
+[original item]
+replaced by
+[new item]
