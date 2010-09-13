@@ -15,6 +15,7 @@ h3. Table of Contents
 ** "projectview - Group output by project":#projectview
 ** "paper - Print your todo list":#paper
 ** "commit - record state in local Git repository":#commit
+** "rtm - sync with Remember the Milk":#rtm
 
 h1. Filters
 
@@ -135,7 +136,7 @@ A Python script @birdseye.py@ (called with the @birdseye@ action) analyzes the @
 
 h2(#paper). __paper__: print your todo list
 
-This will print your todo list.
+This will print your todo list:
 
  todo.sh paper
 
@@ -176,3 +177,21 @@ Example:
 "Project page":http://github.com/the1ts/todo.txt-plugins/blob/master/projectview
 
 "Download file":http://github.com/the1ts/todo.txt-plugins/raw/master/actions/projectview/projectview
+
+h2(#rtm). __rtm__: sync with Remember the Milk
+
+Supports push and pull, but it still needs some work.
+
+This will push to Remember the Milk:
+
+ todo.sh rtm push
+
+This will pull from Remember the Milk:
+
+ todo.sh rtm pull
+
+You will need a web browser to accept the 
+
+"Project page":http://github.com/paradoq/todo.txt-cli/blob/master/actions/rtm
+
+"Download file":http://github.com/paradoq/todo.txt-cli/raw/master/actions/rtm
