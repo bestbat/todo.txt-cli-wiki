@@ -14,3 +14,8 @@ h2. Customize Todo.txt CLI with Add-ons
 
 * [[Todo.sh Add-on Directory]]
 ** [[Creating and Installing Add-ons]]
+
+h2. Related Projects
+
+* "Simple, iPhone-friendly web interface for todo.txt-cli":http://github.com/smajda/todo.txt-web/tree/master
+* "Todo.txt AIM Bot":http://github.com/ginatrapani/todo.txt-aim-bot/tree/master
