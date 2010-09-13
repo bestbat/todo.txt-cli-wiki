@@ -22,5 +22,4 @@ h2. Developer Reference
 h2. Related Projects
 
 * "Simple, iPhone-friendly web interface for todo.txt-cli":http://github.com/smajda/todo.txt-web/tree/master
-* "Bird's Eye Todo.txt report":http://github.com/ginatrapani/todo.txt-birdseye/tree/master
 * "Todo.txt AIM Bot":http://github.com/ginatrapani/todo.txt-aim-bot/tree/master
