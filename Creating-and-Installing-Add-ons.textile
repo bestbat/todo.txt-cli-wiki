@@ -2,20 +2,19 @@ Todo.sh add-ons let you add new todo.sh actions or change (override) default act
 
 h2. Installing Add-ons
 
-Add-ons must be installed into the .todo/actions/ sub-directory of your home directory.  Create this directory with the following bash shell commands:
+Add-ons can be installed into the $HOME/.todo.actions.d directory, or any other directory configured via $TODO_ACTIONS_DIR.  Create this directory with the following bash shell commands:
 
 <pre>
-cd
-mkdir .todo/actions
+mkdir -p ~/.todo.actions.d
 </pre>
 
 You must name add-ons after the action you want to add or override. For
 example, create a new "review" action by installing an add-on to
-.todo/actions/review.  After installing the add-on, you must make it
+.todo.actions.d/review.  After installing the add-on, you must make it
 executable; for example:
 
 <pre>
-chmod +x .todo/actions/review
+chmod +x ~/.todo.actions.d/review
 </pre>
 
 Use the new or overridden action the normal todo.sh way. For example:
@@ -74,12 +73,11 @@ h2. Aliasing Add-ons
 
 You may want to allow short aliases for those new commands (e.g. "pv" as alias for "projectview")
 
-There is a small issue if you simply duplicate or symlink the add-on file: the corresponding help snippet will be duplicated as well in th eoutput of the todo.sh help command. To avoid that, you can create aliases by creating short add-ons such as this example (replace projectview by the command you want to call with your alias):
+There is a small issue if you simply duplicate or symlink the add-on file: the corresponding help snippet will be duplicated as well in the output of the todo.sh help command. To avoid that, you can create aliases by creating short add-ons such as this example (replace projectview by the command you want to call with your alias):
+
 <pre>
 #!/bin/bash
-
 [ "$1" = "usage" ] && exit 0
 shift
-
-"$TODO_SH" projectview "$@"
+"$TODO_FULL_SH" projectview "$@"
 </pre>
