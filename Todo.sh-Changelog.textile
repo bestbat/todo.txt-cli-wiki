@@ -1,6 +1,6 @@
 Todo.sh CHANGELOG
 
-* v 2.4 (currently in development!)
+* 5/11/2009 v 2.4
 ** Cleanup: removing annoying trailing space on pri tasks
 ** Cleanup: Don't set colors in default todo.cfg. 
 ** Cleanup: Don't set sort command in default todo.cfg.
