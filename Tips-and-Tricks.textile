@@ -22,6 +22,16 @@ Then you simply type @t add laundry@ from anywhere in your file tree to add a ta
 
 Displays the remote todo list.
 
+If you often have an open ssh session to @remote.server.com@ consider appending the following to your @~/.ssh/config@ file:
+
+<pre>
+Host *
+ControlPath ~/.ssh/master-%r@%h:%p
+ControlMaster auto
+</pre>
+
+This causes ssh to use the existing connection rather than opening new ones. The speed up for additional connections is amazing.
+
 *Integrate your todo.txt onto your desktop*
 
 * "Windows with Samurize":http://lifehacker.com/software/plain-text/download-of-the-day-samurize-189273.php
