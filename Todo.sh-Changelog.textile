@@ -3,6 +3,7 @@ Todo.sh CHANGELOG
 * v 2.4 (currently in development!)
 ** Added support for custom sorting (can set in todo.cfg)
 ** Bugfix: Replace now echoes old item AND new item, like it used to
+** Parameterized the .todo.actions.d directory
 
 * 4/2/2009 v 2.3
 ** Separated _list function for reuse by various versions of list command to reduce duplicate code
