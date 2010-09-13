@@ -1,12 +1,12 @@
 h1.Todo.sh CHANGELOG
 
 * 2/23/2009 v 2.1
-**NEW FEATURE: Added "pluggability" with ~/.todo.actions.d/ support (tx Tammy http://tech.groups.yahoo.com/group/todotxt/message/1739 and Ed for pointing it out)
-**NEW FEATURE: Added -t param, off by default. When specified, it automatically prepends the current date to new todo's on add
-**NEW FEATURE: Searches for more Unix-y ~/.todo.cfg if ~/todo.cfg doesn't exist (tx Ed http://tech.groups.yahoo.com/group/todotxt/message/1767)
-**BUG FIX: Corrected "ambiguous redirect" bug with done file (tx Jeff http://tech.groups.yahoo.com/group/todotxt/message/1764)
-**BUG FIX: Corrected usage and help message with new params
-**BUG FIX: Corrected config file miscomment about colors
+** NEW FEATURE: Added "pluggability" with ~/.todo.actions.d/ support (tx Tammy http://tech.groups.yahoo.com/group/todotxt/message/1739 and Ed for pointing it out)
+** NEW FEATURE: Added -t param, off by default. When specified, it automatically prepends the current date to new todo's on add
+** NEW FEATURE: Searches for more Unix-y ~/.todo.cfg if ~/todo.cfg doesn't exist (tx Ed http://tech.groups.yahoo.com/group/todotxt/message/1767)
+** BUG FIX: Corrected "ambiguous redirect" bug with done file (tx Jeff http://tech.groups.yahoo.com/group/todotxt/message/1764)
+** BUG FIX: Corrected usage and help message with new params
+** BUG FIX: Corrected config file miscomment about colors
 
 * 2/17/2009, v 2.0.1
 **BUG FIX: Restored -d parameter functionality broken in 2.0 (d'oh, thanks Jason, you made the changelog! )
