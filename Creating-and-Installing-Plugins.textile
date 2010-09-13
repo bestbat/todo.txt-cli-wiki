@@ -32,6 +32,7 @@ todo.sh command ls
 </pre>
 
 h2. Creating Plugins
+
 Plugins may be written in any programming language your operating system
 supports. The first command-line argument to the plugin will be the
 action called or the word "usage"; the remaining arguments, if any, will
