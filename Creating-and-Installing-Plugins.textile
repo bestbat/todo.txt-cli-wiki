@@ -1,4 +1,4 @@
-Todo.sh plugins let you add new todo.sh actions or change (override) default actions.  
+Todo.sh plugins let you add new todo.sh actions or change (override) default actions.  Visit the [[Todo.sh Add-on Directory]] to find browse available plugins.
 
 h2. Installing Plugins
 
