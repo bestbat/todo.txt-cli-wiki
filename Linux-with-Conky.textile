@@ -4,5 +4,10 @@ Displaying your todo.txt file on your desktop is a simple task thanks to Conky. 
 
 Unless you want your todo list to be truncated, you will also need to play with the <code>text_buffer_size variable</code> in your .conkyrc file. The default setting is 128 bytes, but I found that to be inadequate for my todo.txt file, so I raised the variable to 1024 bytes. The higher your <code>text_buffer_size</code>, the more resources that Conky will use, so raise sparingly.
 
-"Plain conkyrc file":http://github.com/duanehubbard/duane-s-conky-files/blob/11cd95d350ac744dff6cb56d5f254899e3395fb5/conkytodo_plain
-"Color conkyrc file":http://github.com/duanehubbard/duane-s-conky-files/blob/11cd95d350ac744dff6cb56d5f254899e3395fb5/conkytodo_color
+!http://farm4.static.flickr.com/3316/3343839756_612804f1fe_o.png!
+
+"Plain conkyrc file ":http://github.com/duanehubbard/duane-s-conky-files/blob/11cd95d350ac744dff6cb56d5f254899e3395fb5/conkytodo_plain
+
+!http://farm4.static.flickr.com/3561/3343839752_b7e47f7c16_o.png!
+
+"Color conkyrc file ":http://github.com/duanehubbard/duane-s-conky-files/blob/11cd95d350ac744dff6cb56d5f254899e3395fb5/conkytodo_color
