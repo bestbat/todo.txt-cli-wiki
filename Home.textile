@@ -15,6 +15,16 @@ h2. "Mailing List":http://groups.yahoo.com/group/todotxt/
 
 Get support and ask questions.
 
+h2. Platform Compatibility
+
+@todo.sh@ has been tested on:
+
+* Cygwin for Windows
+* Mac OS X 10.4+ Terminal
+* Ubuntu 5.10 / Sed 4.1.4 / Grep 2.5.1 / Cat 5.2.1 / wc 5.2.1
+
+"Let us know":http://groups.yahoo.com/group/todotxt/ if you're using @todo.sh@ successfully anywhere else.
+
 h2. Quick Links
 
 * Original anemic release by "Gina Trapani":http://ginatrapani.org on 5/11/2006.
