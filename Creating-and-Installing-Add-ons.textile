@@ -1,17 +1,17 @@
-Todo.sh plugins let you add new todo.sh actions or change (override) default actions.  Visit the [[Todo.sh Add-on Directory]] to find browse available plugins.
+Todo.sh add-ons let you add new todo.sh actions or change (override) default actions.  Visit the [[Todo.sh Add-on Directory]] to find browse available add-ons.
 
-h2. Installing Plugins
+h2. Installing Add-ons
 
-Plugins must be installed into the .todo.actions.d sub-directory of your home directory.  Create this directory with the following bash shell commands:
+Add-ons must be installed into the .todo.actions.d sub-directory of your home directory.  Create this directory with the following bash shell commands:
 
 <pre>
 cd
 mkdir .todo.actions.d
 </pre>
 
-You must name plugins after the action you want to add or override. For
-example, create a new "review" action by installing a plugin to
-.todo.actions.d/review.  After installing the plugin, you must make it
+You must name add-ons after the action you want to add or override. For
+example, create a new "review" action by installing an add-on to
+.todo.actions.d/review.  After installing the add-on, you must make it
 executable; for example:
 
 <pre>
@@ -32,10 +32,10 @@ overridden action by prefixing the action's name with the word,
 todo.sh command ls
 </pre>
 
-h2. Creating Plugins
+h2. Creating Add-ons
 
-Plugins may be written in any programming language your operating system
-supports. The first command-line argument to the plugin will be the
+Add-ons may be written in any programming language your operating system
+supports. The first command-line argument to the add-on will be the
 action called or the word "usage"; the remaining arguments, if any, will
 be those provided by the user. For example:
 
