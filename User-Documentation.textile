@@ -1,6 +1,4 @@
-If you've got a file called @todo.txt@ on your computer right now, you're in the right place. Countless software applications and web sites can manage your to-do list with all sorts of bells and whistles. But if you don't want to depend on someone else's data format or someone else's server, a plain text file is the way to go.
-
-Problem is, you don't want to launch a full-blown text editor every time you need to add an item to your to-do list, or mark one that's already there as complete. With a simple but powerful shell script called @todo.sh@, you can interact with @todo.txt@ at the command line for quick and easy, Unix-y access.
+This is the user documentation for Todo.txt CLI.  If you're interested in contributing to or extending the Todo.txt CLI, see the [[Developer Documentation]].
 
 h2. Getting Started
 
