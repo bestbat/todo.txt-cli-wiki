@@ -15,7 +15,7 @@ h2. Documentation
 
 h2. "Mailing List":http://groups.yahoo.com/group/todotxt/
 
-Get support and ask questions.
+Get support and ask questions on "the mailing list":http://groups.yahoo.com/group/todotxt/
 
 h2. Platform Compatibility
 
