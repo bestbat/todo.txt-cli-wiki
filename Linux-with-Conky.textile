@@ -8,4 +8,4 @@ Unless you want your todo list to be truncated, you will also need to play with 
 
 !http://farm4.static.flickr.com/3561/3343839752_b7e47f7c16_o.png!
 
-"Link to the conkyrc files":http://github.com/duanehubbard/duane-s-conky-files
+"Link to the conkyrc files":http://github.com/duanehubbard/conky-files
