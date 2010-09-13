@@ -1,4 +1,4 @@
-h1. TODO.TXT Command Line Interface (CLI)
+h1. TODO.TXT Command Line Interface
 
 A simple and extensible shell script for managing your todo.txt file.
 
