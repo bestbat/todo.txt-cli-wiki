@@ -34,6 +34,24 @@ export DEFAULT='${color}'
 source ~/.todo/config # Adapt this to wherever your todo.txt configuration is located.
 </pre>
 
+Inside @~/.todo/config@ the color map defaults must _not_ be uncommented, or they'll override the above setting again! On the other hand, the @PRI_...@ defaults _must_ be overridden in there, or else todo.txt will still use the defaults built into the script itself, using the inital color definitions. The execution order of the configurations is @todo.sh@ -> @config-conky@ -> @config@. 
+
+To summarize, your @~/.todo/config@ needs to looks like this: 
+
+<pre>
+# === COLOR MAP ===
+# -> commented out!
+# export BLACK='\\033[0;30m'
+# export RED='\\033[0;31m' 
+# ... snip ...
+
+# === COLORS ===
+# -> defaults overridden!
+export PRI_A=$YELLOW        # color for A priority
+export PRI_B=$GREEN         # color for B priority
+# ... snip ...
+</pre>
+
 Embed the todo.txt call with this special configuration inside your @.conkyrc@ (see below for an example @.conkyrc@ file): <code>${execpi 10 todo.sh -d ~/.todo/config-conky ls</code>
 
 !http://farm4.static.flickr.com/3561/3343839752_b7e47f7c16_o.png!
