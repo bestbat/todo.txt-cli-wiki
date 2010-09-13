@@ -31,7 +31,7 @@ git commit ...
 git push origin master
 </pre>
 
-The changes now appear in your repository in your GitHub clone; you'll see the commits listed in the GitHub web interface. You can now initiate a pull request by clicking the __Pull Request__ button. 
+The changes now appear in your repository in your GitHub clone; you'll see the commits listed in the GitHub web interface. You can now initiate a pull request by clicking the __Pull Request__ button. Send the request to Gina, the maintainer. You will receive a message (in GitHub and via Email) when she has merged in your changes; or just occasionally check "the history of Gina's repository":http://github.com/ginatrapani/todo.txt-cli/commits/master/. 
 
 h3. Pulling in Upstream
 
