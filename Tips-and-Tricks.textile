@@ -44,7 +44,6 @@ This causes ssh to use the existing connection rather than opening new ones. The
 Add this to /etc/bash_completion.d/todo:
 
 <pre>
-#have todo &&
 _todo() 
 {
     local cur prev opts
@@ -52,35 +51,30 @@ _todo()
     cur="${COMP_WORDS[COMP_CWORD]}"
     prev="${COMP_WORDS[COMP_CWORD-1]}"
 
-    COMMANDS="add a addto app append archive birdseye command del       \
+    COMMANDS="add a addto addm append app archive command del  \
               rm depri dp do help list ls listall lsa listcon  \
               lsc listfile lf listpri lsp listproj lsproj move \
               mv prepend prep pri p replace report"
 
-    OPTS="-@ -@@ -+ -d -f -h -p -P -a -n -t -v -vv -V"
+    OPTS="-@ -@@ -+ -++ -d -f -h -p -P -PP -a -n -t -v -vv -V -x"
 
-    case "${prev}" in
-        #-*)
-        #    return 0
-        #    ;;
-
-        #add|a|addto|append|app|archive|del|rm|depri|dp|do|help| \
-        #list|ls|listall|lsa|listcon|lsc|listfile|lf|listpri|lsp|\
-        #listproj|lsprj|move|mv|prepend|prep|pri|p|replace|      \
-        #report|)
-        #    return 0
-        #    ;;
-        *)
-            completions="$COMMANDS $OPTS"
-            ;;
-    esac
+    if [ $COMP_CWORD -eq 1 ]; then
+	completions="$COMMANDS $OPTS"
+    else
+	case "${prev}" in
+	    -*) completions="$COMMANDS $OPTS";;
+	    *)  return 0;;
+	esac
+    fi
 
     COMPREPLY=( $( compgen -W "$completions" -- $cur ))
     return 0
 }
-#[ -n "${have:-}" ] && complete -F _todo $filename todo
 
-complete -F _todo todo
+complete -F _todo todo.sh
+# If you define an alias (e.g. "t") to todo.sh, you need to explicitly enable
+# completion for it, too: 
+#complete -F _todo t
 </pre>
 
 Now you can type $todo ad[tab] and bash'll autocomplete to $todo add
