@@ -1,0 +1,69 @@
+Todo.sh plugins let you add new todo.sh actions or change (override) default actions.  Visit the [[Todo.sh Add-on Directory]] to find browse available plugins.
+
+h2. Installing Plugins
+
+Plugins must be installed into the .todo.actions.d sub-directory of your home directory.  Create this directory with the following bash shell commands:
+
+<pre>
+cd
+mkdir .todo.actions.d
+</pre>
+
+You must name plugins after the action you want to add or override. For
+example, create a new "review" action by installing a plugin to
+.todo.actions.d/review.  After installing the plugin, you must make it
+executable; for example:
+
+<pre>
+chmod +x .todo.actions.d/review
+</pre>
+
+Use the new or overridden action the normal todo.sh way. For example:
+
+<pre>
+todo.sh review
+</pre>
+
+You can force todo.sh to use a default action instead of an
+overridden action by prefixing the action's name with the word,
+"command". For example:
+
+<pre>
+todo.sh command ls
+</pre>
+
+h2. Creating Plugins
+
+Plugins may be written in any programming language your operating system
+supports. The first command-line argument to the plugin will be the
+action called or the word "usage"; the remaining arguments, if any, will
+be those provided by the user. For example:
+
+<pre>
+harding@ziggy:~$ todo.sh _dummy_action foo bar
+First argument: _dummy_action
+Remaining arguments:
+	* foo
+	* bar
+</pre>
+
+If the first argument is usage, you should provide a short usage
+message that will be displayed when the user calls "todo.sh -h".
+
+Todo.sh will also provide your script with several environmental
+variables including the following documented in todo.sh's usage message:
+
+* TODOTXT_PRESERVE_LINE_NUMBERS
+* TODOTXT_VERBOSE
+* TODOTXT_PLAIN
+* TODOTXT_AUTO_ARCHIVE
+* TODOTXT_FORCE
+* TODOTXT_DATE_ON_ADD
+
+and the following environmental variables not documented in the usage
+message:
+
+* TODO_SH -- complete path to calling Todo.sh script
+* TODOTXT_CFG_FILE -- complete path to user's todo.sh configuration file
+
+h2. [[Creating Add-ons: Examples]]
