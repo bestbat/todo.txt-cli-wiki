@@ -31,7 +31,7 @@ export LIGHT_PURPLE='${color LightPurple}'
 export LIGHT_CYAN='${color LightCyan}'
 export WHITE='${color white}'
 export DEFAULT='${color}'
-source ~/.todo/config 
+source ~/.todo/config # Adapt this to whereever your todo.txt configuration is located.
 </pre>
 
 Embed the todo.txt call with this special configuration inside your @.conkyrc@ (see below for an example @.conkyrc@ file): <code>${execpi 10 todo.sh -d ~/.todo/config-conky ls</code>
