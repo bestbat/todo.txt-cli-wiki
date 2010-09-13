@@ -16,4 +16,15 @@ Example:
 
 I don't see how to solve it easily with "sort", the only way I see is to explicitly show and sort prioritized items then show and sort other items. Anybody has an idea how to do it nicely within the new _list()?
 
-"discussion thread":http://tech.groups.yahoo.com/group/todotxt/message/2040
+"discussion thread":http://tech.groups.yahoo.com/group/todotxt/message/2040 --phil
+
+h3. _prepend_ not correct on prioritized tasks
+
+* $ t add test
+* TODO: 'test' added on line 114.
+* $ t pri 114 a
+* 114: (A) test
+* TODO: 114 prioritized (A).
+* $ t prepend 114
+* Prepend: pretest         
+* 114: pretest (A) test
