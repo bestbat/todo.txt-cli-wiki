@@ -1,12 +1,12 @@
 Todo.sh plugins let you add new todo.sh actions or change (override) default
 actions.  See [[Creating and Installing Plugins]] for more info.
 
-h2 Example: overriding a built-in command
+h2. Example: overriding a built-in command
 
 Here is one example to override the "add" command.
 This is done in bash but note that you can do it in any language you want (in which case parsing the config file may be a bit harder).
 
-h3 Proposed features:
+h3. Proposed features:
 
 We'll allow to add an item and mark it as done in one shot with the following syntax:
 
@@ -22,7 +22,7 @@ And as we're hacking the "add" anyway, let's also allow to set a priority when a
 todo.sh add pri A "Need to write plugin example on Gina's wiki"
 </pre>
 
-h3 Implementation:
+h3. Implementation:
 
 First argument is either the action itself or the keyword "usage", in which case we'll display some help and exit:
 
