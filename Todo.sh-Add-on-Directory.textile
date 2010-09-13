@@ -1,10 +1,10 @@
 List your Todo.sh add-ons here. Include a short description and a link to the GitHub repository or other location.
 
-h1. New or enhanced commands/actions
+h1. New or Enhanced Commands/Actions
 
-To learn how to use one of those add-ons, see [[Creating and Installing Add-ons]]
+To learn how to use one of those add-ons, see [[Creating and Installing Add-ons]].
 
-h2. Add and do / add and pri in one step
+h2. __add__ and __do__ / __add__ and __pri__ in one step
 
 This is the example detailed here: [[Creating Add-ons: Examples]]
 
@@ -14,15 +14,16 @@ It allows to add an item and mark it as done in one shot with the following synt
 
 It also allows to set a priority when adding an item using the following syntax:
 
- todo.sh add pri A "Need to write plugin example on Gina's wiki" 
+ todo.sh add pri A "Need to write plugin example on Gina's wiki"
 
-"Project page":http://github.com/doegox/todo.txt-cli/blob/extras/todo.actions.d/add 
+"Project page":http://github.com/doegox/todo.txt-cli/blob/extras/todo.actions.d/add
 
 "Download file":http://github.com/doegox/todo.txt-cli/raw/extras/todo.actions.d/add
 
-h2. Archive only one or a few done items
+h2. Archive only selected done items
 
-It allows to archive selectively one single item or a set of items matching a given keyword. For example to archive all done items related to project1:
+This allows to archive selectively one single item or a set of items matching a given keyword.
+For example to archive all done items related to project1:
 
  todo.sh archive +project1
 
@@ -36,7 +37,7 @@ Note that if the keyword is a number it is interpreted as an item number
 
 "Download file":http://github.com/doegox/todo.txt-cli/raw/extras/todo.actions.d/archive
 
-h2. Open in text editor
+h2. __edit__: open in text editor
 
 To open $TODO_DIR/todo.txt in your default text editor ($EDITOR environment variable):
 
@@ -50,11 +51,15 @@ To open $TODO_DIR/done.txt:
 
 "Download file":http://github.com/mbrubeck/todo.txt-cli/raw/master/todo.actions.d/edit
 
-h2. Fire a browser with the URL contained in a todo line
+Adaptations:
+http://github.com/dhein/todo.txt-cli/blob/pub-addons/edit ("discussion thread":http://tech.groups.yahoo.com/group/todotxt/message/2153)
+http://github.com/fnd/todo.txt-cli/blob/extensions/edit ("discussion thread":http://tech.groups.yahoo.com/group/todotxt/message/2150)
 
- todo.sh add Should have a look to http://github.com/ginatrapani ASAP
+h2. __nav__: open item's URL in browser
 
-TODO: 'Should have a look to http://github.com/ginatrapani ASAP' added on line 111.
+ todo.sh add Should have a look at http://github.com/ginatrapani ASAP
+
+TODO: 'Should have a look at http://github.com/ginatrapani ASAP' added on line 111.
 
  todo.sh nav 111
 
@@ -62,4 +67,14 @@ TODO: 'Should have a look to http://github.com/ginatrapani ASAP' added on line 1
 
 "Download file":http://github.com/doegox/todo.txt-cli/raw/extras/todo.actions.d/nav
 
+h2. __commit__: recording state in local Git repository
+
+"Discussion thread":http://tech.groups.yahoo.com/group/todotxt/message/2150
+
+"Project page":http://github.com/fnd/todo.txt-cli/blob/extensions/commit
+
+"Download file":http://github.com/fnd/todo.txt-cli/raw/extensions/commit
+
 h1. Other Add-ons
+
+[TBD]
