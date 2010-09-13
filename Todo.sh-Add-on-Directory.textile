@@ -19,7 +19,7 @@ h1. Filters
 
 Since version 2.4, _todo.sh_ provides @TODOTXT_SORT_COMMAND@ and @TODOTXT_FINAL_FILTER@, which can be used to modify the list commands' output.
 
-h2(#future tasks). Future Tasks
+h2(#futuretasks). Future Tasks
 
 Hide tasks containing a date threshold (@t:YYYY-MM-DD@) until the specified point in the future.
 
