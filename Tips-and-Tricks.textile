@@ -27,6 +27,7 @@ Displays the remote todo list.
 * "Windows with Samurize":http://lifehacker.com/software/plain-text/download-of-the-day-samurize-189273.php
 * "Mac OS X with GeekTool":http://www.lifehacker.com/software/top/download-of-the-day--geektool-185802.php
 * [[Linux with Conky]]
+* [[Linux with E17]]
 
 *Bash completion*
 
@@ -72,4 +73,4 @@ _todo()
 complete -F _todo todo
 </pre>
 
-Now you could type $todo ad[tab] and bash'll autocomplete to $todo add
+Now you can type $todo ad[tab] and bash'll autocomplete to $todo add
