@@ -119,9 +119,9 @@ A Python script @birdseye.py@ (called with the @birdseye@ action) analyzes the @
 
 h2. __projectview__: sorts tasks by projects
 
-For example:
+List tasks categorized by project.
 
-Example below:
+Example:
 <pre>
 <code>
  ===== Projects =====
@@ -139,4 +139,8 @@ Example below:
 </code>
 </pre>
 
-"Download file":http://github.com/the1ts/todo.txt-plugins/blob/master/projectview
+"Discussion thread":http://tech.groups.yahoo.com/group/todotxt/message/2333
+
+"Project page":http://github.com/the1ts/todo.txt-plugins/blob/master/projectview
+
+"Download file":http://github.com/the1ts/todo.txt-plugins/raw/master/projectview
