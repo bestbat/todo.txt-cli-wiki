@@ -1,11 +1,41 @@
 Conky is a system monitor for X, that can also display the output of shell commands. Setting up Conky is generally a simple process of installing it from your Linux distribution's repository. 
 
-Displaying your todo.txt file on your desktop is a simple task thanks to Conky. The most basic code to display the todo.txt file is: <code>${execi 10 ~/todo.sh -p ls}</code> This will cause your todo.txt file to be displayed as it would from the command line, minus the color, and it will refresh every 10 seconds. Using the grep command you can get a bit more fancy and color code your todo items.
+Displaying your todo.txt file on your desktop is a simple task thanks to Conky. The most basic code to display the todo.txt file is: <code>${execpi 10 todo.sh -p ls}</code> This will cause your todo.txt file to be displayed as it would from the command line, minus the color, and it will refresh every 10 seconds. Using the grep command you can get a bit more fancy and color code your todo items.
 
 Unless you want your todo list to be truncated, you will also need to play with the <code>text_buffer_size variable</code> in your .conkyrc file. The default setting is 128 bytes, but I found that to be inadequate for my todo.txt file, so I raised the variable to 1024 bytes. The higher your <code>text_buffer_size</code>, the more resources that Conky will use, so raise sparingly.
 
+"Link to the conkyrc files":http://github.com/duanehubbard/conky-files
+
 !http://farm4.static.flickr.com/3316/3343839756_612804f1fe_o.png!
 
-!http://farm4.static.flickr.com/3561/3343839752_b7e47f7c16_o.png!
+h2. Coloring
 
-"Link to the conkyrc files":http://github.com/duanehubbard/conky-files
+The approach by Duane Hubbard uses a wrapper @color_todo.sh@ script that augments the plain todo.txt output with Conky's @${color yellow}@ tags. Starting with todo.txt v 2.5, one can simply redefine todo.txt's built-in color map to achieve the same effect. No wrapper and postprocessing is needed, and this will work together with the new feature of highlighting more than priorities A, B & C. 
+
+Add a separate todo.txt configuration in @~/.todo/conky-config@: 
+
+<pre>
+# todo.txt configuration for Conky highlighting. 
+export BLACK='${color black}'
+export RED='${color red}'
+export GREEN='${color green}'
+export BROWN='${color brown}'
+export BLUE='${color blue}'
+export PURPLE='${color purple}'
+export CYAN='${color cyan}'
+export LIGHT_GREY='${color LightGrey}'
+export DARK_GREY='${color DarkGrey}'
+export LIGHT_RED='${color LightRed}'
+export LIGHT_GREEN='${color LightGreen}'
+export YELLOW='${color yellow}'
+export LIGHT_BLUE='${color LightBlue}'
+export LIGHT_PURPLE='${color LightPurple}'
+export LIGHT_CYAN='${color LightCyan}'
+export WHITE='${color white}'
+export DEFAULT='${color}'
+source ~/.todo/config 
+</pre>
+
+Embed todo.txt with this special configuration: <code>${execpi 10 todo.sh -d ~/.todo/config-conky ls</code>
+
+!http://farm4.static.flickr.com/3561/3343839752_b7e47f7c16_o.png!
