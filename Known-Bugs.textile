@@ -14,7 +14,7 @@ Example:
 * 074 +breaking_project
 * 111 (C) +proj3 ...
 
-I don't see how to solve it easily with "sort", the only way I see is to explicitly show and sort prioritized items then show and sort other items. Anybody has an idea how to do it nicely within the new _list()?
+The solution is to use @LC_COLLATE=C sort -f -k2@, thanks Ed! This will be fixed in the repo soon.
 
 "discussion thread":http://tech.groups.yahoo.com/group/todotxt/message/2040
 
