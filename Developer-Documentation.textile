@@ -1,0 +1,5 @@
+To contribute to Todo.txt CLI, fork "the repository":http://github.com/ginatrapani/todo.txt-cli/tree/master
+
+* [[Creating Add-ons: Examples]]
+* [[Using the Makefile]]
+* [[Known Bugs]]
