@@ -17,6 +17,7 @@ h3. Table of Contents
 ** "commit - Record state in local Git repository":#commit
 ** "rtm - Sync with Remember the Milk":#rtm
 ** "schedule - Work with date threshold":#schedule
+** "view - Summarized todo items report":#view
 
 h1. Filters
 
@@ -203,3 +204,19 @@ Set, remove or change date threshold of an item. Works best together withe the _
 "Project page":http://github.com/FND/todo.txt-cli/blob/extensions/schedule
 
 "Download file":http://github.com/FND/todo.txt-cli/raw/extensions/schedule
+
+h2(#view). __view__: Summarized todo items report
+
+Show todo items containing TERM, grouped by OPTION, and displayed in  priority order. If no TERM provided, displays entire todo.txt. The original idea and script is derived from projectview by Paul.
+
+Example:
+  $ todo.sh view project                 # Show todo items grouped by project
+  $ todo.sh view project @context  # Show todo items grouped by project and filtered by @context
+  $ todo.sh view date +project        # Show todo items grouped by date and filtered by +project
+  $ todo.sh view after                    # Show todo items  grouped by date after and with today.
+  $ todo.sh view before                  # Show todo items  grouped by date before and with today.
+  $ todo.sh view before  +project   # Show todo items  grouped by date before and with today and filtered by +project
+
+"Discussion thread":http://tech.groups.yahoo.com/group/todotxt/message/2750
+"Project page":http://github.com/markwu/todo-cli-plugins
+"Download file":http://github.com/markwu/todo-cli-plugins/raw/master/view
