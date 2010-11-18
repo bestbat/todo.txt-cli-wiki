@@ -41,7 +41,7 @@ This causes ssh to use the existing connection rather than opening new ones. The
 
 *Bash completion*
 
-Add this to /etc/bash_completion.d/todo:
+Put this into @/etc/bash_completion.d/todo@ (system-wide, for all users), or put it somewhere in your home directory and source it from your @.bashrc@:
 
 <pre>
 _todo() 
@@ -80,7 +80,7 @@ complete -F _todo todo.sh
 #complete -F _todo t
 </pre>
 
-Now you can type $todo ad[tab] and bash'll autocomplete to $todo add
+Now you can type @$ todo ad@&lt;Tab&gt; and Bash will autocomplete to @$ todo add@
 
 *High Color Support*
 xterm-based terminals, including Putty for Windows, support 256 colors instead of just 16. Here are some sample colors (including backgrounds) that you can paste into your config file right before the PRIORITY COLORS section. Check http://www.frexx.de/xterm-256-notes/ for a hex-to-xterm converter to get exactly the color you want.
