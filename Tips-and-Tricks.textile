@@ -12,6 +12,20 @@ alias t='todo.sh -d /path/to/your/todo.cfg'
 
 Then you simply type @t add laundry@ from anywhere in your file tree to add a task.
 
+*Avoid typing todo.sh every time, a variation.* Add the following to your @~/.bashrc@ file (@~/.bash_profile@ for Mac and Cygwin users):
+
+<pre>
+function t() { 
+  if [ $# -eq 0 ]; then
+    todo.sh -d /path/to/your/todo.cfg ls
+  else
+    todo.sh -d /path/to/your/todo.cfg $* 
+  fi
+}
+</pre>
+
+You can still type @t add laundry@ from anywhere to add a task, but now you can just type @t@ to list your current tasks.
+
 *Hide the configuration file by renaming it @.todo.cfg@.*
 
 *Access your remote server's @todo.txt@ via ssh.* If you have a shell account on @remote.server.com@, alias your @todo.sh@ commands to do the same thing as usual but prepend @ssh username@remote.server.com@ to them. Something like:
