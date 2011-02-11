@@ -35,3 +35,4 @@ h2. Quick Links
 * [[Todo.sh Add-on Directory]]
 * "Known Bugs":http://github.com/ginatrapani/todo.txt-cli/issues
 * [[Todo.sh Changelog]]
+* [[Other Todo.txt Projects]]
