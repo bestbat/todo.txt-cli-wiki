@@ -227,7 +227,7 @@ h2(#lately). __lately__: Report of recently completed tasks
 Generate a list of recently completed tasks. Per default lately lists tasks that were completed during the last seven days. With an optional argument, number of days, that can be overridden to show more or less.
 
 Example:
-  $ todo.sh lately    # Lists tasks completed within the last 7 days
-  $ todo.sh lately 3  # Lists tasks completed within the last 3 days
+<pre><code>  $ todo.sh lately    # Lists tasks completed within the last 7 days</code></pre>
+<pre><code>  $ todo.sh lately 3  # Lists tasks completed within the last 3 days</code></pre>
 
 "Download file":https://github.com/emilerl/emilerl/tree/master/todo.actions.d
