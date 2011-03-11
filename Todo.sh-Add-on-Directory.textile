@@ -149,9 +149,9 @@ Also you can choose your printer:
 
 Requires CUPS.
 
-"Project page":http://github.com/paradoq/todo.txt-cli/blob/master/actions/paper
+"Project page":http://github.com/matthewbauer/todo.txt-cli/blob/master/actions/paper
 
-"Download file":http://github.com/paradoq/todo.txt-cli/raw/master/actions/paper
+"Download file":http://github.com/matthewbauer/todo.txt-cli/raw/master/actions/paper
 
 h2(#projectview). __projectview__: sorts tasks by projects
 
@@ -194,9 +194,9 @@ This will pull from Remember the Milk:
 
 You will need a web browser to accept the 
 
-"Project page":http://github.com/paradoq/todo.txt-cli/blob/master/actions/rtm
+"Project page":http://github.com/matthewbauer/todo.txt-cli/blob/master/actions/rtm
 
-"Download file":http://github.com/paradoq/todo.txt-cli/raw/master/actions/rtm
+"Download file":http://github.com/matthewbauer/todo.txt-cli/raw/master/actions/rtm
 
 h2(#schedule). __schedule__: work with date threshold
 
