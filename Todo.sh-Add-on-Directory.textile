@@ -200,7 +200,7 @@ You will need a web browser to accept the
 
 h2(#schedule). __schedule__: work with date threshold
 
-Set, remove or change date threshold of an item. Works best together withe the __Future Tasks__ filter. 
+Set, remove or change date threshold of an item. Works best together with the __Future Tasks__ filter. 
 
 "Project page":http://github.com/FND/todo.txt-cli/blob/extensions/schedule
 
