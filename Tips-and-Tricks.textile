@@ -32,6 +32,10 @@ Or using bash 3 or greater:
 
 You can still type @t add laundry@ from anywhere to add a task, but now you can just type @t@ to list your current tasks.
 
+*Sort your output by priority, then by number:* Find @export TODOTXT_SORT_COMMAND@ in your configuration file, and set it as follows:
+<pre><code>export TODOTXT_SORT_COMMAND='env LC_COLLATE=C sort -k 2,2 -k 1,1n'
+</code></pre>
+
 *Hide the configuration file by renaming it @.todo.cfg@.*
 
 *Access your remote server's @todo.txt@ via ssh.* If you have a shell account on @remote.server.com@, alias your @todo.sh@ commands to do the same thing as usual but prepend @ssh username@remote.server.com@ to them. Something like:
