@@ -24,6 +24,12 @@ function t() {
 }
 </pre>
 
+Or using bash 3 or greater:
+<pre><code>function t() {
+  todo.sh -d /path/to/your/todo.cfg ${1:-"ls"} ${*#$1}
+}
+</code></pre>
+
 You can still type @t add laundry@ from anywhere to add a task, but now you can just type @t@ to list your current tasks.
 
 *Hide the configuration file by renaming it @.todo.cfg@.*
