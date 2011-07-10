@@ -18,10 +18,16 @@ Replace "/Users/gina/Documents/todo" to wherever your todo.txt file lives. The d
 </pre>
 
 
-4. Move the @todo.cfg@ configuration file to your home directory:
+4. Make a hidden folder under you home directory named @.todo@:
 
 <pre>
-      mv todo.cfg ~/.
+      $ mkdir ~/.todo 
 </pre>
 
-5. Type @./todo.sh@ to see the usage message. You're ready to go!  To start adding tasks, type @./todo.sh add "My new task"@
+5. Move the @todo.cfg@ configuration file to the directory made in step 4 and rename it @config@:
+
+<pre>
+      $ mv todo.cfg ~/.todo/config
+</pre>
+
+6. Type @./todo.sh@ to see the usage message. You're ready to go!  To start adding tasks, type @./todo.sh add "My new task"@
