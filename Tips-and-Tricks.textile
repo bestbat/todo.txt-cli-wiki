@@ -12,23 +12,13 @@ alias t='todo.sh -d /path/to/your/todo.cfg'
 
 Then you simply type @t add laundry@ from anywhere in your file tree to add a task.
 
-*Avoid typing todo.sh every time, a variation.* Add the following to your @~/.bashrc@ file (@~/.bash_profile@ for Mac and Cygwin users):
+It is possible to set the default action be setting "TODOTXT_DEFAULT_ACTION".
 
-<pre>
-function t() { 
-  if [ $# -eq 0 ]; then
-    todo.sh -d /path/to/your/todo.cfg ls
-  else
-    todo.sh -d /path/to/your/todo.cfg $* 
-  fi
-}
-</pre>
+You can combine the above alias with the default action so that typing @t@ lists your outstanding items.
 
-Or using bash 3 or greater:
-<pre><code>function t() {
-  todo.sh -d /path/to/your/todo.cfg ${1:-"ls"} ${*#$1}
-}
-</code></pre>
+*Allow @t@ to list outstanding tasks* Add the following to your @~/.bashrc@ file (@~/.bash_profile@ for Mac and Cygwin users):
+<pre><code>export TODOTXT_DEFAULT_ACTION=ls
+alias t='todo.sh -d /path/to/your/todo.cfg'</code></pre>
 
 You can still type @t add laundry@ from anywhere to add a task, but now you can just type @t@ to list your current tasks.
 
