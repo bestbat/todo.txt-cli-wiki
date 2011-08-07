@@ -12,7 +12,7 @@ alias t='todo.sh -d /path/to/your/todo.cfg'
 
 Then you simply type @t add laundry@ from anywhere in your file tree to add a task.
 
-It is possible to set the default action be setting "TODOTXT_DEFAULT_ACTION".
+You can set the default action by setting "TODOTXT_DEFAULT_ACTION".
 
 You can combine the above alias with the default action so that typing @t@ lists your outstanding items.
 
