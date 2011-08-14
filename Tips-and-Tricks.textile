@@ -31,7 +31,7 @@ You can still type @t add laundry@ from anywhere to add a task, but now you can 
 *Access your remote server's @todo.txt@ via ssh.* If you have a shell account on @remote.server.com@, alias your @todo.sh@ commands to do the same thing as usual but prepend @ssh username@remote.server.com@ to them. Something like:
 
 <pre>
-ssh -a -t username@remote.server.com todo.sh list
+ssh -qt username@remote.server.com todo.sh list
 </pre>
 
 Displays the remote todo list.
