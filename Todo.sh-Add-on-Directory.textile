@@ -2,6 +2,9 @@ List your Todo.sh add-ons here. Include a short description and a link to the Gi
 
 h3. Table of Contents
 
+* Installation
+** "How to install":#install
+
 * Filters
 ** "Future Tasks":#futuretasks
 
@@ -19,6 +22,10 @@ h3. Table of Contents
 ** "schedule - Work with date threshold":#schedule
 ** "view - Summarized todo items report":#view
 ** "lately - Report of recently completed tasks":#lately
+
+h1(#install). Installation
+
+To learn how to install (and create) add-ons, see [[Creating and Installing Add-ons]].
 
 h1. Filters
 
@@ -40,8 +47,6 @@ The @-x@ "option":http://tech.groups.yahoo.com/group/todotxt/message/2402 can be
 "Download file":http://github.com/FND/todo.txt-cli/raw/extensions/futureTasks
 
 h1. New or Enhanced Commands/Actions
-
-To learn how to use one of those add-ons, see [[Creating and Installing Add-ons]].
 
 h2(#adddopri). __add__ and __do__ / __add__ and __pri__ in one step
 
