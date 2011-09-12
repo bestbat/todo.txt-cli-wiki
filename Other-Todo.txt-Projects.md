@@ -17,3 +17,10 @@ https://github.com/abztrakt/ya-todo-py
 Additionally, there was also an AutoHotKey gui version that was advertised a couple months back on the list--maybe it might meet your needs, if you're looking for more of a GUI version...
 http://tech.groups.yahoo.com/group/todotxt/message/2757
 (https://github.com/jdiamond/todo.txt-ahk)
+
+# KDE Akonadi
+
+There is an initial Akonadi resource for todo.txt at:
+https://github.com/markushx/todo.txt-akonadi
+
+TODO.txt todos are listed e.g. in Korganizer.
