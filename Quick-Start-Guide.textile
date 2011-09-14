@@ -2,26 +2,10 @@ Here's how to install and run the Todo.txt CLI:
 
 1. "Download the latest stable release of Todo.txt CLI":http://github.com/ginatrapani/todo.txt-cli/downloads (available as a ZIP or TAR archive) and extract it.
 
-2. Using the text editor of your choice, edit the section of the todo.cfg file that reads:
-
-<pre>
-      # Your todo.txt directory
-      TODO_DIR="/Users/gina/Documents/todo"
-</pre>
-
-Replace "/Users/gina/Documents/todo" to wherever your todo.txt file lives. The directory must exist.
-
-3. Make the todo.sh script exectuable:
+2. At the command line, cd into the directory where you extracted todo.sh. Make the todo.sh script exectuable:
 
 <pre>
       $ chmod +x todo.sh
 </pre>
 
-
-4. Move the @todo.cfg@ configuration file to your home directory:
-
-<pre>
-      mv todo.cfg ~/.
-</pre>
-
-5. Type @./todo.sh@ to see the usage message. You're ready to go!  To start adding tasks, type @./todo.sh add "My new task"@
+3. Type @./todo.sh@ to see the usage message. You're ready to go!  To start adding tasks, type @./todo.sh add "My new task"@
