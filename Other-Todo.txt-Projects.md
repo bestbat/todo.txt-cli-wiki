@@ -9,6 +9,9 @@ https://github.com/lydgate/git-todo-py
 This is another version:
 https://github.com/nuance/smarter-todo
 
+A GUI written in PySide(Qt)
+https://bitbucket.org/3david/qtodotxt/
+
 This is my favorite version--it has extensions where you can add due date, links, percent done, etc. 
 https://github.com/abztrakt/ya-todo-py
 
