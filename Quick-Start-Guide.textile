@@ -4,7 +4,7 @@ Here's how to install and run the Todo.txt CLI:
 
 1. "Download the latest stable release of Todo.txt CLI":http://github.com/ginatrapani/todo.txt-cli/downloads (available as a ZIP or TAR archive) and extract it.
 
-2. At the command line, cd into the directory where you extracted todo.sh. Make the todo.sh script exectuable:
+2. Open a command window. On Windows, this is _Cygwin Bash Shell_ (_not_ Command Prompt!); elsewhere, this is often called _Terminal_. It usually presents you with a @$@ prompt. @cd@ into the directory where you extracted todo.sh. Make the todo.sh script executable:
 
 <pre>
       $ chmod +x todo.sh
