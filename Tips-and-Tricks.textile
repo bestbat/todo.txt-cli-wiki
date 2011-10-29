@@ -71,9 +71,9 @@ pre.. _todo()
     COMMANDS="$COMMANDS $('ls' ${TODO_ACTIONS_DIR:-$HOME/.todo.actions.d}/ 2>/dev/null)"
     OPTS="-@ -@@ -+ -++ -d -f -h -p -P -PP -a -n -t -v -vv -V -x"
     if [ "${cur:0:1}" == "+" ]; then
-        completions="$(t listproj)"
+        completions="$(todo.sh listproj)"
     elif [ "${cur:0:1}" == "@" ]; then
-        completions="$(t listcon)"
+        completions="$(todo.sh listcon)"
     elif [ $COMP_CWORD -eq 1 ]; then
         completions="$COMMANDS $OPTS"
     else
