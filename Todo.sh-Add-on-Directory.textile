@@ -22,6 +22,7 @@ h3. Table of Contents
 ** "schedule - Work with date threshold":#schedule
 ** "view - Summarized todo items report":#view
 ** "lately - Report of recently completed tasks":#lately
+** "repeat - Mark an item done and immediately reenter it":#repeat
 
 h1(#install). Installation
 
@@ -236,3 +237,14 @@ Examples:
 $ todo.sh lately 3  # Lists tasks completed within the last 3 days</code></pre>
 
 "Download file":https://github.com/emilerl/emilerl/tree/master/todo.actions.d
+
+h2(#repeat). __repeat__: Mark an item done and immediately reenters it.
+
+This is useful for repeating todo items where the date entered is important. This command simply marks
+the given item as done and reenters it again. Priority is not preserved.
+
+Examples:
+<pre><code>$ todo.sh repeat 3
+
+"Project page":https://github.com/drobertadams/todo.txt-cli-addons/tree/master/repeat
+"Download file":https://raw.github.com/drobertadams/todo.txt-cli-addons/master/repeat/repeat
