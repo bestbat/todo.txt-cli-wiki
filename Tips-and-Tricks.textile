@@ -93,6 +93,8 @@ complete -F _todo todo
 
 p. Now you can type @$ todo ad@&lt;Tab&gt; and Bash will autocomplete to @$ todo add@. Any words that begin with + or @ will be completed using projects or contexts, respectively.
 
+_Note: The Bash completion is "currently being integrated into the main todo.txt distribution":https://github.com/ginatrapani/todo.txt-cli/pull/56._
+
 *High Color Support*
 xterm-based terminals, including Putty for Windows, support 256 colors instead of just 16. Here are some sample colors (including backgrounds) that you can paste into your config file right before the PRIORITY COLORS section. Check http://www.frexx.de/xterm-256-notes/ for a hex-to-xterm converter to get exactly the color you want.
 
