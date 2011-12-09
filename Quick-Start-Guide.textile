@@ -12,6 +12,8 @@ Here's how to install and run the Todo.txt CLI:
 
 3. Type @./todo.sh@ to see the usage message. You're ready to go!  To start adding tasks, type @./todo.sh add "My new task"@
 
+---
+
 4. (Optional, since v 2.9:) Install the Bash completion, either system-wide, for all users:
 
 <pre>
