@@ -11,3 +11,23 @@ Here's how to install and run the Todo.txt CLI:
 </pre>
 
 3. Type @./todo.sh@ to see the usage message. You're ready to go!  To start adding tasks, type @./todo.sh add "My new task"@
+
+4. (Optional, since v 2.9:) Install the Bash completion, either system-wide, for all users:
+
+<pre>
+      $ sudo cp todo_completion /etc/bash_completion.d/todo
+</pre>
+
+_or_ put it somewhere in your home directory and source it from your @.bashrc@:
+
+<pre>
+      $ source todo_completion
+</pre>
+
+Now you can type @$ ./todo.sh ad<Tab>@ and Bash will autocomplete the action to @$ ./todo.sh add@. Any words that begin with + or @ will be completed using projects or contexts, respectively. Task numbers will append the task text as a shell comment.
+
+Note: If you define an alias (e.g. @t@) to todo.sh, you need to explicitly enable completion for it, too (also put this into your @.bashrc@):
+
+<pre>
+      $ complete -F _todo t
+</pre>
