@@ -23,6 +23,7 @@ h3. Table of Contents
 ** "view - Summarized todo items report":#view
 ** "lately - Report of recently completed tasks":#lately
 ** "repeat - Mark an item done and immediately reenter it":#repeat
+** "recur - Intelligently add recurring tasks":#recur
 
 h1(#install). Installation
 
@@ -244,7 +245,14 @@ This is useful for repeating todo items where the date entered is important. Thi
 the given item as done and reenters it again. Priority is not preserved.
 
 Examples:
-<pre><code>$ todo.sh repeat 3
+<pre><code>$ todo.sh repeat 3</code></pre>
 
 "Project page":https://github.com/drobertadams/todo.txt-cli-addons/tree/master/repeat
 "Download file":https://raw.github.com/drobertadams/todo.txt-cli-addons/master/repeat/repeat
+
+h2(#recur). __recur__: Intelligently add recurring tasks.
+
+When run from a daily cron job (or similar scheduler), it will add tasks on appropriate days from a recur.txt file, while avoiding redundant adds of previously-added, not-yet-completed tasks.
+
+"Project page":https://github.com/paulroub/todo.txt-recurring-tasks
+"Download file":https://github.com/paulroub/todo.txt-recurring-tasks/blob/master/recur
