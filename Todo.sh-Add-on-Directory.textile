@@ -269,6 +269,7 @@ $ todo.sh google push all   #push todo and done items to Google
 </code></pre>
 
 You will need to set up Google API access to use (see project README). 
+Requires Python
 
 "Project page":http://github.com/amcintosh/todo.txt-cli/tree/google-tasks-addon/.todo.actions.d
 "Download file":http://github.com/amcintosh/todo.txt-cli/tree/google-tasks-addon/.todo.actions.d/google
