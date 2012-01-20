@@ -256,3 +256,18 @@ When run from a daily cron job (or similar scheduler), it will add tasks on appr
 
 "Project page":https://github.com/paulroub/todo.txt-recurring-tasks
 "Download file":https://github.com/paulroub/todo.txt-recurring-tasks/blob/master/recur
+
+h2(#google). __google__: sync with Google Tasks
+
+Push or Pull todo items to and from Google Tasks. 
+
+Examples:
+<pre><code>$ todo.sh google pull       #pulls tasks from Google
+$ todo.sh google push       #push todo items to Google
+$ todo.sh google push all   #push todo and done items to Google
+</code></pre>
+
+You will need to set up Google API access to use (see project README). 
+
+"Project page":http://github.com/amcintosh/todo.txt-cli/tree/google-tasks-addon/.todo.actions.d
+"Download file":http://github.com/amcintosh/todo.txt-cli/tree/google-tasks-addon/.todo.actions.d/google
