@@ -25,6 +25,7 @@ h3. Table of Contents
 ** "repeat - Mark an item done and immediately reenter it":#repeat
 ** "recur - Intelligently add recurring tasks":#recur
 ** "google - Sync with Google Tasks":#google
+** "standup - Daily standup status":#standup
 
 h1(#install). Installation
 
@@ -273,3 +274,10 @@ Requires Python
 
 "Project page":http://github.com/amcintosh/todo.txt-cli/tree/google-tasks-addon/.todo.actions.d
 "Download file":http://github.com/amcintosh/todo.txt-cli/tree/google-tasks-addon/.todo.actions.d/google
+
+h2(#standup). __standup__: daily standup status
+
+An add on implemented in ruby that generates a "report" for daily standups based on your tasks. 
+
+"Project page":http://github.com/civrot/todo_txt_actions
+"Download file":http://github.com/civrot/todo_txt_actions/blob/master/standup
