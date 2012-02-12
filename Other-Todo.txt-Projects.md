@@ -3,6 +3,8 @@ Other Todo.txt projects implemented in different languages.
 # Python
 You can do a search for "todo.py" at github.com and there are a number of different flavors:
 
+A more recent and still active version which allows for use with git can be found here: https://git.io/todo.py
+
 This allows you to check into a git repository:
 https://github.com/lydgate/git-todo-py
 
