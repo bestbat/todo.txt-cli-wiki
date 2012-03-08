@@ -288,7 +288,7 @@ h2(#docs). __docs__: sync with Google Docs
 You can now sync your todo with Google Docs
 
 Sharing your todos with people is now possible.
-You can also sync your todos with third party tools like aNotes on iPhone/
+You can also sync your todos with third party tools like aNotes.
 
 Examples:
 <pre><code>$ todo.sh docs pull       #pulls todo from Google Docs
