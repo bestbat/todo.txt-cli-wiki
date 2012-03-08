@@ -26,6 +26,7 @@ h3. Table of Contents
 ** "recur - Intelligently add recurring tasks":#recur
 ** "google - Sync with Google Tasks":#google
 ** "standup - Daily standup status":#standup
+** "docs - Sync with Google Docs":#docs
 
 h1(#install). Installation
 
@@ -281,3 +282,30 @@ An add on implemented in ruby that generates a "report" for daily standups based
 
 "Project page":http://github.com/civrot/todo_txt_actions
 "Download file":http://github.com/civrot/todo_txt_actions/blob/master/standup
+
+h2(#docs). __docs__: sync with Google Docs
+
+You can now sync your todo with Google Docs
+
+Sharing your todos with people is now possible.
+You can also sync your todos with third party tools like aNotes on iPhone/
+
+Examples:
+<pre><code>$ todo.sh docs pull       #pulls todo from Google Docs
+$ todo.sh docs push       #push todo to Google Docs
+$ todo.sh docs help       #display help
+</code></pre>
+
+Requires:
+* Google account (!) with a folder/tag chosen for todos items
+* "Google CL":http://code.google.com/p/googlecl
+
+Installation:
+* Install Google CL and configure oAuth by typing *google docs list* and following wizard.
+* Then simply run *pull* or *push*, a quick wizard will ask you the name of the Google folder/tag to sync and voila!
+
+_Author: Amaury Decrême - amaury.decreme at gmail.com
+Licence: GPL http://www.gnu.org/copyleft/gpl.html_
+
+"Project page":https://github.com/amaurydecreme/todo.txt-cli/tree/addons/.todo.actions.d
+"Download file":https://github.com/amaurydecreme/todo.txt-cli/blob/addons/.todo.actions.d/docs
