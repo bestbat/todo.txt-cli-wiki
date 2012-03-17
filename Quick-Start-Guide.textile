@@ -1,3 +1,7 @@
+Mac users: There is a "Homebrew":http://mxcl.github.com/homebrew/ package for todo.txt - install using <code>brew install todo-txt</code>.
+
+***
+
 Here's how to install and run the Todo.txt CLI:
 
 0. (Windows only:) "Download and install Cygwin":http://cygwin.com/install.html. Cygwin provides a Unix-environment for Windows; Todo.txt needs just the Bash shell and some common Unix tools, so a minimal installation will do just fine. 
