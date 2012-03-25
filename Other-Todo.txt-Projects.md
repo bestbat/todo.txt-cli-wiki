@@ -39,3 +39,8 @@ Bulldog is an HTML viewer for todo.txt files: https://github.com/infews/bulldog/
 # Mobile
 
 Todo.txt-Enyo, for WebOS: https://github.com/thrrgilag/Todo.txt-Enyo
+
+# Emacs
+
+Emacs major mode for editing todo.txt files: https://github.com/avillafiorita/todotxt-mode
+
