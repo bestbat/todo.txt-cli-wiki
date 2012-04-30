@@ -245,10 +245,12 @@ $ todo.sh lately 3  # Lists tasks completed within the last 3 days</code></pre>
 h2(#repeat). __repeat__: Mark an item done and immediately reenters it.
 
 This is useful for repeating todo items where the date entered is important. This command simply marks
-the given item as done and reenters it again. Priority is not preserved.
+the given item as done and reenters it again, optionally at a specified number of days from the completion date, or a specified number of days from the due date where this is one. Priority is not preserved.
 
 Examples:
-<pre><code>$ todo.sh repeat 3</code></pre>
+<pre><code>$ todo.sh repeat 3 # Marks item 3 as done and recreates is as a new item
+$ todo.sh repeat 3 7 # Marks item 3 as done and recreated it 7 days from now
+$ todo.sh repeat 3 +7 # Marks item 3 as done and recreates it 7 days from the due date</code></pre>
 
 "Project page":https://github.com/drobertadams/todo.txt-cli-addons/tree/master/repeat
 "Download file":https://raw.github.com/drobertadams/todo.txt-cli-addons/master/repeat/repeat
