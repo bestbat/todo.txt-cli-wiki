@@ -14,6 +14,7 @@ h3. Table of Contents
 ** "Edit in a designated text editor":#edit
 ** "cd - Display directory paths":#cd
 ** "nav - Open URLs in a web browser":#nav
+** "ac - Open activeCollab URLs in a web browser":#ac
 ** "birdseye - Project progress report":#birdseye
 ** "projectview - Group output by project":#projectview
 ** "paper - Print your todo list":#paper
@@ -130,6 +131,16 @@ TODO: 'Should have a look at http://github.com/ginatrapani ASAP' added on line 1
 "Project page":http://github.com/doegox/todo.txt-cli/blob/extras/todo.actions.d/nav
 
 "Download file":http://github.com/doegox/todo.txt-cli/raw/extras/todo.actions.d/nav
+
+h2(#ac). __ac__: activeCollab integration
+
+If activeCollab project/ticket info is associated with a task, open in the browser.
+
+  todo.sh ac 12
+
+"Project page":https://github.com/kostajh/todo.txt-ac
+
+"Download file":https://raw.github.com/kostajh/todo.txt-ac/master/ac
 
 h2(#commit). __commit__: record state in local Git repository
 
