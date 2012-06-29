@@ -331,7 +331,7 @@ Bash addon to help you track your Most Important Tasks.
 Examples:
 <pre><code>$ todo.sh mit today go do something    # use today or tomorrow to create a mit
 $ todo.sh mit friday stash millions    # use a day of week to create a mit
-$ todo.sh mit 2012.09.17 buy github    # use specific date to create a hit
+$ todo.sh mit 2012.09.17 buy github    # use specific date to create a mit
 $ todo.sh mit                          # display all mits
   Past Due:
     do something @home (12)
