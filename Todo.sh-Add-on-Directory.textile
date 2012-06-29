@@ -324,14 +324,16 @@ Licence: GPL http://www.gnu.org/copyleft/gpl.html_
 "Project page":https://github.com/amaurydecreme/todo.txt-cli/tree/addons/.todo.actions.d
 "Download file":https://github.com/amaurydecreme/todo.txt-cli/blob/addons/.todo.actions.d/docs
 
-h2(#mit). __mit__: Most Important Task tracking
+h2(#mit). __mit__: Most Important Task
 
 Bash addon to help you track your Most Important Tasks.
 
 Examples:
 <pre><code>$ todo.sh mit today go do something    # use today or tomorrow to create a mit
 $ todo.sh mit friday stash millions    # use a day of week to create a mit
+$ todo.sh mit mon water the garden     # use an abbreviated day of week to create a mit
 $ todo.sh mit 2012.09.17 buy github    # use specific date to create a mit
+$ todo.sh mit -h                       # get some help
 $ todo.sh mit                          # display all mits
   Past Due:
     do something @home (12)
