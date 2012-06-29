@@ -28,6 +28,7 @@ h3. Table of Contents
 ** "google - Sync with Google Tasks":#google
 ** "standup - Daily standup status":#standup
 ** "docs - Sync with Google Docs":#docs
+** "mit - Most Important Task tracking":#mit
 
 h1(#install). Installation
 
@@ -322,3 +323,29 @@ Licence: GPL http://www.gnu.org/copyleft/gpl.html_
 
 "Project page":https://github.com/amaurydecreme/todo.txt-cli/tree/addons/.todo.actions.d
 "Download file":https://github.com/amaurydecreme/todo.txt-cli/blob/addons/.todo.actions.d/docs
+
+h2(#mit). __mit__: Most Important Task tracking
+
+Bash addon to help you track your Most Important Tasks.
+
+Examples:
+<pre><code>$ todo.sh mit                          # display all mits
+   Past Due:
+     do something @home (12)
+
+   Today:
+     fix something @work (14)
+
+$ todo.sh mit @home                    # display all mits in specified context
+   Past Due:
+     do something @home (12)
+
+$ todo.sh mit today go do something    # use today or tomorrow to create a mit
+$ todo.sh mit friday stash millions    # use a day of week to create a mit
+$ todo.sh mit 2012.09.17 buy github    # use specific date to create a mit
+</code></pre>
+
+_Author: Cody Buell_
+_License: GPL http://www.gnu.org/copyleft/gpl.html_
+
+"Project page":https://github.com/codybuell/mit
