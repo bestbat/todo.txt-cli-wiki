@@ -29,6 +29,7 @@ h3. Table of Contents
 ** "standup - Daily standup status":#standup
 ** "docs - Sync with Google Docs":#docs
 ** "mit - Most Important Task tracking":#mit
+** "hey - a minimalist CRM":#hey
 
 h1(#install). Installation
 
@@ -348,3 +349,24 @@ _Author: Cody Buell_
 _License: GPL http://www.gnu.org/copyleft/gpl.html_
 
 "Project page":https://github.com/codybuell/mit
+
+h2(#hey). __hey__: a minimalist CRM
+
+hey tells you one thing you should do regularly, but haven't done lately.
+
+Examples:
+<pre><code>$ todo.sh lf hey
+1 @phone Mom (+1 234 567 8901) +family
+2 @skype Dad +family
+3 @email mentor
+4 @write old flame <hot@example.com>
+--
+HEY: 4 of 4 tasks shown
+
+$ todo.sh hey
+37 @phone Mom (+1 234 567 8901) +family
+TODO: 37 added
+</code></pre>
+
+"Project page":https://gist.github.com/4241425
+"Download file":https://raw.github.com/gist/4241425/hey.rb
