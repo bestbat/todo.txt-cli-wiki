@@ -44,3 +44,5 @@ Todo.txt-Enyo, for WebOS: https://github.com/thrrgilag/Todo.txt-Enyo
 
 Emacs major mode for editing todo.txt files: https://github.com/avillafiorita/todotxt-mode
 
+Emacs-based application for managing your todo.txt file: https://github.com/rpdillon/todotxt.el
+
