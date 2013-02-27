@@ -19,6 +19,9 @@ h3. Table of Contents
 ** "projectview - Group output by project":#projectview
 ** "paper - Print your todo list":#paper
 ** "commit - Record state in local Git repository":#commit
+** "push - Record state in a remote Git repository":#push
+** "pull - Update local state from remote Git repository":#pull
+** "sync - Sync state between local and remote Git repository":#sync
 ** "rtm - Sync with Remember the Milk":#rtm
 ** "schedule - Work with date threshold":#schedule
 ** "view - Summarized todo items report":#view
@@ -153,6 +156,33 @@ Commit all changes to existing Git repository in @$TODO_DIR@.
 "Project page":http://github.com/fnd/todo.txt-cli/blob/extensions/commit
 
 "Download file":http://github.com/fnd/todo.txt-cli/raw/extensions/commit
+
+h2(#push). __push__: record state in remote Git repository
+
+Push all changes in local state at @$TODO_DIR@ to an existing, remote Git repository.
+Always pushes to origin master.
+
+"Project page":https://github.com/crobinsonut/todo_distributed
+
+"Download file":https://raw.github.com/crobinsonut/todo_distributed/master/push
+
+h2(#pull). __pull__: update local state from remote Git repository
+
+Fetch and merge all changes from an existing, remote Git repository into @$TODO_DIR@.
+Fetches from origin, merges from origin/master into master.
+
+"Project page":https://github.com/crobinsonut/todo_distributed
+
+"Download file":https://raw.github.com/crobinsonut/todo_distributed/master/pull
+
+h2(#sync). __sync__: sync state between local and remote Git repository
+
+Keeps local Git repository in @$TODO_DIR@ in sync with remote Git repository at origin.
+Requires the #commit, #pull and #push addons.
+
+"Project page":https://github.com/crobinsonut/todo_distributed
+
+"Download file":https://raw.github.com/crobinsonut/todo_distributed/master/sync
 
 h2(#birdseye). __birdseye__: your productivity report
 
