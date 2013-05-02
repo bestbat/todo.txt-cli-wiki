@@ -39,14 +39,4 @@ Note: If you define an alias (e.g. @t@) to todo.sh, you need to explicitly enabl
 
 6. Something missing? Todo.txt is extensible; many users have already written "custom add-ons":Todo.sh-Add-on-Directory.
 
-h2. Troubleshooting
-
-*I get "Fatal Error: Cannot read configuration file /Users/myusername/.todo/config" when launching todo.sh*
-
-Create the <code>~/.todo/config</code> file manually.  Here's some example content:
-<pre><code>export TODO_DIR="$HOME/Dropbox/todo"
-export TODO_FILE="$TODO_DIR/todo.txt"
-export DONE_FILE="$TODO_DIR/done.txt"
-export REPORT_FILE="$TODO_DIR/report.txt"
-export TMP_FILE="/tmp/todo.tmp"
-export TODOTXT_DEFAULT_ACTION=ls</code></pre>
+7. Having problems? Have a look at the "Troubleshooting page":Troubleshooting page, or ask on the friendly "mailing list":http://groups.yahoo.com/group/todotxt/.
