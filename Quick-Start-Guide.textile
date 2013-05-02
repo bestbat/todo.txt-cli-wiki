@@ -39,4 +39,4 @@ Note: If you define an alias (e.g. @t@) to todo.sh, you need to explicitly enabl
 
 6. Something missing? Todo.txt is extensible; many users have already written "custom add-ons":Todo.sh-Add-on-Directory.
 
-7. Having problems? Have a look at the "Troubleshooting page":Troubleshooting page, or ask on the friendly "mailing list":http://groups.yahoo.com/group/todotxt/.
+7. Having problems? Have a look at the "Troubleshooting page":Troubleshooting, or ask on the friendly "mailing list":http://groups.yahoo.com/group/todotxt/.
