@@ -34,6 +34,7 @@ h3. Table of Contents
 ** "mit - Most Important Task tracking":#mit
 ** "hey - a minimalist CRM":#hey
 ** "tmsa - commands to help working with dated todo files":#tmsa
+** "revive - re-add items from archive":#revive
 
 h1(#install). Installation
 
@@ -453,3 +454,28 @@ _Author: Mark Harrison_
 _License: MIT_
 
 "Project page":https://github.com/mivok/todotxt-tmsa
+
+h2(#revive). __revive__: re-add items from archive
+
+Easily re-add tasks that you have previously completed back to your todo.txt list.
+
+Examples:
+
+<pre><code>
+$ todo.sh revive
+01 x 2013-06-25 My task
+03 x 2013-06-28 Another task
+02 x 2013-06-30 Some other task
+--
+DONE: 3 of 3 tasks shown
+
+$ todo.sh revive 1
+1 My task
+TODO: 1 added.
+</code></pre>
+
+_Author: Duncan Eastoe_
+_License: MIT_
+
+"Project page":https://github.com/duncanje/todo.txt-revive
+"Download file":https://raw.github.com/duncanje/todo.txt-revive/master/revive
