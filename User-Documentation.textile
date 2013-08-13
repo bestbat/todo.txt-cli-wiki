@@ -3,6 +3,7 @@ This is the user documentation for Todo.txt CLI.  If you're interested in contri
 h2. Getting Started
 
 * [[Quick Start Guide]] -- how to download and install Todo.txt CLI
+* Find out what the CLI can do @todo.sh -h@ or "Watch the Screencast":http://vimeo.com/3263629
 * [[Tips and Tricks]] -- extra ways to make Todo.txt CLI easier and better to use
 * [[The Todo.txt Format]] -- what your @todo.txt@ file will look like, and Todo.txt CLI's built-in project and context notation support
 * [[Todo.sh Changelog]] -- the latest fixes and feature news
