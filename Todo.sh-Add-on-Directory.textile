@@ -481,7 +481,7 @@ _License: MIT_
 "Project page":https://github.com/duncanje/todo.txt-revive
 "Download file":https://raw.github.com/duncanje/todo.txt-revive/master/revive
 
-h2(#make). __make__:Create New .txt Files.
+h2(#make).  __make__:Create New .txt Files.
 
 Quickly create new .txt files in your default todo.txt file directory.
 
