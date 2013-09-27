@@ -488,8 +488,8 @@ Quickly create new .txt files in your default todo.txt file directory.
 Examples:
 
 <pre><code>
-$ todo.sh make bills
-File bills.txt created in [TODO_DIR]
+$ todo.sh make bucketlist
+File bucketlist.txt created in [TODO_DIR]
 </code></pre>
 
 _Author: Jared Meyering_
