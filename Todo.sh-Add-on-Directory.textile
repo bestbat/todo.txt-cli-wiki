@@ -36,6 +36,7 @@ h3. Table of Contents
 ** "tmsa - commands to help working with dated todo files":#tmsa
 ** "revive - re-add items from archive":#revive
 ** "make - Create new .txt files from command line":#make
+** "again - Complete and re-add tasks, updating due and deferral dates":#again
 
 h1(#install). Installation
 
@@ -497,4 +498,49 @@ _License: MIT_
 
 "Project page":https://github.com/Jmeyering/TodoTxtMake
 "Download file":https://raw.github.com/Jmeyering/TodoTxtMake/master/make
+
+h2(#again).  __again__: Recurring tasks made easy.
+
+again allows for easy completion and re-adding of tasks, with preserved
+due dates and deferral dates (if any).
+
+Tasks can be re-created in three different manners:
+# Having any due dates and deferral dates set to today
+# Having any due dates and deferral dates set to N days from today
+# Having any due dates and deferral dates set to N days from their previous values
+
+Examples:
+<pre><code>
+$ todo.sh again 31
+31 x 2013-10-13 Test due:2013-10-14 t:2013-10-13
+TODO: 31 marked as done.
+x 2013-10-13 Test due:2013-10-14 t:2013-10-13
+TODO: /home/foobar/Dropbox/todo/todo.txt archived.
+30 Test due:2013-10-13  t:2013-10-13 
+TODO: 30 added.
+</code></pre>
+<pre><code>
+$ todo.sh again 31 10
+31 x 2013-10-13 Test due:2013-10-14 t:2013-10-13
+TODO: 31 marked as done.
+x 2013-10-13 Test due:2013-10-14 t:2013-10-13
+TODO: /home/foobar/Dropbox/todo/todo.txt archived.
+30 Test due:2013-10-23  t:2013-10-23 
+TODO: 30 added.
+</code></pre>
+<pre><code>
+$ todo.sh again 31 +10
+31 x 2013-10-13 Test due:2013-10-14 t:2013-10-13
+TODO: 31 marked as done.
+x 2013-10-13 Test due:2013-10-14 t:2013-10-13
+TODO: /home/foobar/Dropbox/todo/todo.txt archived.
+30 Test due:2013-10-24  t:2013-10-23 
+TODO: 30 added.
+</code></pre>
+
+_Author: Niklas Thörne_
+_License: GPLv3_
+
+"Project page":https://github.com/nthorne/todo.txt-cli-again-addon
+"Download file":https://github.com/nthorne/todo.txt-cli-again-addon/raw/master/again
 
