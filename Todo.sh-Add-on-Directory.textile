@@ -37,7 +37,7 @@ h3. Table of Contents
 ** "revive - re-add items from archive":#revive
 ** "make - Create new .txt files from command line":#make
 ** "again - Complete and re-add tasks, updating due and deferral dates":#again
-** "fit - Shows as many tasks as you can see in your terminal":#fit
+** "top - Shows as many tasks as you can see in your terminal":#top
 
 h1(#install). Installation
 
@@ -545,11 +545,11 @@ _License: GPLv3_
 "Project page":https://github.com/nthorne/todo.txt-cli-again-addon
 "Download file":https://github.com/nthorne/todo.txt-cli-again-addon/raw/master/again
 
-h2(#fit).  __fit__: see the top tasks.
+h2(#top).  __top__: see the top tasks.
 
-works just like <code>list</code> but truncates the list to fit in the terminal without scrolling.
-say you have 20 lines visible at a time in your terminal run <code>todo.sh fit</code> and you'll see the top 16 tasks.
-most useful when set as the default command <code>TODOTXT_DEFAULT_ACTION</code>
+works just like <code>list</code> but truncates the list to fit in the terminal without scrolling or wrapping.
+say you have 20 lines visible at a time in your terminal run <code>todo.sh top</code> and you'll see the top 16 tasks.
+most useful when set as the default command with: <code>TODOTXT_DEFAULT_ACTION</code>
 
 _Author: Jon Knapp_
 _License: GPLv3_
