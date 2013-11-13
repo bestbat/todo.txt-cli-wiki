@@ -97,3 +97,53 @@ export UNDERLINE='\\033[4m'
 </pre>
 <img src=http://0xabad1dea.net/img/todo-highcolors.png>
 
+*Syncing todo.txt with ownCloud and webDav.* 
+
+*Requirements:* 
+  ownCloud instance URL & credentials. <br>
+  ownCloud sync client for method 1  <br>
+  davfs2 support for method 2  <br>
+
+ 
+*Method 1: ownCloud Sync Client*
+  
+   # Install the ownCloud Sync Agent. Directions "here":http://owncloud.org/sync-clients/ <br>
+   # Copy all of your todo.txt scripts, text files, and addons to a directory within the <br>
+      default ownCloud sync directory. (Optionaly you can create a hard link to the ownCloud 
+      directory but sym links do NOT work with the ownCloud sync client at this time).<br>
+   # Follow the process described in: <br>**"Access todo.sh from anywhere in the file tree"** and **"Avoid typing todo.sh every time"**  <br> 
+  
+  *Notes:* <br>
+
+         * Do this on all the devices where you would like your todo list available.<br>
+        
+         * If the sync client is not an option or if it doesn't work so well for your distro <br>
+           try method 2. <br>
+ 
+*Method 2: WebDav mount.*   
+   
+   # Install davfs2 support on your distro of choice. Directions for the command line and <br>
+      the gui for most operating systems can be found "here":http://doc.owncloud.org/server/4.5/user_manual/connecting_webdav.html <br>
+   #  Follow steps 2 and 3 of Method1. <br>
+   #  A few options to consider: <br>
+
+         * Make the file system mount automatically using fstab.  <br>
+         * Use the guid and uid parameters on fstab to set group ownership and then add <br>
+           users you'd like to give todo.txt access to instead of relying on the user <br>
+           who mounts the webdav. <br>
+         * Don't forget the 'exec' parameter. By default webdav won't let you <br>
+           execute any files even if you change their file permissions!<br>
+         * Read the mount.davfs2 man page for more exciting and useful options!<br>
+
+    *Special Note!:*  <br>
+      
+       You will receive errors when you try any of the todo features that require in-place 
+       editing of files. You may receive an error like "sed: cannot rename /todo.txt: 
+       I/O error. To insure you don't receive any errors, and can continue to happily use 
+       ownCloud to sync your todo lists, disable file locks in davfs2.conf. 
+       
+       Set use_locks to 0 in /etc/davfs2/davfs2.conf:
+                 <pre>
+                  #use_locks 1
+                   use_locks 0
+                 </pre>
