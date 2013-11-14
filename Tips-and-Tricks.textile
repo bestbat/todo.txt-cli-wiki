@@ -124,7 +124,7 @@ export UNDERLINE='\\033[4m'
    
    # Install davfs2 support on your distro of choice. Directions for the command line and <br>
       the gui for most operating systems can be found "here":http://doc.owncloud.org/server/4.5/user_manual/connecting_webdav.html <br>
-   #  Follow steps 2 and 3 of Method1. <br>
+   #   Copy all of your todo.txt scripts, text files, and addons to a directory within the webDav mount and follow step 3 of Method1. <br>
    #  A few options to consider: <br>
 
          * Make the file system mount automatically using fstab.  <br>
