@@ -108,9 +108,9 @@ export UNDERLINE='\\033[4m'
 *Method 1: ownCloud Sync Client*
   
    # Install the ownCloud Sync Agent. Directions "here":http://owncloud.org/sync-clients/ <br>
-   # Copy all of your todo.txt scripts, text files, and addons to a directory within the <br>
-      default ownCloud sync directory. (Optionaly you can create a hard link to the ownCloud 
-      directory but sym links do NOT work with the ownCloud sync client at this time).<br>
+   # Copy all of your todo.txt scripts, text files, and add-ons to a directory within the <br>
+      default ownCloud sync directory. (Optionally you can create a hard link to the ownCloud 
+      directory but symlinks do NOT work with the ownCloud sync client at this time).<br>
    # Follow the process described in: <br>**"Access todo.sh from anywhere in the file tree"** and **"Avoid typing todo.sh every time"**  <br> 
   
   *Notes:* <br>
@@ -124,7 +124,7 @@ export UNDERLINE='\\033[4m'
    
    # Install davfs2 support on your distro of choice. Directions for the command line and <br>
       the gui for most operating systems can be found "here":http://doc.owncloud.org/server/4.5/user_manual/connecting_webdav.html <br>
-   #   Copy all of your todo.txt scripts, text files, and addons to a directory within the webDav mount and follow step 3 of Method1. <br>
+   #   Copy all of your todo.txt scripts, text files, and add-ons to a directory within the webDav mount and follow step 3 of Method1. <br>
    #  A few options to consider: <br>
 
          * Make the file system mount automatically using fstab.  <br>
