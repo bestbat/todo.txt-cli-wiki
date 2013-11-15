@@ -95,7 +95,7 @@ export UNDERLINE='\\033[4m'
 # export PRI_A=$HOTPINK$MEDIUMGREY_BG$UNDERLINE
 
 </pre>
-<img src=http://0xabad1dea.net/img/todo-highcolors.png>
+
 
 *Syncing todo.txt with ownCloud and webDav.* 
 
