@@ -555,3 +555,34 @@ _Author: Jon Knapp_
 _License: GPLv3_
 
 "Project page":https://github.com/Thann/todo-cli-plugins
+
+h2(#top).  XP - print a redable guide of your acomplishments. 
+
+XP prints the tasks completed on each day starting (x) number of days ago. You may also omit days on which no tasks were completed.  
+
+Example (Saturday where tasks were only completed Friday and Monday and use the o option):
+todo.sh xp -o 6
+
+<pre>
+==========================
+Monday : 2013-12-02 
+==========================
+x 2013-12-02 +ITSM some task I completed @work 
+x 2013-12-02 +ITSM some task I completed @work
+x 2013-12-02 +ITSM some task I completed @work
+x 2013-12-02 +ITSM some task I completed @work
+==========================
+Friday : 2013-12-06 
+==========================
+x 2013-12-06 +ITSM some task I completed @work
+x 2013-12-06 +ITSM some task I completed @work
+x 2013-12-06 +ITSM some task I completed @work
+x 2013-12-06 +ITSM some task I completed @work
+x 2013-12-06 +ITSM some task I completed @work
+</pre>
+
+_Author: Chris Jones : christopher.donald.jones@gmail.com_
+_License: GPLv3_
+
+"Project page":https://github.com/gr0undzer0/xp
+
