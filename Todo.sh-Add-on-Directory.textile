@@ -38,6 +38,7 @@ h3. Table of Contents
 ** "make - Create new .txt files from command line":#make
 ** "again - Complete and re-add tasks, updating due and deferral dates":#again
 ** "top - Shows as many tasks as you can see in your terminal":#top
+** "XP - print a redable guide of your acomplishments.":#xp
 
 h1(#install). Installation
 
@@ -556,7 +557,7 @@ _License: GPLv3_
 
 "Project page":https://github.com/Thann/todo-cli-plugins
 
-h2(#top).  XP - print a redable guide of your acomplishments. 
+h2(#xp).  XP - print a redable guide of your acomplishments. 
 
 XP prints the tasks completed on each day starting (x) number of days ago. You may also omit days on which no tasks were completed.  
 
