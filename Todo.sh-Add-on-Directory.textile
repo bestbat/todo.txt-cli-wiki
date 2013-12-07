@@ -561,7 +561,7 @@ h2(#xp).  XP - print a redable guide of your acomplishments.
 
 XP prints the tasks completed on each day starting (x) number of days ago. You may also omit days on which no tasks were completed.  
 
-Example (Saturday where tasks were only completed Friday and Monday and use the o option):
+Example (Saturday where tasks were only completed Friday and Monday with the o option):
 todo.sh xp -o 6
 
 <pre>
