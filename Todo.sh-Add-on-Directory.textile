@@ -39,6 +39,7 @@ h3. Table of Contents
 ** "again - Complete and re-add tasks, updating due and deferral dates":#again
 ** "top - Shows as many tasks as you can see in your terminal":#top
 ** "XP - print a readable guide of your accomplishments.":#xp
+** "pri - change the priority of several tasks at once.":#pri
 
 h1(#install). Installation
 
@@ -587,3 +588,24 @@ _License: GPLv3_
 
 "Project page":https://github.com/gr0undzer0/xp
 
+h2(#pri).  pri - change the priority of several tasks at once.
+
+pri ITEM#[, ITEM#, ITEM#, ...] PRIORITY
+  For each ITEM#, calls command pri with priority PRIORITY.
+
+<pre>
+$ todo.sh list @test
+45 Another task @test
+44 One task @test
+--
+TODO: 2 of 45 tasks shown
+
+$ todo.sh pri 44 45 A
+44 (A) One task @test
+TODO: 44 prioritized (A).
+45 (A) Another task @test
+TODO: 45 prioritized (A).
+</pre>
+
+"Project page":https://github.com/tonipenya/todo.txt-cli/blob/addons/.todo.actions.d/pri
+"Download file":https://raw.github.com/tonipenya/todo.txt-cli/addons/.todo.actions.d/pri
