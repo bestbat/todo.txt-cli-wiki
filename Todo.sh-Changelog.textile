@@ -38,7 +38,7 @@ h2. 9/13/2011 v 2.8
 ** Smarter action completion messaging: do, pri, and depri all let you know if a task is already done, prioritized, or deprioritized.
 ** Improved script performance thanks to optimized code
 * Developer Enhancements
-** Made more parameters available to offer more control to custom actions (-c, -A, -N, -T)
+** Made more parameters available to offer more control to c?ustom actions (-c, -A, -N, -T)
 ** Exposed cleaninput() for use in addons
 ** Custom action output no longer prefaced by TODO: so it's easier to see when the core script vs. addon is performing an action
 ** Improved testing framework:
@@ -64,10 +64,10 @@ h2. 8/3/2010 v 2.7
 * Tests: several regression tests added
 
 h2. 5/11/2010 v 2.6
-* ???
+* See "https://github.com/ginatrapani/todo.txt-cli/compare/v2.5...v2.6":https://github.com/ginatrapani/todo.txt-cli/compare/v2.5...v2.6
 
 h2. 5/5/2010 v 2.5
-* ???
+* See "https://github.com/ginatrapani/todo.txt-cli/compare/v2.4...v2.5":https://github.com/ginatrapani/todo.txt-cli/compare/v2.4...v2.5 
 
 h2. 5/11/2009 v 2.4
 * Cleanup: removing annoying trailing space on pri tasks
