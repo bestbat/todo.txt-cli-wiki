@@ -19,7 +19,9 @@ https://github.com/abztrakt/ya-todo-py
 
 # Windows
 
-There is a .Net windows gui app that sits in your system tray: https://github.com/benrhughes/todotxt.net/downloads
+There is a .NET Windows GUI app that sits in your system tray: https://github.com/benrhughes/todotxt.net/downloads
+
+Windows PowerShell version (think todo.sh for Windows): https://github.com/hartez/todo.txt-PowerShell
 
 Additionally, there was also an AutoHotKey gui version that was advertised a couple months back on the list--maybe it might meet your needs, if you're looking for more of a GUI version...
 http://tech.groups.yahoo.com/group/todotxt/message/2757
@@ -39,6 +41,8 @@ Bulldog is an HTML viewer for todo.txt files: https://github.com/infews/bulldog/
 # Mobile
 
 Todo.txt-Enyo, for WebOS: https://github.com/thrrgilag/Todo.txt-Enyo
+
+Windows Phone 7/8: In the Windows Phone Store and https://github.com/hartez/TodotxtTouch.WindowsPhone
 
 # Emacs
 
