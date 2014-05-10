@@ -7,3 +7,5 @@ export DONE_FILE="$TODO_DIR/done.txt"
 export REPORT_FILE="$TODO_DIR/report.txt"
 export TMP_FILE="/tmp/todo.tmp"
 export TODOTXT_DEFAULT_ACTION=ls</code></pre>
+
+Alternatively, if you have cloned the repository, issue `cp todo.cfg ~/.todo/config` in the `todo.txt-cli` directory to use the default config file (Linux).
