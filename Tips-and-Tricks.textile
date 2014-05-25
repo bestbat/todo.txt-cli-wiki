@@ -139,7 +139,7 @@ export UNDERLINE='\\033[4m'
       
        You will receive errors when you try any of the todo.txt features that require in-place 
        editing of files. You may receive an error like "sed: cannot rename /todo.txt: 
-       I/O error. To insure you don't receive any errors, and can continue to happily use 
+       I/O error. To ensure you don't receive any errors, and can continue to happily use 
        ownCloud to sync your todo lists, disable file locks in davfs2.conf. 
        
        Set use_locks to 0 in /etc/davfs2/davfs2.conf:
