@@ -18,7 +18,7 @@ You can combine the above alias with the default action so that typing @t@ lists
 
 *Allow @t@ to list outstanding tasks* Add the following to your @~/.bashrc@ file (@~/.bash_profile@ for Mac and Cygwin users):
 <pre><code>export TODOTXT_DEFAULT_ACTION=ls
-alias t='todo.sh -d /path/to/your/todo.cfg'</code></pre>
+alias t='./todo.sh -d /path/to/your/todo.cfg'</code></pre>
 
 You can still type @t add laundry@ from anywhere to add a task, but now you can just type @t@ to list your current tasks.
 
