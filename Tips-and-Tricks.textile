@@ -7,7 +7,7 @@ PATH=$PATH:"/path/to/your/todo/scripts"
 *Avoid typing todo.sh every time.* Add the following to your @~/.bashrc@ file (@~/.bash_profile@ for Mac and Cygwin users):
 
 <pre>
-alias t='todo.sh -d /path/to/your/todo.cfg'
+alias t='./todo.sh -d /path/to/your/todo.cfg'
 </pre>
 
 Then you simply type @t add laundry@ from anywhere in your file tree to add a task.
