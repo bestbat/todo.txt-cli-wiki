@@ -41,6 +41,9 @@ h3. Table of Contents
 ** "XP - print a readable guide of your accomplishments.":#xp
 ** "pri - change the priority of several tasks at once.":#pri
 ** "rm - remove several tasks at once.":#rm
+** "addr - add task with the projects and contexts of the last added task.":#addr
+** "lsgc - prints tasks in columns organized by context":#lsgc
+** "lsgp - prints tasks in columns organized by project":#lsgp
 
 h1(#install). Installation
 
@@ -631,3 +634,52 @@ TODO: 45 deleted.</pre>
 
 "Project page":https://github.com/tonipenya/todo.txt-cli/blob/addons/.todo.actions.d/rm
 "Download file":https://raw.github.com/tonipenya/todo.txt-cli/addons/.todo.actions.d/rm
+
+h2(#addr).  addr - add task with the projects and contexts of the last added task.
+
+A helpful todo.sh command when you are adding lots of related tasks. It simply appends the tags of the most recent item to the item you add.
+
+<pre>
+$ t add 'here is a a task +context +project'
+59 here is a a task +context +project
+TODO: 59 added.
+
+$ t addr 'here is another task'
+Appending: +context +project
+60 here is another task
+TODO: 60 added.
+60 here is another task +context
+60 here is another task +context +project
+</pre>
+
+"Project page":https://github.com/sachinrudr/todotxt-study-suite
+"Download file":https://raw.githubusercontent.com/sachinrudr/todotxt-study-suite/master/.todo.actions.d/addr
+
+
+h2(#lsgroup).  lsgp / lsgc - prints in columns organized by either context or group
+
+A helpful todo.sh command when you are adding lots of related tasks. It simply appends the tags of the most recent item to the item you add.
+
+<pre>
+$ t lsgc
+@play                                              @code                                              
+(A) task                                           (B) task                                           
+(C) task                                           task                                               
+task                                               task +research                                     
+task                                               task +tool                                         
+task                                                                                                  
+task                                                                                                  
+                                                                                                      
+@email                                             @context                                           
+(A) this guy                                       (A) task +project                                  
+(A) this guy +project                              (D) task +project                                  
+this guy                                           task +project                                      
+this guy                                                                                              
+this guy                                                                                              
+this guy                                                                                              
+this guy                                                                                              
+this guy   
+</pre>
+
+"Project page":https://github.com/sachinrudr/todotxt-study-suite
+"Download file":https://github.com/sachinrudr/todotxt-study-suite/tree/master/.todo.actions.d
