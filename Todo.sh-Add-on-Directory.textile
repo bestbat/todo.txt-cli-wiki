@@ -3,49 +3,49 @@ List your Todo.sh add-ons here. Include a short description and a link to the Gi
 h3. Table of Contents
 
 * Installation
-** "How to install":#install
+** "How to install":#installation
 
 * Filters
-** "Future Tasks":#futuretasks
+** "Future Tasks":#future-tasks
 
 * New/Enhanced Actions
-** "Add and do or prioritize in one step":#adddopri
-** "Archive only selected done items":#archiveselected
-** "Edit in a designated text editor":#edit
-** "cd - Display directory paths":#cd
-** "nav - Open URLs in a web browser":#nav
-** "ac - Open activeCollab URLs in a web browser":#ac
-** "birdseye - Project progress report":#birdseye
-** "projectview - Group output by project":#projectview
-** "paper - Print your todo list":#paper
-** "commit - Record state in local Git repository":#commit
-** "push - Record state in a remote Git repository":#push
-** "pull - Update local state from remote Git repository":#pull
-** "sync - Sync state between local and remote Git repository":#sync
-** "rtm - Sync with Remember the Milk":#rtm
-** "schedule - Work with date threshold":#schedule
-** "view - Summarized todo items report":#view
-** "lately - Report of recently completed tasks":#lately
-** "repeat - Mark an item done and immediately reenter it":#repeat
-** "recur - Intelligently add recurring tasks":#recur
-** "google - Sync with Google Tasks":#google
-** "standup - Daily standup status":#standup
-** "docs - Sync with Google Docs":#docs
-** "mit - Most Important Task tracking":#mit
-** "hey - a minimalist CRM":#hey
-** "tmsa - commands to help working with dated todo files":#tmsa
-** "revive - re-add items from archive":#revive
-** "make - Create new .txt files from command line":#make
-** "again - Complete and re-add tasks, updating due and deferral dates":#again
-** "top - Shows as many tasks as you can see in your terminal":#top
-** "XP - print a readable guide of your accomplishments.":#xp
-** "pri - change the priority of several tasks at once.":#pri
-** "rm - remove several tasks at once.":#rm
-** "addr - add task with the projects and contexts of the last added task.":#addr
-** "lsgc - prints tasks in columns organized by context":#lsgc
-** "lsgp - prints tasks in columns organized by project":#lsgp
+** "Add and do or prioritize in one step":#add-and-do--add-and-pri-in-one-step
+** "Archive only selected done items":#archive-only-selected-done-items
+** "Edit in a designated text editor":#edit-open-in-text-editor
+** "cd - Display directory paths":#cd-display-directory-paths
+** "nav - Open URLs in a web browser":#nav-open-items-url-in-browser
+** "ac - Open activeCollab URLs in a web browser":#ac-activecollab-integration
+** "birdseye - Project progress report":#birdseye-your-productivity-report
+** "projectview - Group output by project":#projectview-sorts-tasks-by-projects
+** "paper - Print your todo list":#paper-print-your-todo-list
+** "commit - Record state in local Git repository":#commit-record-state-in-local-git-repository
+** "push - Record state in a remote Git repository":#push-record-state-in-remote-git-repository
+** "pull - Update local state from remote Git repository":#pull-update-local-state-from-remote-git-repository
+** "sync - Sync state between local and remote Git repository":#sync-sync-state-between-local-and-remote-git-repository
+** "rtm - Sync with Remember the Milk":#rtm-sync-with-remember-the-milk
+** "schedule - Work with date threshold":#schedule-work-with-date-threshold
+** "view - Summarized todo items report":#view-summarized-todo-items-report
+** "lately - Report of recently completed tasks":#lately-report-of-recently-completed-tasks
+** "repeat - Mark an item done and immediately reenter it":#repeat-mark-an-item-done-and-immediately-reenters-it
+** "recur - Intelligently add recurring tasks":#recur-intelligently-add-recurring-tasks
+** "google - Sync with Google Tasks":#google-sync-with-google-tasks
+** "standup - Daily standup status":#standup-daily-standup-status
+** "docs - Sync with Google Docs":#docs-sync-with-google-docs
+** "mit - Most Important Task tracking":#mit-most-important-task
+** "hey - a minimalist CRM":#hey-a-minimalist-crm
+** "tmsa - commands to help working with dated todo files":#tmsa-commands-to-help-working-with-dated-todo-files
+** "revive - re-add items from archive":#revive-re-add-items-from-archive
+** "make - Create new .txt files from command line":#make-create-new-txt-files
+** "again - Complete and re-add tasks, updating due and deferral dates":#again-recurring-tasks-made-easy
+** "top - Shows as many tasks as you can see in your terminal":#top-see-the-top-tasks
+** "XP - print a readable guide of your accomplishments.":#xp--print-a-readable-guide-of-your-accomplishments
+** "pri - change the priority of several tasks at once.":#pri--change-the-priority-of-several-tasks-at-once
+** "rm - remove several tasks at once.":#rm--remove-several-tasks-at-once
+** "addr - add task with the projects and contexts of the last added task.":#addr--add-task-with-the-projects-and-contexts-of-the-last-added-task
+** "lsgc - prints tasks in columns organized by context":#lsgp--lsgc--prints-in-columns-organized-by-either-context-or-group
+** "lsgp - prints tasks in columns organized by project":#lsgp--lsgc--prints-in-columns-organized-by-either-context-or-group
 
-h1(#install). Installation
+h1(#installation). Installation
 
 To learn how to install (and create) add-ons, see [[Creating and Installing Add-ons]].
 
@@ -53,7 +53,7 @@ h1. Filters
 
 Since version 2.4, _todo.sh_ provides @TODOTXT_SORT_COMMAND@ and @TODOTXT_FINAL_FILTER@, which can be used to modify the list commands' output.
 
-h2(#futuretasks). Future Tasks
+h2(#future-tasks). Future Tasks
 
 Hide tasks containing a date threshold (@t:YYYY-MM-DD@) until the specified point in the future.
 
@@ -70,7 +70,7 @@ The @-x@ "option":http://tech.groups.yahoo.com/group/todotxt/message/2402 can be
 
 h1. New or Enhanced Commands/Actions
 
-h2(#adddopri). __add__ and __do__ / __add__ and __pri__ in one step
+h2(#add-and-do--add-and-pri-in-one-step). __add__ and __do__ / __add__ and __pri__ in one step
 
 This is the example detailed here: [[Creating Add-ons: Examples]]
 
@@ -90,7 +90,7 @@ Variations:
 * __add__ and __do__  "Gina's addx":http://github.com/ginatrapani/todo.txt-cli/blob/addons/.todo.actions.d/addx
 * __add__ and __pri__ "Gina's adda":http://github.com/ginatrapani/todo.txt-cli/blob/addons/.todo.actions.d/adda
 
-h2(#archiveselected). Archive only selected done items
+h2(#archive-only-selected-done-items). Archive only selected done items
 
 This allows to archive selectively one single item or a set of items matching a given keyword.
 For example to archive all done items related to project1:
@@ -107,7 +107,7 @@ Note that if the keyword is a number it is interpreted as an item number
 
 "Download file":http://github.com/doegox/todo.txt-cli/raw/extras/todo.actions.d/archive
 
-h2(#edit). __edit__: open in text editor
+h2(#edit-open-in-text-editor). __edit__: open in text editor
 
 To open @$TODO_DIR/todo.txt@ in your default text editor (@$EDITOR@ environment variable):
 
@@ -126,7 +126,7 @@ Adaptations:
 * "dhein":http://github.com/dhein/todo.txt-cli/blob/pub-addons/edit ("discussion thread":http://tech.groups.yahoo.com/group/todotxt/message/2153)
 * "FND":http://github.com/fnd/todo.txt-cli/blob/extensions/edit ("discussion thread":http://tech.groups.yahoo.com/group/todotxt/message/2156)
 
-h2(#cd). __cd__: display directory paths
+h2(#cd-display-directory-paths). __cd__: display directory paths
 
 Outputs the command necessary to change the current directory to the directory holding the todotxt files, the directory holding add-ons or the directory holding the configuiration file.
 
@@ -136,7 +136,7 @@ Outputs the command necessary to change the current directory to the directory h
 
 "Download file":http://github.com/dhein/todo.txt-cli/raw/pub-addons/cd
 
-h2(#nav). __nav__: open item's URL in browser
+h2(#nav-open-items-url-in-browser). __nav__: open item's URL in browser
 
  todo.sh add Should have a look at http://github.com/ginatrapani ASAP
 
@@ -148,7 +148,7 @@ TODO: 'Should have a look at http://github.com/ginatrapani ASAP' added on line 1
 
 "Download file":http://github.com/doegox/todo.txt-cli/raw/extras/todo.actions.d/nav
 
-h2(#ac). __ac__: activeCollab integration
+h2(#ac-activecollab-integration). __ac__: activeCollab integration
 
 If activeCollab project/ticket info is associated with a task, open in the browser.
 
@@ -158,7 +158,7 @@ If activeCollab project/ticket info is associated with a task, open in the brows
 
 "Download file":https://raw.github.com/kostajh/todo.txt-ac/master/ac
 
-h2(#commit). __commit__: record state in local Git repository
+h2(#commit-record-state-in-local-git-repository). __commit__: record state in local Git repository
 
 Commit all changes to existing Git repository in @$TODO_DIR@.
 
@@ -168,7 +168,7 @@ Commit all changes to existing Git repository in @$TODO_DIR@.
 
 "Download file":http://github.com/fnd/todo.txt-cli/raw/extensions/commit
 
-h2(#push). __push__: record state in remote Git repository
+h2(#push-record-state-in-remote-git-repository). __push__: record state in remote Git repository
 
 Push all changes in local state at @$TODO_DIR@ to an existing, remote Git repository.
 Always pushes to origin master.
@@ -177,7 +177,7 @@ Always pushes to origin master.
 
 "Download file":https://raw.github.com/crobinsonut/todo_distributed/master/push
 
-h2(#pull). __pull__: update local state from remote Git repository
+h2(#pull-update-local-state-from-remote-git-repository). __pull__: update local state from remote Git repository
 
 Fetch and merge all changes from an existing, remote Git repository into @$TODO_DIR@.
 Fetches from origin, merges from origin/master into master.
@@ -186,22 +186,22 @@ Fetches from origin, merges from origin/master into master.
 
 "Download file":https://raw.github.com/crobinsonut/todo_distributed/master/pull
 
-h2(#sync). __sync__: sync state between local and remote Git repository
+h2(#sync-sync-state-between-local-and-remote-git-repository). __sync__: sync state between local and remote Git repository
 
 Keeps local Git repository in @$TODO_DIR@ in sync with remote Git repository at origin.
-Requires the #commit, #pull and #push addons.
+Requires the "commit":#commit-record-state-in-local-git-repository, "pull":#pull-update-local-state-from-remote-git-repository and "push":#push-record-state-in-remote-git-repository addons.
 
 "Project page":https://github.com/crobinsonut/todo_distributed
 
 "Download file":https://raw.github.com/crobinsonut/todo_distributed/master/sync
 
-h2(#birdseye). __birdseye__: your productivity report
+h2(#birdseye-your-productivity-report). __birdseye__: your productivity report
 
 A Python script @birdseye.py@ (called with the @birdseye@ action) analyzes the @todo.txt@ and @done.txt@ files to generate a report of completed and incomplete items in every context and project.  (Requires Python and both @birdseye.py@ and @birdseye@ files to run.)
 
 "Project Page":http://github.com/ginatrapani/todo.txt-cli/tree/addons
 
-h2(#paper). __paper__: print your todo list
+h2(#paper-print-your-todo-list). __paper__: print your todo list
 
 This will print your todo list:
 
@@ -217,7 +217,7 @@ Requires CUPS.
 
 "Download file":http://github.com/matthewbauer/todo.txt-cli/raw/master/actions/paper
 
-h2(#projectview). __projectview__: sorts tasks by projects
+h2(#projectview-sorts-tasks-by-projects). __projectview__: sorts tasks by projects
 
 List tasks categorized by project.
 
@@ -244,7 +244,7 @@ Example:
 "Project page":http://github.com/the1ts/todo.txt-plugins/blob/master/README.projects
 "Download file":http://github.com/the1ts/todo.txt-plugins/raw/master/actions/projectview/projectview
 
-h2(#rtm). __rtm__: sync with Remember the Milk
+h2(#rtm-sync-with-remember-the-milk). __rtm__: sync with Remember the Milk
 
 Supports push and pull, but it still needs some work.
 
@@ -262,7 +262,7 @@ You will need a web browser to accept the
 
 "Download file":http://github.com/matthewbauer/todo.txt-cli/raw/master/actions/rtm
 
-h2(#schedule). __schedule__: work with date threshold
+h2(#schedule-work-with-date-threshold). __schedule__: work with date threshold
 
 Set, remove or change date threshold of an item. Works best together with the __Future Tasks__ filter. 
 
@@ -270,7 +270,7 @@ Set, remove or change date threshold of an item. Works best together with the __
 
 "Download file":http://github.com/FND/todo.txt-cli/raw/extensions/schedule
 
-h2(#view). __view__: Summarized todo items report
+h2(#view-summarized-todo-items-report). __view__: Summarized todo items report
 
 Show todo items containing TERM, grouped by OPTION, and displayed in  priority order. If no TERM provided, displays entire todo.txt. The original idea and script is derived from projectview by Paul.
 
@@ -286,7 +286,7 @@ Example:
 "Project page":http://github.com/markwu/todo-cli-plugins
 "Download file":http://github.com/markwu/todo-cli-plugins/raw/master/view
 
-h2(#lately). __lately__: Report of recently completed tasks
+h2(#lately-report-of-recently-completed-tasks). __lately__: Report of recently completed tasks
 
 Generate a list of recently completed tasks. Per default lately lists tasks that were completed during the last seven days. With an optional argument, number of days, that can be overridden to show more or less.
 
@@ -296,7 +296,7 @@ $ todo.sh lately 3  # Lists tasks completed within the last 3 days</code></pre>
 
 "Download file":https://github.com/emilerl/emilerl/tree/master/todo.actions.d
 
-h2(#repeat). __repeat__: Mark an item done and immediately reenters it.
+h2(#repeat-mark-an-item-done-and-immediately-reenters-it). __repeat__: Mark an item done and immediately reenters it.
 
 This is useful for repeating todo items where the date entered is important. This command simply marks
 the given item as done and reenters it again, optionally at a specified number of days from the completion date, or a specified number of days from the due date where this is one. Priority is not preserved.
@@ -309,14 +309,14 @@ $ todo.sh repeat 3 +7 # Marks item 3 as done and recreates it 7 days from the du
 "Project page":https://github.com/drobertadams/todo.txt-cli-addons/tree/master/repeat
 "Download file":https://raw.github.com/drobertadams/todo.txt-cli-addons/master/repeat/repeat
 
-h2(#recur). __recur__: Intelligently add recurring tasks.
+h2(#recur-intelligently-add-recurring-tasks). __recur__: Intelligently add recurring tasks.
 
 When run from a daily cron job (or similar scheduler), it will add tasks on appropriate days from a recur.txt file, while avoiding redundant adds of previously-added, not-yet-completed tasks.
 
 "Project page":https://github.com/paulroub/todo.txt-recurring-tasks
 "Download file":https://github.com/paulroub/todo.txt-recurring-tasks/blob/master/recur
 
-h2(#google). __google__: sync with Google Tasks
+h2(#google-sync-with-google-tasks). __google__: sync with Google Tasks
 
 Push or Pull todo items to and from Google Tasks. 
 
@@ -332,14 +332,14 @@ Requires Python
 "Project page":http://github.com/amcintosh/todo.txt-cli/tree/google-tasks-addon/.todo.actions.d
 "Download file":http://github.com/amcintosh/todo.txt-cli/tree/google-tasks-addon/.todo.actions.d/google
 
-h2(#standup). __standup__: daily standup status
+h2(#standup-daily-standup-status). __standup__: daily standup status
 
 An add on implemented in ruby that generates a "report" for daily standups based on your tasks. 
 
 "Project page":http://github.com/civrot/todo_txt_actions
 "Download file":http://github.com/civrot/todo_txt_actions/blob/master/standup
 
-h2(#docs). __docs__: sync with Google Docs
+h2(#docs-sync-with-google-docs). __docs__: sync with Google Docs
 
 You can now sync your todo with Google Docs
 
@@ -366,7 +366,7 @@ Licence: GPL http://www.gnu.org/copyleft/gpl.html_
 "Project page":https://github.com/amaurydecreme/todo.txt-cli/tree/addons/.todo.actions.d
 "Download file":https://github.com/amaurydecreme/todo.txt-cli/blob/addons/.todo.actions.d/docs
 
-h2(#mit). __mit__: Most Important Task
+h2(#mit-most-important-task). __mit__: Most Important Task
 
 Bash addon to help you track your Most Important Tasks.
 
@@ -391,7 +391,7 @@ _License: GPL http://www.gnu.org/copyleft/gpl.html_
 
 "Project page":https://github.com/codybuell/mit
 
-h2(#hey). __hey__: a minimalist CRM
+h2(#hey-a-minimalist-crm). __hey__: a minimalist CRM
 
 hey tells you one thing you should do regularly, but haven't done lately.
 
@@ -412,7 +412,7 @@ TODO: 37 added
 "Project page":https://gist.github.com/4241425
 "Download file":https://raw.github.com/gist/4241425/hey.rb
 
-h2(#tmsa). __tmsa__: commands to help working with dated todo files
+h2(#tmsa-commands-to-help-working-with-dated-todo-files). __tmsa__: commands to help working with dated todo files
 
 Helper scripts to let you keep one todo.txt file per day, and move tasks between dated todo files. Intended for use with the cycle as desribed in Time Management for Systems Administrators.
 
@@ -464,7 +464,7 @@ _License: MIT_
 
 "Project page":https://github.com/mivok/todotxt-tmsa
 
-h2(#revive). __revive__: re-add items from archive
+h2(#revive-re-add-items-from-archive). __revive__: re-add items from archive
 
 Easily re-add tasks that you have previously completed back to your todo.txt list.
 
@@ -489,7 +489,7 @@ _License: MIT_
 "Project page":https://github.com/duncanje/todo.txt-revive
 "Download file":https://raw.github.com/duncanje/todo.txt-revive/master/revive
 
-h2(#make).  __make__: Create New .txt Files.
+h2(#make-create-new-txt-files).  __make__: Create New .txt Files.
 
 Quickly create new .txt files in your default todo.txt file directory.
 
@@ -506,7 +506,7 @@ _License: MIT_
 "Project page":https://github.com/Jmeyering/TodoTxtMake
 "Download file":https://raw.github.com/Jmeyering/TodoTxtMake/master/make
 
-h2(#again).  __again__: Recurring tasks made easy.
+h2(#again-recurring-tasks-made-easy).  __again__: Recurring tasks made easy.
 
 again allows for easy completion and re-adding of tasks, with preserved
 due dates and deferral dates (if any).
@@ -551,7 +551,7 @@ _License: GPLv3_
 "Project page":https://github.com/nthorne/todo.txt-cli-again-addon
 "Download file":https://github.com/nthorne/todo.txt-cli-again-addon/raw/master/again
 
-h2(#top).  __top__: see the top tasks.
+h2(#top-see-the-top-tasks).  __top__: see the top tasks.
 
 works just like <code>list</code> but truncates the list to fit in the terminal without scrolling or wrapping.
 say you have 20 lines visible at a time in your terminal run <code>todo.sh top</code> and you'll see the top 16 tasks.
@@ -562,7 +562,7 @@ _License: GPLv3_
 
 "Project page":https://github.com/Thann/todo-cli-plugins
 
-h2(#xp).  XP - print a readable guide of your accomplishments. 
+h2(#xp--print-a-readable-guide-of-your-accomplishments).  XP - print a readable guide of your accomplishments. 
 
 XP prints the tasks completed on each day starting (x) number of days ago. You may also omit days on which no tasks were completed.  
 
@@ -592,7 +592,7 @@ _License: GPLv3_
 
 "Project page":https://github.com/gr0undzer0/xp
 
-h2(#pri).  pri - change the priority of several tasks at once.
+h2(#pri--change-the-priority-of-several-tasks-at-once).  pri - change the priority of several tasks at once.
 
 pri ITEM#[, ITEM#, ITEM#, ...] PRIORITY
   For each ITEM#, calls command pri with priority PRIORITY.
@@ -614,7 +614,7 @@ TODO: 45 prioritized (A).
 "Project page":https://github.com/tonipenya/todo.txt-cli/blob/addons/.todo.actions.d/pri
 "Download file":https://raw.github.com/tonipenya/todo.txt-cli/addons/.todo.actions.d/pri
 
-h2(#rm).  rm - remove several tasks at once.
+h2(#rm--remove-several-tasks-at-once).  rm - remove several tasks at once.
 
 rm ITEM#[, ITEM#, ITEM#, ...]
   For each ITEM#, calls command rm. Removes blank lines by calling the archive command.
@@ -635,7 +635,7 @@ TODO: 45 deleted.</pre>
 "Project page":https://github.com/tonipenya/todo.txt-cli/blob/addons/.todo.actions.d/rm
 "Download file":https://raw.github.com/tonipenya/todo.txt-cli/addons/.todo.actions.d/rm
 
-h2(#addr).  addr - add task with the projects and contexts of the last added task.
+h2(#addr--add-task-with-the-projects-and-contexts-of-the-last-added-task).  addr - add task with the projects and contexts of the last added task.
 
 A helpful todo.sh command when you are adding lots of related tasks. It simply appends the tags of the most recent item to the item you add.
 
@@ -656,7 +656,7 @@ TODO: 60 added.
 "Download file":https://raw.githubusercontent.com/sachinrudr/todotxt-study-suite/master/.todo.actions.d/addr
 
 
-h2(#lsgroup).  lsgp / lsgc - prints in columns organized by either context or group
+h2(#lsgp--lsgc--prints-in-columns-organized-by-either-context-or-group).  lsgp / lsgc - prints in columns organized by either context or group
 
 A helpful todo.sh command when you are adding lots of related tasks. It simply appends the tags of the most recent item to the item you add.
 
