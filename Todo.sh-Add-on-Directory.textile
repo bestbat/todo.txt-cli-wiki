@@ -658,7 +658,8 @@ TODO: 60 added.
 
 h2(#lsgp--lsgc--prints-in-columns-organized-by-either-context-or-group).  lsgp / lsgc - prints in columns organized by either context or group
 
-A helpful todo.sh command when you are adding lots of related tasks. It simply appends the tags of the most recent item to the item you add.
+A print method for todo.sh that uses the entire terminal instead of just one column. It splits up your todo.txt either by context or by project. Although not shown below, it does show line numbers next to each task so you can easily refer to them.
+
 
 <pre>
 $ t lsgc
