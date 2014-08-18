@@ -45,7 +45,7 @@ h3. Table of Contents
 ** "lsgc - prints tasks in columns organized by context":#lsgp--lsgc--prints-in-columns-organized-by-either-context-or-group
 ** "lsgp - prints tasks in columns organized by project":#lsgp--lsgc--prints-in-columns-organized-by-either-context-or-group
 ** "pomodori-todo - A pomodoro counter implementation for todo.txt":#pomodori-todo-a-pomodoro-counter-implementation-for-todo-txt 
-** "next - Allows you to organize your todo.txt into a tabbed outline, and will identify and label your next actions for each task tree":#next
+** "next - Allows you to organize your todo.txt into a tabbed outline, and will identify and label your next actions for each task tree":#next-for-getting-things-done
 
 h1(#installation). Installation
 
@@ -694,7 +694,7 @@ This plugin allows estimating pomodori, running a pomodoro countdown, and manual
 "Project page":https://github.com/metalelf0/pomodori-todo.txt
 
 
-h2(#next). Next, for getting things done
+h2(#next-for-getting-things-done). Next, for getting things done
 
 Overwhelming task list? 
 Plan your tasks by making todo.txt a tabbed outline. Then, use **next** to identify and display only your next actions for you. 
