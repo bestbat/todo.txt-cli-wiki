@@ -44,6 +44,7 @@ h3. Table of Contents
 ** "addr - add task with the projects and contexts of the last added task.":#addr--add-task-with-the-projects-and-contexts-of-the-last-added-task
 ** "lsgc - prints tasks in columns organized by context":#lsgp--lsgc--prints-in-columns-organized-by-either-context-or-group
 ** "lsgp - prints tasks in columns organized by project":#lsgp--lsgc--prints-in-columns-organized-by-either-context-or-group
+** "pomodori-todo - A pomodoro counter implementation for todo.txt":#pomodori-todo-a-pomodoro-counter-implementation-for-todo-txt 
 
 h1(#installation). Installation
 
@@ -684,3 +685,9 @@ this guy
 
 "Project page":https://github.com/sachinrudr/todotxt-study-suite
 "Download file":https://github.com/sachinrudr/todotxt-study-suite/tree/master/.todo.actions.d
+
+h2(#pomodori-todo-a-pomodoro-counter-implementation-for-todo-txt). pomodori-todo.txt - A pomodoro counter implementation for todo.txt
+
+This plugin allows estimating pomodori, running a pomodoro countdown, and manually adding pomodori to todo items. Examples, installation instructions and a screenshot are available on the project page.
+
+"Project page":https://github.com/metalelf0/pomodori-todo.txt
