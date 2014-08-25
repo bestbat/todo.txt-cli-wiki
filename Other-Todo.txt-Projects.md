@@ -30,8 +30,8 @@ http://tech.groups.yahoo.com/group/todotxt/message/2757
 # GNOME 3
 
 A GNOME 3 extension allows you to manage your todo.txt from the titlebar.
-install: https://extensions.gnome.org/extension/570/todotxt/
-source: https://bitbucket.org/bartl/todo.txt-bart.libert.gmail.com
+- install: https://extensions.gnome.org/extension/570/todotxt/
+- source: https://bitbucket.org/bartl/todo.txt-bart.libert.gmail.com
 
 # KDE Akonadi
 
