@@ -27,6 +27,12 @@ Additionally, there was also an AutoHotKey gui version that was advertised a cou
 http://tech.groups.yahoo.com/group/todotxt/message/2757
 (https://github.com/jdiamond/todo.txt-ahk)
 
+# GNOME 3
+
+A GNOME 3 extension allows you to manage your todo.txt from the titlebar.
+install: https://extensions.gnome.org/extension/570/todotxt/
+source: https://bitbucket.org/bartl/todo.txt-bart.libert.gmail.com
+
 # KDE Akonadi
 
 There is an initial Akonadi resource for todo.txt at:
