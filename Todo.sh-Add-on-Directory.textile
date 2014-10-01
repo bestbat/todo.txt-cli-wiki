@@ -721,8 +721,8 @@ The following tasks will be synchronised with *todo.txt* (the id tags allow for 
 (B) Lookup pet stores id:2 +dogwalk +leash
 Call mom @phone id:3</code></pre> 
 
-using the command
+using the *sync* action
 
 <pre><code>todo.sh outline sync</code></pre>
 
-"Project page":https://github.com/samuelsnyder/outline-todo.txt
+More actions are available for editing, displaying, and synchronizing the outline. For more information see the "project page":https://github.com/samuelsnyder/outline-todo.txt
