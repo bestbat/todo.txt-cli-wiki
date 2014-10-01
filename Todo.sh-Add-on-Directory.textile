@@ -45,7 +45,7 @@ h3. Table of Contents
 ** "lsgc - prints tasks in columns organized by context":#lsgp--lsgc--prints-in-columns-organized-by-either-context-or-group
 ** "lsgp - prints tasks in columns organized by project":#lsgp--lsgc--prints-in-columns-organized-by-either-context-or-group
 ** "pomodori-todo - A pomodoro counter implementation for todo.txt":#pomodori-todo-a-pomodoro-counter-implementation-for-todo-txt 
-** "outline- Plan with an outline, sync your next actions":#outline-plan-with-an-outline-sync-your-next-actions
+** "outline- Plan with an outline, sync your next actions":#outline--plan-with-an-outline-sync-your-next-actions
 
 h1(#installation). Installation
 
