@@ -46,6 +46,7 @@ h3. Table of Contents
 ** "lsgp - prints tasks in columns organized by project":#lsgp--lsgc--prints-in-columns-organized-by-either-context-or-group
 ** "pomodori-todo - A pomodoro counter implementation for todo.txt":#pomodori-todo-a-pomodoro-counter-implementation-for-todo-txt 
 ** "outline- Plan with an outline, sync your next actions":#outline--plan-with-an-outline-sync-your-next-actions
+** "note - Take notes related to tasks":#note--take-notes-related-to-tasks
 
 h1(#installation). Installation
 
@@ -726,3 +727,37 @@ using the *sync* action
 <pre><code>todo.sh outline sync</code></pre>
 
 More actions are available for editing, displaying, and synchronizing the outline. For more information see the "project page":https://github.com/samuelsnyder/outline-todo.txt
+
+h2(#note--take-notes-related-to-tasks). note - Take notes related to tasks
+
+This add-on allows to take notes related to tasks. Notes are stored in text files where you can write down any information related with the task. Just one file per task is allowed.
+
+Example:
+<pre><code>
+$ todo.sh ls
+1 Cook cake for birthday party
+2 Fix bicycle
+--
+TODO: 2 of 2 tasks shown
+
+$ todo.sh note add 1   # A note for task 1 will be created
+1 Cook cake for birthday party note:cUn.txt
+TODO: Note added to task 1.
+Edit note?  (y/n)
+y                      # The user agrees to edit the note
+</code></pre>
+
+<pre><code>
+$ todo.sh note show 1  # Later on, the user wants to see the content of the note for task 1
+# Cook cake for birthday party
+A couple of cakes thar look great:
+  http://www.terrificfantasticcakes.com/sacher
+  http://www.evenbettercakes.com/tartadesanmarcos
+
+$ todo.sh note edit 1    # To add something else to the note
+</code></pre>
+
+Author: Manuel J. Garrido
+Licence: "GPL":http://www.gnu.org/copyleft/gpl.html
+
+"Project page":https://github.com/mgarrido/todo.txt-cli/tree/note/todo.actions.d
