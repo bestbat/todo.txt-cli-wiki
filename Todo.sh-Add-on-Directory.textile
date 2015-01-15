@@ -44,7 +44,7 @@ h3. Table of Contents
 ** "addr - add task with the projects and contexts of the last added task.":#addr--add-task-with-the-projects-and-contexts-of-the-last-added-task
 ** "lsgc - prints tasks in columns organized by context":#lsgp--lsgc--prints-in-columns-organized-by-either-context-or-group
 ** "lsgp - prints tasks in columns organized by project":#lsgp--lsgc--prints-in-columns-organized-by-either-context-or-group
-** "pomodori-todo - A pomodoro counter implementation for todo.txt":#pomodori-todo--a-pomodoro-counter-implementation-for-todotxt 
+** "pomodori-todo - A pomodoro counter implementation for todo.txt":#pomodori-todotxt--a-pomodoro-counter-implementation-for-todotxt
 ** "outline- Plan with an outline, sync your next actions":#outline--plan-with-an-outline-sync-your-next-actions
 ** "note - Take notes related to tasks":#note--take-notes-related-to-tasks
 
