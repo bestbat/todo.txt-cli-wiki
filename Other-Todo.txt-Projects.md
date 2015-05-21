@@ -20,6 +20,10 @@ https://github.com/mNantern/QTodoTxt
 This is my favorite version--it has extensions where you can add due date, links, percent done, etc. 
 https://github.com/abztrakt/ya-todo-py
 
+# Mac
+
+[**TodoTxtMac**](https://mjdescy.github.io/TodoTxtMac/) ([source](https://github.com/mjdescy/TodoTxtMac)) is a minimalist, keyboard-driven to-do manager for Mac OS X that conforms to the todo.txt format spec. 
+
 # Windows
 
 There is a .NET Windows GUI app that sits in your system tray: https://github.com/benrhughes/todotxt.net/downloads
