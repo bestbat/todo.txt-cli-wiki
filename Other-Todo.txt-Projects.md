@@ -1,8 +1,11 @@
 Other Todo.txt projects implemented in different languages.
 
 # Python
+
 You can do a [search for "todo.py" at github.com](https://github.com/search?q=todo.py) and there are a number of different flavors:
 
+[**topydo**](https://github.com/bram85/topydo) is an active version with several enhancements and extensions to the original functionality.
+ 
 A ~~more recent and still active~~ version which allows for use with git can be found here: https://git.io/todo.py
 
 This allows you to check into a git repository:
