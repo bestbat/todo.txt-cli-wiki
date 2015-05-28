@@ -47,6 +47,7 @@ h3. Table of Contents
 ** "pomodori-todo - A pomodoro counter implementation for todo.txt":#pomodori-todotxt--a-pomodoro-counter-implementation-for-todotxt
 ** "outline- Plan with an outline, sync your next actions":#outline--plan-with-an-outline-sync-your-next-actions
 ** "note - Take notes related to tasks":#note--take-notes-related-to-tasks
+** "donow - Keep track of the total time spent on each activity" : #donow--keep-track-of-the-total-time-spent-on-each-activity
 
 h1(#installation). Installation
 
@@ -728,6 +729,7 @@ using the *sync* action
 
 More actions are available for editing, displaying, and synchronizing the outline. For more information see the "project page":https://github.com/samuelsnyder/outline-todo.txt
 
+
 h2(#note--take-notes-related-to-tasks). note - Take notes related to tasks
 
 This add-on allows to take notes related to tasks. Notes are stored in text files where you can write down any information related with the task. Just one file per task is allowed.
@@ -761,3 +763,40 @@ Author: Manuel J. Garrido
 Licence: "GPL":http://www.gnu.org/copyleft/gpl.html
 
 "Project page":https://github.com/mgarrido/todo.txt-cli/tree/note/todo.actions.d
+
+
+h2(#donow--keep-track-of-the-total-time-spent-on-each-activity). donow - Keep trak of the total time spent on each activity
+
+Donow add-on allows to keep track of the total time spent on an activity
+
+h3. Keep track of current work
+
+Once started, Donow reports on the stdout the **current activity and the time spent on it**. Each 10 minutes (configurable) a **desktop notification** (that can be disabled) will remind you the current running activity, to avoid to forget to stop the timer when not needed anymore.
+
+h3. Donow item format
+
+When the timer is stopped using CTRL-C, donow will append a substring *min:total-time-spent* (being **time** expressed in minutes) to the activity description.
+When the pattern "min:number" already exists, Donow just updates the counter.
+
+## Example of use
+
+<pre><code>
+$ todo.sh list                                                                                                          1 design Python interface for Todo.txt
+2 write a basic description of donow addon min:5
+--
+TODO: 2 of 2 tasks shown
+$ todo.sh donow 1                                                                                                                            
+Working on: design Python interface for Todo.txt 
+[design Python interface for Todo.txt] 11 minute(s) passed^C
+1 design Python interface for Todo.txt min:11
+$ todo.sh donow 2                                                                                                                        
+Working on: write a basic description of donow addon min:5 
+[write a basic description of donow addon min:5] 12 minute(s) passed^C
+2 write a basic description of donow addon min:5
+TODO: Replaced task with:
+2 write a basic description of donow addon min:17
+</code></pre>
+
+Author: Carlo Lobrano
+
+"Project page":https://github.com/clobrano/todo.txt-cli/tree/master/todo.actions.d
