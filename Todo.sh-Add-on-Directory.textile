@@ -35,7 +35,6 @@ h3. Table of Contents
 ** "hey - a minimalist CRM":#hey-a-minimalist-crm
 ** "tmsa - commands to help working with dated todo files":#tmsa-commands-to-help-working-with-dated-todo-files
 ** "revive - re-add items from archive":#revive-re-add-items-from-archive
-** "make - Create new .txt files from command line":#make-create-new-txt-files
 ** "again - Complete and re-add tasks, updating due and deferral dates":#again-recurring-tasks-made-easy
 ** "top - Shows as many tasks as you can see in your terminal":#top-see-the-top-tasks
 ** "XP - print a readable guide of your accomplishments.":#xp--print-a-readable-guide-of-your-accomplishments
@@ -492,23 +491,6 @@ _License: MIT_
 
 "Project page":https://github.com/duncanje/todo.txt-revive
 "Download file":https://raw.github.com/duncanje/todo.txt-revive/master/revive
-
-h2(#make-create-new-txt-files).  __make__: Create New .txt Files.
-
-Quickly create new .txt files in your default todo.txt file directory.
-
-Examples:
-
-<pre><code>
-$ todo.sh make bucketlist
-File bucketlist.txt created in [TODO_DIR]
-</code></pre>
-
-_Author: Jared Meyering_
-_License: MIT_
-
-"Project page":https://github.com/Jmeyering/TodoTxtMake
-"Download file":https://raw.github.com/Jmeyering/TodoTxtMake/master/make
 
 h2(#again-recurring-tasks-made-easy).  __again__: Recurring tasks made easy.
 
