@@ -12,6 +12,7 @@ h3. Table of Contents
 ** "Add and do or prioritize in one step":#add-and-do--add-and-pri-in-one-step
 ** "Archive only selected done items":#archive-only-selected-done-items
 ** "Edit in a designated text editor":#edit-open-in-text-editor
+** "graph – Visualization plugin – *Don’t break the chain* for todo.txt
 ** "cd - Display directory paths":#cd-display-directory-paths
 ** "nav - Open URLs in a web browser":#nav-open-items-url-in-browser
 ** "ac - Open activeCollab URLs in a web browser":#ac-activecollab-integration
