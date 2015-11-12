@@ -12,7 +12,7 @@ h3. Table of Contents
 ** "Add and do or prioritize in one step":#add-and-do--add-and-pri-in-one-step
 ** "Archive only selected done items":#archive-only-selected-done-items
 ** "Edit in a designated text editor":#edit-open-in-text-editor
-** "graph – Visualization plugin – *Don’t break the chain* for todo.txt
+** "graph – Visualization plugin:#graph
 ** "cd - Display directory paths":#cd-display-directory-paths
 ** "nav - Open URLs in a web browser":#nav-open-items-url-in-browser
 ** "ac - Open activeCollab URLs in a web browser":#ac-activecollab-integration
@@ -129,6 +129,14 @@ Adaptations:
 * "doegox":http://github.com/doegox/todo.txt-cli/blob/extras/todo.actions.d/edit
 * "dhein":http://github.com/dhein/todo.txt-cli/blob/pub-addons/edit ("discussion thread":http://tech.groups.yahoo.com/group/todotxt/message/2153)
 * "FND":http://github.com/fnd/todo.txt-cli/blob/extensions/edit ("discussion thread":http://tech.groups.yahoo.com/group/todotxt/message/2156)
+
+h2(#graph). __graph__: Visualize done tasks
+
+A visualization-plugin for todo.txt – a command line todo application. Graph displays bar charts showing the number of completed tasks per day.
+
+As in Jerry Seinfeld’s don’t break the chain technique, active days will be colored green and therefore motivate you do be more productive.
+
+"Project page":https://github.com/timpulver/todo.txt-graph
 
 h2(#cd-display-directory-paths). __cd__: display directory paths
 
