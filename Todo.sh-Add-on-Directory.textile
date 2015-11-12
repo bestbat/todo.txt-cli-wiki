@@ -140,7 +140,8 @@ As in Jerry Seinfeld’s don’t break the chain technique, active days will be 
 
 "Project page":https://github.com/timpulver/todo.txt-graph
 
-Clone into @todo.action.d@ directory: @https://github.com/timpulver/todo.txt-graph.git graph@
+Clone into @todo.action.d@ directory: 
+@git clone https://github.com/timpulver/todo.txt-graph.git graph@
 
 h2(#cd-display-directory-paths). __cd__: display directory paths
 
