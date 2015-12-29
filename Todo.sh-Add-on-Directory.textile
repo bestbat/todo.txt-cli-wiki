@@ -48,6 +48,7 @@ h3. Table of Contents
 ** "outline- Plan with an outline, sync your next actions":#outline--plan-with-an-outline-sync-your-next-actions
 ** "note - Take notes related to tasks":#note--take-notes-related-to-tasks
 ** "donow - Activity time tracker":#donow--activity-time-tracker
+** "chcon - Change context":#chcon--change-context
 
 h1(#installation). Installation
 
@@ -796,3 +797,25 @@ TODO: Replaced task with:
 Author: Carlo Lobrano
 
 "Project page":https://github.com/clobrano/todo.txt-cli/tree/master/todo.actions.d
+
+
+h2(#chcon--change-context). chcon - Change context
+
+Chcon allows fast replacement or deletion of the context tag (and whatever follows that in the task description).
+
+Example:
+
+<pre><code>
+$ todo.sh chcon 56 @office
+56 upgrade servers @waiting
+TODO: Replaced task with:
+56 upgrade servers @office
+$ todo.sh chcon 56
+56 upgrade servers @office
+TODO: Replaced task with:
+56 upgrade servers
+</code></pre>
+
+Author: Kaarle Ritvanen
+
+"Project page":https://github.com/kunkku/todo.txt-cli-chcon
