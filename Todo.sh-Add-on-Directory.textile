@@ -49,6 +49,8 @@ h3. Table of Contents
 ** "note - Take notes related to tasks":#note--take-notes-related-to-tasks
 ** "donow - Activity time tracker":#donow--activity-time-tracker
 ** "chcon - Change context":#chcon--change-context
+** "rmf - Remove from file":#rmf--remove-file
+
 
 h1(#installation). Installation
 
@@ -819,3 +821,11 @@ TODO: Replaced task with:
 Author: Kaarle Ritvanen
 
 "Project page":https://github.com/kunkku/todo.txt-cli-chcon
+
+h2(#rmf--remove-file). rm - Remove from file
+
+Plugin for applying the "rm" action, which either removes a specified line or a term within that line, to any file in the todo directory
+
+Usage: `todo.sh rmf FILENAME #ITEM [TERM]`
+
+"Project page":https://github.com/samuelsnyder/rmf-todo.txt
