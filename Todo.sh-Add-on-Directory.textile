@@ -434,7 +434,7 @@ TODO: 37 added
 
 h2(#tmsa-commands-to-help-working-with-dated-todo-files). __tmsa__: commands to help working with dated todo files
 
-Helper scripts to let you keep one todo.txt file per day, and move tasks between dated todo files. Intended for use with the cycle as desribed in Time Management for Systems Administrators.
+Helper scripts to let you keep one todo.txt file per day, and move tasks between dated todo files. Intended for use with the cycle as described in Time Management for Systems Administrators.
 
 Examples:
 
