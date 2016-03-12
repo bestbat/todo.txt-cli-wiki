@@ -29,7 +29,7 @@ h3. Table of Contents
 ** "lately - Report of recently completed tasks":#lately-report-of-recently-completed-tasks
 ** "repeat - Mark an item done and immediately reenter it":#repeat-mark-an-item-done-and-immediately-reenters-it
 ** "recur - Intelligently add recurring tasks":#recur-intelligently-add-recurring-tasks
-** "ice_recur - Another recurring task action, but with much more flexibility":#ice_recur
+** "ice_recur - Another recurring task action, but with much more flexibility":#ice-recur
 ** "google - Sync with Google Tasks":#google-sync-with-google-tasks
 ** "standup - Daily standup status":#standup-daily-standup-status
 ** "docs - Sync with Google Docs":#docs-sync-with-google-docs
@@ -337,20 +337,20 @@ When run from a daily cron job (or similar scheduler), it will add tasks on appr
 "Project page":https://github.com/paulroub/todo.txt-recurring-tasks
 "Download file":https://github.com/paulroub/todo.txt-recurring-tasks/blob/master/recur
 
-h2(#ice_recur). __ice_recur__: Another recurring task action, but with much more flexibility
+h2(#ice-recur). __ice_recur__: Another recurring task action, but with much more flexibility
 
 When run from a daily cron job (or similar scheduler), it will add tasks on appropriate days from a recur.txt file, while avoiding redundant adds of previously-added, not-yet-completed tasks.
 
 You'll notice this is just like "recur"; the difference is that ice_recur is much more flexible in terms of what sorts of schedules it can handle:
 
-  daily - (A) Runs every day; includes today
-  daily 2 - (B) Runs every other day; includes today
-  @2016-03-10 daily 2 - Runs every other day, starting on the day specified (which may or may not include today)
-  weekly ; day Friday, Sunday - Runs every Friday and Saturday
-  monthly ; day_of_month 11, 13 - Runs on the 11th and 13th of every month
-  @2016-03-07 Weekly 2 ; day Thursday - Runs on Thursday every second week starting on the first Thursday after the day specified.
-  @2016-03-01 Monthly 3 - Runs every 3 months starting on the day specified (so, occurs on the first day of the month; next occurence is 2016-06-01)
-  @2016-01-04 Yearly - Runs every year starting on the day specifiod (so, occurs on the 4th of January)
+     daily - (A) Runs every day; includes today
+     daily 2 - (B) Runs every other day; includes today
+     @2016-03-10 daily 2 - Runs every other day, starting on the day specified (which may or may not include today)
+     weekly ; day Friday, Sunday - Runs every Friday and Saturday
+     monthly ; day_of_month 11, 13 - Runs on the 11th and 13th of every month
+     @2016-03-07 Weekly 2 ; day Thursday - Runs on Thursday every second week starting on the first Thursday after the day specified.
+     @2016-03-01 Monthly 3 - Runs every 3 months starting on the day specified (so, occurs on the first day of the month; next occurence is 2016-06-01)
+     @2016-01-04 Yearly - Runs every year starting on the day specifiod (so, occurs on the 4th of January)
 
 
 "Project page":https://github.com/rlpowell/todo-text-stuff/blob/master/ice_recur
