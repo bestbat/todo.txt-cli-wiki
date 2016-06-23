@@ -66,6 +66,10 @@ Todo.txt-Enyo, for WebOS: https://github.com/thrrgilag/Todo.txt-Enyo
 
 Windows Phone 7/8: In the Windows Phone Store and https://github.com/hartez/TodotxtTouch.WindowsPhone
 
+# Thunderbird/Lightning
+
+An extension to integrate a todo.txt file into Mozilla Thunderbird/Lightning task lists is available [here](https://addons.mozilla.org/en-US/thunderbird/addon/todotxt-extension/) ([Source code](https://github.com/rkokkelk/todo.txt-ext)).
+
 # Emacs
 
 Emacs major mode for editing todo.txt files: https://github.com/avillafiorita/todotxt-mode
