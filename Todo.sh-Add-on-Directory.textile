@@ -51,6 +51,7 @@ h3. Table of Contents
 ** "donow - Activity time tracker":#donow--activity-time-tracker
 ** "chcon - Change context":#chcon--change-context
 ** "rmf - Remove from file":#rmf--remove-file
+** "wp - A weekly planner":#wp--weekly-planner 
 
 
 h1(#installation). Installation
@@ -849,3 +850,9 @@ Plugin for applying the "rm" action, which either removes a specified line or a 
 Usage: `todo.sh rmf FILENAME #ITEM [TERM]`
 
 "Project page":https://github.com/samuelsnyder/rmf-todo.txt
+
+h2(#wp--weekly-planner). wp - A weekly planner addon
+
+The basic idea of this planning mechanism is that on a per-week basis, we want to dedicate a certain percentage of time for various task groups. Total amount of time available for each task groups is mentioned in the allocations.conf file. This addon and its associated commands help to make sure that we spend the desired amount of time in various task
+
+"Project page":https://github.com/rameshg87/todo.txt-weekly-planner
