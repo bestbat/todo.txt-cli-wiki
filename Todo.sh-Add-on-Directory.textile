@@ -51,7 +51,7 @@ h3. Table of Contents
 ** "donow - Activity time tracker":#donow--activity-time-tracker
 ** "chcon - Change context":#chcon--change-context
 ** "rmf - Remove from file":#rmf--remove-file
-** "wp - A weekly planner":#wp--weekly-planner 
+** "wp - A weekly planner":#wp--a-weekly-planner-addon
 
 
 h1(#installation). Installation
