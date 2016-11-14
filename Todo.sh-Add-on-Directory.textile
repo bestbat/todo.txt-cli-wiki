@@ -34,6 +34,7 @@ h3. Table of Contents
 ** "standup - Daily standup status":#standup-daily-standup-status
 ** "docs - Sync with Google Docs":#docs-sync-with-google-docs
 ** "mit - Most Important Task tracking":#mit-most-important-task
+** "mitf - Most Important Task tracking":#mitf-future
 ** "hey - a minimalist CRM":#hey-a-minimalist-crm
 ** "tmsa - commands to help working with dated todo files":#tmsa-commands-to-help-working-with-dated-todo-files
 ** "revive - re-add items from archive":#revive-re-add-items-from-archive
@@ -431,6 +432,35 @@ _Author: Cody Buell_
 _License: GPL http://www.gnu.org/copyleft/gpl.html_
 
 "Project page":https://github.com/codybuell/mit
+
+h2(#mitf-future). __mitf__: Most Important Task in the Future
+
+An extension to the "Most Important Task":#mit-most-important-task add-on (as such, it's required for this add-on to work).
+
+This add-on allows the user to generate MIT TODOs for certain day in the future. Assuming today's @YYYY-MM-DD@ date is @2016-01-15@, then the command @todo.sh mitf 10d "Foo @bar +baz"@ would result in running the MIT command @todo.sh mit 2016.01.25 "Foo @bar +baz"@.
+
+Examples:
+```
+$ date -Idate                            
+2016-11-13                               
+                                         
+$ todo.sh mitf 3d "Foo @bar +baz"        
+85 2016-11-13 {2016.11.16} Foo @bar +baz 
+TODO: 85 added.                          
+                                         
+$ todo.sh mitf 1w "Foo @bar +baz"        
+86 2016-11-13 {2016.11.20} Foo @bar +baz 
+TODO: 86 added.                          
+                                         
+$ todo.sh mitf 2m "Foo @bar +baz"        
+87 2016-11-13 {2017.01.13} Foo @bar +baz 
+TODO: 87 added.                          
+```
+
+_Author: linduxed_
+_License: WTFPL http://www.wtfpl.net/_
+
+"Project page":https://github.com/linduxed/todo.txt-mitf
 
 h2(#hey-a-minimalist-crm). __hey__: a minimalist CRM
 
