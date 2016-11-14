@@ -34,7 +34,7 @@ h3. Table of Contents
 ** "standup - Daily standup status":#standup-daily-standup-status
 ** "docs - Sync with Google Docs":#docs-sync-with-google-docs
 ** "mit - Most Important Task tracking":#mit-most-important-task
-** "mitf - Most Important Task tracking":#mitf-future
+** "mitf - Most Important Task tracking":#mitf-most-important-task-in-the-future
 ** "hey - a minimalist CRM":#hey-a-minimalist-crm
 ** "tmsa - commands to help working with dated todo files":#tmsa-commands-to-help-working-with-dated-todo-files
 ** "revive - re-add items from archive":#revive-re-add-items-from-archive
