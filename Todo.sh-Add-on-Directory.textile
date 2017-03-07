@@ -86,7 +86,7 @@ Hide tasks in given context/project (containing specified keywords).
 Examples:
 <pre><code>todo.sh hiding @someday        # to list tasks not in the @someday context
 todo.sh hiding +todo.txt @in   # to list tasks not in the @in context and not in the +todo.txt project
-todo.sh hidin JAVA windows     # to list tasks not containing `JAVA` and `windows` keywords
+todo.sh hiding JAVA windows    # to list tasks not containing `JAVA` and `windows` keywords
 </code></pre>
 
 "Project page":https://github.com/klausweiss/todo.txt-hiding
