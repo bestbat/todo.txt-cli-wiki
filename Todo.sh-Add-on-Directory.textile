@@ -7,6 +7,7 @@ h3. Table of Contents
 
 * Filters
 ** "Future Tasks":#future-tasks
+** "hiding - Hide specified tasks during listing":#hiding
 
 * New/Enhanced Actions
 ** "Add and do or prioritize in one step":#add-and-do--add-and-pri-in-one-step
@@ -77,6 +78,20 @@ The @-x@ "option":http://tech.groups.yahoo.com/group/todotxt/message/2402 can be
 "Project page":http://github.com/FND/todo.txt-cli/blob/extensions/futureTasks
 
 "Download file":http://github.com/FND/todo.txt-cli/raw/extensions/futureTasks
+
+h2(#hiding). hiding
+
+Hide tasks in given context/project (containing specified keywords).
+
+Examples:
+<pre><code>todo.sh hiding @someday        # to list tasks not in the @someday context
+todo.sh hiding +todo.txt @in   # to list tasks not in the @in context and not in the +todo.txt project
+todo.sh hidin JAVA windows     # to list tasks not containing `JAVA` and `windows` keywords
+</code></pre>
+
+"Project page":https://github.com/klausweiss/todo.txt-hiding
+
+To install just clone the repo to your _plugins_ directory.
 
 h1. New or Enhanced Commands/Actions
 
