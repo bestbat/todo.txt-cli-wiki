@@ -181,6 +181,11 @@ Lists tasks by due date; by default tasks that are overdue or due today. Optiona
 
 "Project page":http://github.com/rebeccamorgan/due
 
+To install, clone into .todo.action.d directory: 
+```
+git clone https://github.com/rebeccamorgan/due.git
+```
+
 h2(#nav-open-items-url-in-browser). __nav__: open item's URL in browser
 
  todo.sh add Should have a look at http://github.com/ginatrapani ASAP
