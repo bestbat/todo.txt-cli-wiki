@@ -15,6 +15,7 @@ h3. Table of Contents
 ** "Edit in a designated text editor":#edit-open-in-text-editor
 ** "graph – Visualize done tasks – «Don’t break the chain» for todo.txt":#graph-visualize-done-tasks
 ** "cd - Display directory paths":#cd-display-directory-paths
+** "due - List tasks by due date":#due-list-by-due-date
 ** "nav - Open URLs in a web browser":#nav-open-items-url-in-browser
 ** "ac - Open activeCollab URLs in a web browser":#ac-activecollab-integration
 ** "birdseye - Project progress report":#birdseye-your-productivity-report
@@ -173,6 +174,12 @@ Outputs the command necessary to change the current directory to the directory h
 "Project page":http://github.com/dhein/todo.txt-cli/blob/pub-addons/cd
 
 "Download file":http://github.com/dhein/todo.txt-cli/raw/pub-addons/cd
+
+h2(#due-list-by-due-date). __due__: list tasks by due date
+
+Lists tasks formatted by due date, by default tasks that are overdue or due today. Optionally add an argument to display tasks due in the next n days. Assumes tasks are added with the key due:YYYY-MM-DD. 
+
+"Project page":http://github.com/rebeccamorgan/due
 
 h2(#nav-open-items-url-in-browser). __nav__: open item's URL in browser
 
