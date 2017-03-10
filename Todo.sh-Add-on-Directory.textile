@@ -15,7 +15,7 @@ h3. Table of Contents
 ** "Edit in a designated text editor":#edit-open-in-text-editor
 ** "graph – Visualize done tasks – «Don’t break the chain» for todo.txt":#graph-visualize-done-tasks
 ** "cd - Display directory paths":#cd-display-directory-paths
-** "due - List tasks by due date":#due-list-by-due-date
+** "due - List tasks by due date":#due-list-tasks-by-due-date
 ** "nav - Open URLs in a web browser":#nav-open-items-url-in-browser
 ** "ac - Open activeCollab URLs in a web browser":#ac-activecollab-integration
 ** "birdseye - Project progress report":#birdseye-your-productivity-report
