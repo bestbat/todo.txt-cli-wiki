@@ -177,7 +177,7 @@ Outputs the command necessary to change the current directory to the directory h
 
 h2(#due-list-by-due-date). __due__: list tasks by due date
 
-Lists tasks formatted by due date, by default tasks that are overdue or due today. Optionally add an argument to display tasks due in the next n days. Assumes tasks are added with the key due:YYYY-MM-DD. 
+Lists tasks by due date; by default tasks that are overdue or due today. Optionally add an argument to display tasks due in the next n days. Assumes tasks are added with the key due:YYYY-MM-DD. 
 
 "Project page":http://github.com/rebeccamorgan/due
 
