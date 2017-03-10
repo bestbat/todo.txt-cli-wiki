@@ -181,7 +181,7 @@ Lists tasks by due date; by default tasks that are overdue or due today. Optiona
 
 "Project page":http://github.com/rebeccamorgan/due
 
-To install, clone into .todo.action.d directory: 
+To install, clone into .todo.actions.d directory: 
 ```
 git clone https://github.com/rebeccamorgan/due.git
 ```
