@@ -455,6 +455,8 @@ $ todo.sh mit @home                    # display all mits in specified context
     do something @home (12)
 </code></pre>
 
+MIT now has support for adding MIT's to a month, quarter or year!  See the project page for details.
+
 _Author: Cody Buell_
 _License: GPL http://www.gnu.org/copyleft/gpl.html_
 
