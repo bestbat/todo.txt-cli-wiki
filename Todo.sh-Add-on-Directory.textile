@@ -55,6 +55,7 @@ h3. Table of Contents
 ** "chcon - Change context":#chcon--change-context
 ** "rmf - Remove from file":#rmf--remove-file
 ** "wp - A weekly planner":#wp--a-weekly-planner-addon
+** "all_repri - Make a uniform priority change to all prioritized items":#all_repri--reprioritize-all
 
 
 h1(#installation). Installation
@@ -917,3 +918,9 @@ h2(#wp--weekly-planner). wp - A weekly planner addon
 The basic idea of this planning mechanism is that on a per-week basis, we want to dedicate a certain percentage of time for various task groups. Total amount of time available for each task groups is mentioned in the allocations.conf file. This addon and its associated commands help to make sure that we spend the desired amount of time in various task
 
 "Project page":https://github.com/rameshg87/todo.txt-weekly-planner
+
+h2(#all_repri--reprioritize-all). all_repri - Make a uniform priority change to all prioritized items
+
+This addon is for anybody who prioritizes items in at least two levels, completes the highest priority items, and then wants to increase the priority level of the remaining tasks. all_repri will increase or decrease the priority level of all and only already prioritized items by a given number of priority levels.
+
+"Project page":https://github.com/bapfeld/all_repri 
