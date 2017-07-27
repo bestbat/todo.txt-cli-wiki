@@ -95,6 +95,9 @@ todo.sh hiding JAVA windows    # to list tasks not containing `JAVA` and `window
 
 To install just clone the repo to your _plugins_ directory.
 
+Variations:
+* "hide":https://github.com/bozakov/todo.txt-hide - Use grep to avoid Python dependency.
+
 h1. New or Enhanced Commands/Actions
 
 h2(#add-and-do--add-and-pri-in-one-step). __add__ and __do__ / __add__ and __pri__ in one step
