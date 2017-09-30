@@ -78,3 +78,7 @@ An extension to integrate a todo.txt file into Mozilla Thunderbird/Lightning tas
 Emacs major mode for editing todo.txt files: https://github.com/avillafiorita/todotxt-mode
 
 Emacs-based application for managing your todo.txt file: https://github.com/rpdillon/todotxt.el
+
+# Atom
+
+Syntax highlighting for todo.txt files:  https://github.com/todotxt/language-todotxt
