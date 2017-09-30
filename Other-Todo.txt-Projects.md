@@ -66,6 +66,9 @@ Todo.txt-Enyo, for WebOS: https://github.com/thrrgilag/Todo.txt-Enyo
 
 Windows Phone 7/8: In the Windows Phone Store and https://github.com/hartez/TodotxtTouch.WindowsPhone
 
+For iOS:  Swiftodo in the app store, and http://swiftodoapp.com/
+
+
 # Thunderbird/Lightning
 
 An extension to integrate a todo.txt file into Mozilla Thunderbird/Lightning task lists is available [here](https://addons.mozilla.org/en-US/thunderbird/addon/todotxt-extension/) ([Source code](https://github.com/rkokkelk/todo.txt-ext)).
