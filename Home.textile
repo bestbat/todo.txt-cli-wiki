@@ -6,7 +6,7 @@ Problem is, you don't want to launch a full-blown text editor every time you nee
 
 h2. "Downloads":http://github.com/ginatrapani/todo.txt-cli/downloads
 
-"Download the latest stable release":http://github.com/ginatrapani/todo.txt-cli/downloads for use on your desktop or server.
+"Download the latest stable release":https://github.com/todotxt/todo.txt-cli/releases for use on your desktop or server.
 
 h2. Documentation
 
