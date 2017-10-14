@@ -24,6 +24,7 @@ h2. Platform Compatibility
 * Cygwin for Windows
 * Mac OS X 10.4+ Terminal
 * Ubuntu 5.10 / Sed 4.1.4 / Grep 2.5.1 / Cat 5.2.1 / wc 5.2.1
+* Arch linux
 
 "Let us know":http://groups.yahoo.com/group/todotxt/ if you're using @todo.sh@ successfully anywhere else.
 
