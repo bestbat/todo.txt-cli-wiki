@@ -55,7 +55,9 @@ h3. Table of Contents
 ** "rmf - Remove from file":#rmf--remove-file
 ** "wp - A weekly planner":#wp--a-weekly-planner-addon
 ** "all_repri - Make a uniform priority change to all prioritized items":#all_repri--reprioritize-all
-
+** "stale - Move todos back and forth between your todo.txt and a stale.txt":#stale--prune-stale-todos
+** "remind - Create Apple Reminders out of your todos":#remind--create-apple-reminders
+** "book - Create calendar events out of your todos":#book--create-calendar-events
 
 h1(#installation). Installation
 
@@ -883,3 +885,21 @@ h2(#all_repri--reprioritize-all). all_repri - Make a uniform priority change to 
 This addon is for anybody who prioritizes items in at least two levels, completes the highest priority items, and then wants to increase the priority level of the remaining tasks. all_repri will increase or decrease the priority level of all and only already prioritized items by a given number of priority levels.
 
 "Project page":https://github.com/bapfeld/all_repri 
+
+h2(#stale--prune-stale-todos). stale - Move stale todos into a stale.txt file
+
+This action provides a shorthand for moving todos into and out of a stale.txt file, where you would keep todos that you haven't got to in a while and that don't really fit into a specific outline. In the future, it will also be able to automatically prune todos that are older than a certain threshold (if they have a creation date).
+
+"Project page":https://github.com/tgdnt/stale
+
+h2(#remind--create-apple-reminders). remind - Create Apple Reminders out of your todos (Mac only)
+
+This action creates an Apple Reminder out of a todo. It also includes an optional customized do action that will find the matching Apple Reminder and delete it once you mark the todo as done. In the future, it will also have a "round trip" action that will read your completed Reminders and complete the corresponding todos.
+
+"Project page":https://github.com/tgdnt/remind
+
+h2(#book--create-calendar-events). book - Create calendar events out of your todos
+
+This action creates a calendar event out of a todo. It requires "khal":https://lostpackets.de/khal/ and - to enable cloud sync - "vdirsyncer":https://vdirsyncer.pimutils.org/en/stable/.
+
+"Project page":https://github.com/tgdnt/book
