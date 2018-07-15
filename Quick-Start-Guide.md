@@ -3,7 +3,7 @@ Here's how to install and run the Todo.txt CLI:
 0. (_Windows only_) [Download and install Cygwin](http://cygwin.com/install.html). Cygwin provides a Unix-environment for Windows; Todo.txt needs just the Bash shell and some common Unix tools, so a minimal installation will do just fine (Another suggestion is to use git on windows - it's smaller and have sh builtin [git on windows](http://git-scm.com/)).
 
 1. [Download the latest stable release of Todo.txt CLI](http://github.com/todotxt/todo.txt-cli/releases) (available as a ZIP or TAR archive) and extract it.
-Mac users: There is a [Homebrew](https://brew.sh) package for todo.txt - install using `brew install todo.sh`.
+Mac users: There is a [Homebrew](https://brew.sh) package for todo.txt - install using `brew install todo-txt`.
 
 2. Open a command window. On Windows, this is _Cygwin Bash Shell_ (_not_ Command Prompt!); elsewhere, this is often called _Terminal_. It usually presents you with a `$` prompt. `cd` into the directory where you extracted todo.sh. Make the todo.sh script executable:
 
