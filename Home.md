@@ -23,7 +23,7 @@ Get support and ask questions on [the mailing list](http://groups.yahoo.com/grou
 
 - Cygwin for Windows
 - Mac OS X 10.4+ Terminal
-- Ubuntu 5.10 / `sed` 4.1.4 / `grep` 2.5.1 / `cat` 5.2.1 / `wc` 5.2.1
+- Ubuntu 15.10 / `sed` 4.1.4 / `grep` 2.5.1 / `cat` 5.2.1 / `wc` 5.2.1
 - Arch Linux
 
 [Let us know](http://groups.yahoo.com/group/todotxt/) if you’re using `todo.sh` successfully anywhere else.
