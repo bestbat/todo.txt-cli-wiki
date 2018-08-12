@@ -1,1 +1,0 @@
-# Moved to [CHANGELOG.md](https://github.com/todotxt/todo.txt-cli/blob/master/CHANGELOG.md).
