@@ -903,3 +903,25 @@ h2(#book--create-calendar-events). book - Create calendar events out of your tod
 This action creates a calendar event out of a todo. It requires "khal":https://lostpackets.de/khal/ and - to enable cloud sync - "vdirsyncer":https://vdirsyncer.pimutils.org/en/stable/.
 
 "Project page":https://github.com/tgdnt/book
+
+h2(#tedit--edit-single-tasks). tedit - Edit single task lines in the text editor of your choice
+
+This action lets you edit a single task in the editor of your choice, ($EDITOR environmental variable).
+
+Example:
+<pre><code>$ todo.sh ls
+1 take dog for a walk
+2 edit this line with tedit
+$ todo tedit 2
+</code></pre>
+At this point $EDITOR is opened with the line:
+<pre><code>edit this line with tedit</code></pre>
+in it for you to edit. You change it to
+<pre><code>this line has been edited through tedit</code></pre>
+and afterwards just save and exit. Doubtful, you decide to check your changes and run
+<pre><code>$ todo ls
+1 take dog for a walk
+2 this line has been edited through tedit
+</code></pre>
+
+"Project page":https://github.com/severoraz/todotxt-cli-tedit
