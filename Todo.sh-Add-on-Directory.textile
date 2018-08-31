@@ -58,6 +58,7 @@ h3. Table of Contents
 ** "stale - Move todos back and forth between your todo.txt and a stale.txt":#stale--prune-stale-todos
 ** "remind - Create Apple Reminders out of your todos":#remind--create-apple-reminders
 ** "book - Create calendar events out of your todos":#book--create-calendar-events
+** "tedit - Edit single task lines in the text editor of your choice":#tedit--edit-single-tasks
 
 h1(#installation). Installation
 
