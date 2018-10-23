@@ -40,7 +40,7 @@ shift
   echo ""
   exit
 }
-```sh
+```
 
 Then the core of our customized action: are we in the regular "add" case or in the custom cases of marking the item as done immediately or prioritized immediately?
 
