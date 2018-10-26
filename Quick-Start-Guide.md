@@ -35,8 +35,8 @@ Note: If you define an alias (e.g. `t`) to todo.sh, you need to explicitly enabl
 $ complete -F _todo t
 ```
 
-5. Want more? See the full list of configuration tweaks, enhancements and recommendations on the [Tips and Tricks][Tips-and-Tricks] page.
+5. Want more? See the full list of configuration tweaks, enhancements and recommendations on the [[Tips and Tricks]] page.
 
-6. Something missing? Todo.txt is extensible; many users have already written [custom add-ons][Todo.sh-Add-on-Directory].
+6. Something missing? Todo.txt is extensible; many users have already written Add-ons listed on the [[Todo.sh Add on Directory]] page.
 
 7. Having problems? Have a look at the [[Troubleshooting]] page, or ask on the friendly [mailing list](http://groups.yahoo.com/group/todotxt/).
