@@ -62,12 +62,14 @@ Bulldog is an HTML viewer for todo.txt files: https://github.com/infews/bulldog/
 
 # Mobile
 
-Todo.txt-Enyo, for WebOS: https://github.com/thrrgilag/Todo.txt-Enyo
+_Todo.txt-Enyo_, for **WebOS**: https://github.com/thrrgilag/Todo.txt-Enyo
 
-Windows Phone 7/8: In the Windows Phone Store and https://github.com/hartez/TodotxtTouch.WindowsPhone
+**Windows Phone 7/8**: In the Windows Phone Store and https://github.com/hartez/TodotxtTouch.WindowsPhone
 
-For iOS:  Swiftodo in the app store, and http://swiftodoapp.com/
+_Swiftodo_, for **iOS**:  Swiftodo in the app store, and http://swiftodoapp.com/
 
+_Simpletask_, for **Android**: [simpletask-android](https://github.com/mpcjanssen/simpletask-android) (Written in [Kotlin](https://kotlinlang.org/)) .  
+(Checkout variants for the text files to be [saved in Dropbox](https://github.com/mpcjanssen/simpletask-android#dropbox) and to be [saved in Nextcloud](https://github.com/mpcjanssen/simpletask-android#nextcloud))
 
 # Thunderbird/Lightning
 
