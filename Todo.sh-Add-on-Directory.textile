@@ -255,7 +255,7 @@ h2(#birdseye-your-productivity-report). __birdseye__: your productivity report
 
 A Python script @birdseye.py@ (called with the @birdseye@ action) analyzes the @todo.txt@ and @done.txt@ files to generate a report of completed and incomplete items in every context and project.  (Requires Python and both @birdseye.py@ and @birdseye@ files to run.)
 
-"Project Page":http://github.com/ginatrapani/todo.txt-cli/tree/addons
+"Project Page":https://github.com/karbassi/todotxt-birdseye
 
 h2(#paper-print-your-todo-list). __paper__: print your todo list
 
