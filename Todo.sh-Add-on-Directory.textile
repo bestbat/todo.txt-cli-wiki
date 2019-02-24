@@ -59,6 +59,7 @@ h3. Table of Contents
 ** "remind - Create Apple Reminders out of your todos":#remind--create-apple-reminders
 ** "book - Create calendar events out of your todos":#book--create-calendar-events
 ** "tedit - Edit single task lines in the text editor of your choice":#tedit--edit-single-tasks
+** "setdue - Set or modify the due-date of one or several already-existing items":#setdue--set-duedates
 
 h1(#installation). Installation
 
@@ -915,7 +916,7 @@ Example:
 2 edit this line with tedit
 $ todo tedit 2
 </code></pre>
-At this point $EDITOR is opened with the line:
+At this point @$EDITOR@ is opened with the line:
 <pre><code>edit this line with tedit</code></pre>
 in it for you to edit. You change it to
 <pre><code>this line has been edited through tedit</code></pre>
@@ -926,3 +927,19 @@ and afterwards just save and exit. Doubtful, you decide to check your changes an
 </code></pre>
 
 "Project page":https://github.com/severoraz/todotxt-cli-tedit
+
+h2(#setdue--set-duedates). setdue - Set or modify the due-date of one or several already-existing items
+
+Specify the due-date you want in any of the supported formats (listed in project page) and apply it to a batch of items simultaneously.
+
+Example:
+<pre><code>$ todo.sh ls
+1 due:2012-12-31 take dog for a walk 
+2 set a duedate for this task
+$ todo.sh setdue --02-28 1 2
+$ todo.sh ls
+1 due:2019-02-28 take dog for a walk
+2 set a duedate for this task due:2019-02-28
+</code></pre>
+
+"Project page":https://github.com/severoraz/todo.txt_cli-setdue
