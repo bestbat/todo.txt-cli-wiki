@@ -60,6 +60,9 @@ TODO.txt todos are listed e.g. in Korganizer.
 
 Bulldog is an HTML viewer for todo.txt files: https://github.com/infews/bulldog/downloads
 
+**Todo.txt for Chrome** is an extension with _Dropbox & Google Drive_ integration, and features such as pending task count, saved filters, and more. [Get it here](https://chrome.google.com/webstore/detail/mndijfcodpjlhgjcpcbhncjakaboedbl)
+
+
 # Mobile
 
 _Todo.txt-Enyo_, for **WebOS**: https://github.com/thrrgilag/Todo.txt-Enyo
@@ -70,6 +73,8 @@ _Swiftodo_, for **iOS**:  Swiftodo in the app store, and http://swiftodoapp.com/
 
 _Simpletask_, for **Android**: [simpletask-android](https://github.com/mpcjanssen/simpletask-android) (Written in [Kotlin](https://kotlinlang.org/)) .  
 (Checkout variants for the text files to be [saved in Dropbox](https://github.com/mpcjanssen/simpletask-android#dropbox) and to be [saved in Nextcloud](https://github.com/mpcjanssen/simpletask-android#nextcloud))
+
+**Todo.txt for Android**: Simple, light, android app, integrates with _Dropbox & Google Drive_, includes home screen widgets, notifications, and app shortcuts. Supports Andoird 6.0 Marshmallow and higher. [Get it on the Play Store](https://play.google.com/store/apps/details?id=net.c306.ttsuper)
 
 # Thunderbird/Lightning
 
