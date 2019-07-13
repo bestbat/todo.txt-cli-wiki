@@ -25,6 +25,10 @@ https://github.com/abztrakt/ya-todo-py
 There's also a [Rust version](https://github.com/kstep/todotxt.rs) of todo.txt parser.
 It is also available in [Crates.io](https://crates.io/crates/todotxt).
 
+# Ruby
+
+- [todo-txt-gem](https://github.com/samwho/todo-txt-gem)
+
 # Cross platform
 
 [**Todour**](http://nerdur.com/todour-pl/) is a simple and fast GUI for Mac, Windows and Linux for managing a todo.txt list (written in C++/Qt)
