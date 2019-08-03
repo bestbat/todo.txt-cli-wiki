@@ -43,7 +43,6 @@ h3. Table of Contents
 ** "again - Complete and re-add tasks, updating due and deferral dates":#again-recurring-tasks-made-easy
 ** "top - Shows as many tasks as you can see in your terminal":#top-see-the-top-tasks
 ** "XP - print a readable guide of your accomplishments.":#xp--print-a-readable-guide-of-your-accomplishments
-** "rm - remove several tasks at once.":#rm--remove-several-tasks-at-once
 ** "addr - add task with the projects and contexts of the last added task.":#addr--add-task-with-the-projects-and-contexts-of-the-last-added-task
 ** "lsgc - prints tasks in columns organized by context":#lsgp--lsgc--prints-in-columns-organized-by-either-context-or-group
 ** "lsgp - prints tasks in columns organized by project":#lsgp--lsgc--prints-in-columns-organized-by-either-context-or-group
