@@ -59,6 +59,7 @@ h3. Table of Contents
 ** "book - Create calendar events out of your todos":#book--create-calendar-events
 ** "tedit - Edit single task lines in the text editor of your choice":#tedit--edit-single-tasks
 ** "setdue - Set or modify the due-date of one or several already-existing items":#setdue--set-duedates
+** "many - make the same change on multiple tasks":#many
 
 h1(#installation). Installation
 
@@ -942,3 +943,22 @@ $ todo.sh ls
 </code></pre>
 
 "Project page":https://github.com/severoraz/todo.txt_cli-setdue
+
+h2(#many). many - make the same change on multiple tasks
+
+Instead of just listing one ITEM# you can enter multiple ITEM# and even ranges for any ACTION (that takes a ITEM#).
+
+Example:
+To set the priority to B for the tasks 1 to 3 and 5:
+<pre><code>$ todo.sh many pri 1-3,5 b
+5 (B) Download Todo.txt mobile app @Phone
+TODO: 5 prioritized (B).
+3 (B) Outilne chapter 5 +Novel @Computer
+TODO: 3 prioritized (B).
+2 (B) Schedule annual checkup +Health
+TODO: 2 prioritized (B).
+1 (B) Call Mom @Phone +Family
+TODO: 1 prioritized (B).
+</code></pre>
+
+"Project page":https://gitlab.com/adaschma/todo.txt-many
