@@ -11,6 +11,7 @@ h3. Table of Contents
 
 * New/Enhanced Actions
 ** "Add and do or prioritize in one step":#add-and-do--add-and-pri-in-one-step
+** "Add only if unique/doesn't already exist":#addu
 ** "Archive only selected done items":#archive-only-selected-done-items
 ** "Edit in a designated text editor":#edit-open-in-text-editor
 ** "graph – Visualize done tasks – «Don’t break the chain» for todo.txt":#graph-visualize-done-tasks
@@ -122,6 +123,16 @@ It also allows to set a priority when adding an item using the following syntax:
 Variations:
 * __add__ and __do__  "Gina's addx":http://github.com/ginatrapani/todo.txt-cli/blob/addons/.todo.actions.d/addx
 * __add__ and __pri__ "Gina's adda":http://github.com/ginatrapani/todo.txt-cli/blob/addons/.todo.actions.d/adda
+
+h2(#addu). Add if unique
+
+This will add a task only if it doesn't already exist.
+
+<pre><code>todo.sh addu "this is a task"</code></pre>
+
+"Project page":https://github.com/markcaudill/todo.txt-addu
+
+"Download file":https://raw.githubusercontent.com/markcaudill/todo.txt-addu/master/addu
 
 h2(#archive-only-selected-done-items). Archive only selected done items
 
