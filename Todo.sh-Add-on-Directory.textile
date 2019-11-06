@@ -11,7 +11,7 @@ h3. Table of Contents
 
 * New/Enhanced Actions
 ** "Add and do or prioritize in one step":#add-and-do--add-and-pri-in-one-step
-** "Add only if unique/doesn't already exist":#addu
+** "addu - Add if unique/doesn't already exist":#addu
 ** "Archive only selected done items":#archive-only-selected-done-items
 ** "Edit in a designated text editor":#edit-open-in-text-editor
 ** "graph – Visualize done tasks – «Don’t break the chain» for todo.txt":#graph-visualize-done-tasks
