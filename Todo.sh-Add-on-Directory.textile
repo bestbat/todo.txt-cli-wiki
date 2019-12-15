@@ -957,7 +957,7 @@ $ todo.sh ls
 
 h2(#many). many - make the same change on multiple tasks
 
-Instead of just listing one ITEM# you can enter multiple ITEM# and even ranges for any ACTION (that takes a ITEM#).
+Instead of just listing one ITEM# you can enter multiple ITEM# and even ranges for any ACTION (that takes a ITEM#) or use a search term.
 
 Example:
 To set the priority to B for the tasks 1 to 3 and 5:
@@ -970,6 +970,14 @@ TODO: 3 prioritized (B).
 TODO: 2 prioritized (B).
 1 (B) Call Mom @Phone +Family
 TODO: 1 prioritized (B).
+</code></pre>
+
+To set the priority to C for the tasks containing the work Download or have the context @Computer:
+<pre><code>$ todo-txt many pri '/Download\|@Computer/' c
+5 (C) Download Todo.txt mobile app @Phone
+TODO: 5 prioritized (C).
+3 (C) Outilne chapter 5 +Novel @Computer
+TODO: 3 re-prioritized from (B) to (C).
 </code></pre>
 
 "Project page":https://gitlab.com/adaschma/todo.txt-many
