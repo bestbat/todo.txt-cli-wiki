@@ -972,8 +972,8 @@ TODO: 2 prioritized (B).
 TODO: 1 prioritized (B).
 </code></pre>
 
-To set the priority to C for the tasks containing the work Download or have the context @Computer:
-<pre><code>$ todo-txt many pri '/Download\|@Computer/' c
+To set the priority to C for the tasks containing the work Download or are part of the project +Novel:
+<pre><code>$ todo-txt many pri '/Download\|+Novel/' c
 5 (C) Download Todo.txt mobile app @Phone
 TODO: 5 prioritized (C).
 3 (C) Outilne chapter 5 +Novel @Computer
