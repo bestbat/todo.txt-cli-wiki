@@ -1,9 +1,13 @@
-Here's how to install and run the Todo.txt CLI:
 
-0. (_Windows only_) [Download and install Cygwin](http://cygwin.com/install.html). Cygwin provides a Unix-environment for Windows; Todo.txt needs just the Bash shell and some common Unix tools, so a minimal installation will do just fine (Another suggestion is to use git on windows - it's smaller and have sh builtin [git on windows](http://git-scm.com/)).
+For *Windows* [Download and install Cygwin](http://cygwin.com/install.html). Cygwin provides a Unix-environment for Windows; Todo.txt needs just the Bash shell and some common Unix tools, so a minimal installation will do just fine (Another suggestion is to use git on windows - it's smaller and have sh builtin [git on windows](http://git-scm.com/)).
+
+For *MacOS* it is simpler to use the defacto package management tool [Homebrew](https://brew.sh) . See [here](#mac--using-homebrew) for how
+
+---
+
+# Installation
 
 1. [Download the latest stable release of Todo.txt CLI](http://github.com/todotxt/todo.txt-cli/releases) (available as a ZIP or TAR archive) and extract it.
-Mac users: There is a [Homebrew](https://brew.sh) package for todo.txt - install using `brew install todo-txt`.
 
 2. Open a command window. On Windows, this is _Cygwin Bash Shell_ (_not_ Command Prompt!); elsewhere, this is often called _Terminal_. It usually presents you with a `$` prompt. `cd` into the directory where you extracted todo.sh. Make the todo.sh script executable:
 
@@ -35,8 +39,27 @@ Note: If you define an alias (e.g. `t`) to todo.sh, you need to explicitly enabl
 $ complete -F _todo t
 ```
 
-5. Want more? See the full list of configuration tweaks, enhancements and recommendations on the [[Tips and Tricks]] page.
+## MAC : Using Homebrew
 
-6. Something missing? Todo.txt is extensible; many users have already written Add-ons listed on the [[Todo.sh Add on Directory]] page.
+1. Download the latest version by running 
+```bash 
+brew install todo-txt
+```
 
-7. Having problems? Have a look at the [[Troubleshooting]] page, or ask on the friendly [mailing list](http://groups.yahoo.com/group/todotxt/).
+2. By default brew installs packages on ` usr/local/opt/ ` , so you'll need to copy the config file to HOME by running 
+```bash
+ cp /usr/local/opt/todo-txt/todo.cfg ~/.todo.cfg 
+```
+
+3. Next you'll want to configure the directory where your todos will be created, otherwise they'll be created on ` /usr/local/bin ` by default (or wherever todo.sh is located). Open `.todo.cfg` in your favourite text editor and edit the path variable `TODO_DIR`
+
+*Note :* Auto completion will be automatically installed , but you'll still need to enable it if you aliased `todo.sh` 
+
+# Help 
+
+
+- Want more? See the full list of configuration tweaks, enhancements and recommendations on the [[Tips and Tricks]] page.
+
+- Something missing? Todo.txt is extensible; many users have already written Add-ons listed on the [[Todo.sh Add on Directory]] page.
+
+- Having problems? Have a look at the [[Troubleshooting]] page, or ask on the friendly [mailing list](http://groups.yahoo.com/group/todotxt/).
