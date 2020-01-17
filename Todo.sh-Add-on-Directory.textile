@@ -61,6 +61,7 @@ h3. Table of Contents
 ** "tedit - Edit single task lines in the text editor of your choice":#tedit--edit-single-tasks
 ** "setdue - Set or modify the due-date of one or several already-existing items":#setdue--set-duedates
 ** "many - make the same change on multiple tasks":#many
+** "count - handle items with count":#count
 
 h1(#installation). Installation
 
@@ -981,3 +982,30 @@ TODO: 3 re-prioritized from (B) to (C).
 </code></pre>
 
 "Project page":https://gitlab.com/adaschma/todo.txt-many
+
+h2(#count). __count__: handle items with count
+
+Finish a task and re-enter it with a decreased count, so that you can easily keep track of items.
+
+Example:
+
+<pre><code>
+$ todo.sh list
+01 2019-12-28 Watermelon
+02 2019-12-28 Banana count:4
+--
+TODO: 2 of 2 tasks shown
+$ todo.sh count 1
+1
+$ todo.sh count 2
+4
+$ todo.sh count 2 done
+$ todo.sh list
+01 2019-12-28 Watermelon
+02 2019-12-28 Banana count:3
+--
+TODO: 2 of 2 tasks shown
+</code></pre>
+
+"Project page":https://github.com/renyuneyun/todo.txt-count
+"Download file":https://raw.githubusercontent.com/renyuneyun/todo.txt-count/master/count
