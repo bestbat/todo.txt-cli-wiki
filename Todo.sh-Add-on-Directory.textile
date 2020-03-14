@@ -10,6 +10,7 @@ h3. Table of Contents
 ** "hiding - Hide specified tasks during listing":#hiding
 
 * New/Enhanced Actions
+** "Add with created-on date":#add-with-created-on
 ** "Add and do or prioritize in one step":#add-and-do--add-and-pri-in-one-step
 ** "addu - Add if unique/doesn't already exist":#addu
 ** "Archive only selected done items":#archive-only-selected-done-items
@@ -104,6 +105,27 @@ Variations:
 * "hide":https://github.com/bozakov/todo.txt-hide - Use grep to avoid Python dependency.
 
 h1. New or Enhanced Commands/Actions
+
+h2(#add-with-created-on). Add with created-on date
+
+Replaces the existing todo.txt CLI action with one that prepends the task with the date it was created on, consistent with the todo.txt standard.
+
+Usage:
+
+```
+todo.sh add This is a test task in +Project to be completed @home
+```
+
+Results in the line
+
+```
+YYYY-MM-DD This is a test task in +Project to be completed @home
+```
+
+where `YYYY-MM-DD` is today's date, being added to the `todo.txt` file.
+
+"Project Page":https://github.com/DoctorRadar/todotxt_cli_date_add
+
 
 h2(#add-and-do--add-and-pri-in-one-step). __add__ and __do__ / __add__ and __pri__ in one step
 
