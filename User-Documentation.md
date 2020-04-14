@@ -15,7 +15,6 @@ This is the user documentation for Todo.txt CLI. If you’re interested in contr
 
 ## Related Projects
 - [Simple, iPhone-friendly web interface for todo.txt-cli]
-- [Todo.txt AIM Bot]
 - [Get Milk] imports all pending tasks from a [Remember The Milk] user account
 
 [Watch the Screencast]: http://vimeo.com/3263629
