@@ -21,7 +21,6 @@ This is the user documentation for Todo.txt CLI. If you’re interested in contr
 [Watch the Screencast]: http://vimeo.com/3263629
 [The Todo.txt Format]: https://github.com/todotxt/todo.txt
 [Simple, iPhone-friendly web interface for todo.txt-cli]: http://github.com/smajda/todo.txt-web/tree/master
-[Todo.txt AIM Bot]: http://github.com/ginatrapani/todo.txt-aim-bot/tree/master
 [Get Milk]: http://github.com/jdevera/get-milk/
 [Remember The Milk]: http://www.rememberthemilk.com/
 [Todo.sh Changelog]: https://github.com/todotxt/todo.txt-cli/blob/master/CHANGELOG.md
