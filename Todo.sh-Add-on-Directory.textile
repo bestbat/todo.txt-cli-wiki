@@ -17,6 +17,7 @@ h3. Table of Contents
 ** "Edit in a designated text editor":#edit-open-in-text-editor
 ** "graph – Visualize done tasks – «Don’t break the chain» for todo.txt":#graph-visualize-done-tasks
 ** "cd - Display directory paths":#cd-display-directory-paths
+** "clock - Track time for tasks through GNOME hamster"#todo.sh-hamster-clock
 ** "due - List tasks by due date":#due-list-tasks-by-due-date
 ** "nav - Open URLs in a web browser":#nav-open-items-url-in-browser
 ** "ac - Open activeCollab URLs in a web browser":#ac-activecollab-integration
@@ -173,6 +174,21 @@ Note that if the keyword is a number it is interpreted as an item number
 "Project page":http://github.com/doegox/todo.txt-cli/blob/extras/todo.actions.d/archive
 
 "Download file":http://github.com/doegox/todo.txt-cli/raw/extras/todo.actions.d/archive
+
+h2(#todo.sh-hamster-clock). Track time for tasks through GNOME hamster
+
+This addon allows you to clock in tasks through hamster, the GNOME time tracker.
+Just call the command "clock" and enter the task number you want to clock in:
+ 
+ todo.sh clock in 5
+
+When you're done with the task and want to clock out, just use:
+
+ todo.sh clock out
+
+"Project page":https://github.com/codysork/todo.sh-hamster-clock
+
+"Download file":https://raw.githubusercontent.com/codysork/todo.sh-hamster-clock/master/.todo.actions.d/clock
 
 h2(#edit-open-in-text-editor). __edit__: open in text editor
 
@@ -401,7 +417,46 @@ $ todo.sh repeat 3 +7 # Marks item 3 as done and recreates it 7 days from the du
 "Download file":https://raw.github.com/drobertadams/todo.txt-cli-addons/master/repeat/repeat
 
 h2(#recur-intelligently-add-recurring-tasks). __recur__: Intelligently add recurring tasks.
+<pre><code>
+$ todo.sh ls
+1 Some task
+2 Some other task
+3 A third task
+--
+2013-06-11: 3 of 3 tasks shown
 
+$ todo.sh bump 1
+Some task
+TODO: 1 bumped from 2013-06-11.txt to 2013-06-12.txt
+
+$ todo.sh lf 2013-06-12
+1 Some task
+--
+2013-06-12: 1 of 1 tasks shown
+
+$ todo.sh lsa
+1 Some other task
+2 A third task
+0 x 2013-06-11 Some task bumped:2013-06-12
+
+$ todo.sh bumpall
+Some other task
+A third task
+
+TODO: all items bumped from 2013-06-11.txt to 2013-06-12.txt
+
+$ todo.sh lsf 2013-06-10.txt
+1 Some task I forgot about
+--
+2013-06-10: 1 of 1 tasks shown
+
+$ todo.sh verify
+2013-06-10.txt
+
+$ todo.sh bringforward
+Some task I forgot about
+TODO: all items bumped from 2013-06-10.txt to 2013-06-11.txt
+</code></pre>
 When run from a daily cron job (or similar scheduler), it will add tasks on appropriate days from a recur.txt file, while avoiding redundant adds of previously-added, not-yet-completed tasks.
 
 "Project page":https://github.com/paulroub/todo.txt-recurring-tasks
