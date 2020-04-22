@@ -1075,13 +1075,23 @@ TODO: 2 of 2 tasks shown
 h2(#hamster-clock). Clock: Track time for tasks through GNOME hamster
 
 This addon allows you to clock in tasks through hamster, the GNOME time tracker.
-Just call the command "clock" and enter the task number you want to clock in:
- 
- todo.sh clock in 5
 
+Just call the command "clock" and enter the task number you want to clock in: 
+<pre><code>
+$ todo.sh list
+02 (A) Escape from the dungeon
+01 (B) Get milk
+--
+TODO: 2 of 2 tasks shown
+
+$ todo.sh clock in 2
+Clocking in for Escape from the dungeon...
+</code></pre>
 When you're done with the task and want to clock out, just use:
-
- todo.sh clock out
+<pre><code>
+$ todo.sh clock out
+Clocking out for Escape from the dungeon...
+</code></pre>
 
 "Project page":https://github.com/codysork/todo.sh-hamster-clock
 "Download file":https://raw.githubusercontent.com/codysork/todo.sh-hamster-clock/master/.todo.actions.d/clock
