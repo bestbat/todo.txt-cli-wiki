@@ -17,7 +17,6 @@ h3. Table of Contents
 ** "Edit in a designated text editor":#edit-open-in-text-editor
 ** "graph – Visualize done tasks – «Don’t break the chain» for todo.txt":#graph-visualize-done-tasks
 ** "cd - Display directory paths":#cd-display-directory-paths
-** "clock - Track time for tasks through GNOME hamster"#todo.sh-hamster-clock
 ** "due - List tasks by due date":#due-list-tasks-by-due-date
 ** "nav - Open URLs in a web browser":#nav-open-items-url-in-browser
 ** "ac - Open activeCollab URLs in a web browser":#ac-activecollab-integration
@@ -64,6 +63,7 @@ h3. Table of Contents
 ** "setdue - Set or modify the due-date of one or several already-existing items":#setdue--set-duedates
 ** "many - make the same change on multiple tasks":#many
 ** "count - handle items with count":#count
+** "clock - Track time for tasks through GNOME hamster"#todo.sh-hamster-clock
 
 h1(#installation). Installation
 
@@ -174,21 +174,6 @@ Note that if the keyword is a number it is interpreted as an item number
 "Project page":http://github.com/doegox/todo.txt-cli/blob/extras/todo.actions.d/archive
 
 "Download file":http://github.com/doegox/todo.txt-cli/raw/extras/todo.actions.d/archive
-
-h2(#todo.sh-hamster-clock). Track time for tasks through GNOME hamster
-
-This addon allows you to clock in tasks through hamster, the GNOME time tracker.
-Just call the command "clock" and enter the task number you want to clock in:
- 
- todo.sh clock in 5
-
-When you're done with the task and want to clock out, just use:
-
- todo.sh clock out
-
-"Project page":https://github.com/codysork/todo.sh-hamster-clock
-
-"Download file":https://raw.githubusercontent.com/codysork/todo.sh-hamster-clock/master/.todo.actions.d/clock
 
 h2(#edit-open-in-text-editor). __edit__: open in text editor
 
@@ -1086,3 +1071,18 @@ TODO: 2 of 2 tasks shown
 
 "Project page":https://github.com/renyuneyun/todo.txt-count
 "Download file":https://raw.githubusercontent.com/renyuneyun/todo.txt-count/master/count
+
+h2(#todo.sh-hamster-clock). Track time for tasks through GNOME hamster
+
+This addon allows you to clock in tasks through hamster, the GNOME time tracker.
+Just call the command "clock" and enter the task number you want to clock in:
+ 
+ todo.sh clock in 5
+
+When you're done with the task and want to clock out, just use:
+
+ todo.sh clock out
+
+"Project page":https://github.com/codysork/todo.sh-hamster-clock
+
+"Download file":https://raw.githubusercontent.com/codysork/todo.sh-hamster-clock/master/.todo.actions.d/clock
