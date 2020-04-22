@@ -1084,5 +1084,4 @@ When you're done with the task and want to clock out, just use:
  todo.sh clock out
 
 "Project page":https://github.com/codysork/todo.sh-hamster-clock
-
 "Download file":https://raw.githubusercontent.com/codysork/todo.sh-hamster-clock/master/.todo.actions.d/clock
