@@ -1110,9 +1110,10 @@ Start | End   | Duration | Activity                | Category
 ----------------------------------------------------------------
 12:53 |       | 1min     | Escape from the dungeon | Freedom
 ----------------------------------------------------------------
-Taxes: 2min
-Total:  2min
+Freedom: 1min
+Total:  1min
 
+$ todo clock out
 </code></pre>
 
 "Project page":https://github.com/codysork/todo.sh-hamster-clock
