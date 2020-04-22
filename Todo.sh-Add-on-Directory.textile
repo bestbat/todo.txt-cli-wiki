@@ -1081,8 +1081,8 @@ First, you will need to install "hamster-time-tracker":https://github.com/projec
 Then, just call the command "clock" and enter the task number you want to clock in: 
 <pre><code>
 $ todo.sh list
-02 (A) Escape from the dungeon
-01 (B) Get milk
+02 (A) Escape from the dungeon +Freedom
+01 (B) Get milk +Groceries
 --
 TODO: 2 of 2 tasks shown
 
@@ -1093,6 +1093,26 @@ When you're done with the task and want to clock out, just use:
 <pre><code>
 $ todo.sh clock out
 Clocking out for Escape from the dungeon...
+</code></pre>
+
+Any of the tasks you clock in be visible in the hamster GUI, and you can also see them by using:
+<pre><code>
+$ todo.sh clock in 2
+Clocking in for Escape from the dungeon...
+$ hamster current
+2020-04-22 12:53 Escape from the dungeon@Freedom 00:00
+</code></pre>
+To see all your clocks for the day:
+<pre><code>
+$ hamster list
+
+Start | End   | Duration | Activity                | Category
+----------------------------------------------------------------
+12:53 |       | 1min     | Escape from the dungeon | Freedom
+----------------------------------------------------------------
+Taxes: 2min
+Total:  2min
+
 </code></pre>
 
 "Project page":https://github.com/codysork/todo.sh-hamster-clock
