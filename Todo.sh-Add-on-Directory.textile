@@ -1112,8 +1112,6 @@ Start | End   | Duration | Activity                | Category
 ----------------------------------------------------------------
 Freedom: 1min
 Total:  1min
-
-$ todo clock out
 </code></pre>
 
 "Project page":https://github.com/codysork/todo.sh-hamster-clock
