@@ -1105,8 +1105,6 @@ $ hamster current
 To see all your clocks for the day:
 <pre><code>
 $ hamster list
-
-
 Start | End   | Duration | Activity                | Category
 ----------------------------------------------------------------
 12:53 |       | 1min     | Escape from the dungeon | Freedom
