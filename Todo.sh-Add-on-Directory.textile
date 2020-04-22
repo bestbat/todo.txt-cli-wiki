@@ -1092,8 +1092,6 @@ Clocking in for Escape from the dungeon...
 
 Any of the tasks you clock in be visible in the hamster GUI, and you can also see them by using:
 <pre><code>
-$ todo.sh clock in 2
-Clocking in for Escape from the dungeon...
 $ hamster current
 2020-04-22 12:53 Escape from the dungeon@Freedom 00:00
 </code></pre>
