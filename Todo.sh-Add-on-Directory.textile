@@ -64,6 +64,7 @@ h3. Table of Contents
 ** "many - make the same change on multiple tasks":#many
 ** "count - handle items with count":#count
 ** "clock - Track time for tasks through GNOME hamster":#hamster-clock
+** "random - choose a task randomly":#random
 
 h1(#installation). Installation
 
@@ -1115,3 +1116,15 @@ Total:  1min
 
 "Project page":https://github.com/codysork/todo.sh-hamster-clock
 "Download file":https://raw.githubusercontent.com/codysork/todo.sh-hamster-clock/master/.todo.actions.d/clock
+
+h2(#random). random -- choose a task randomly
+
+<pre><code>  random
+    Print a random task from your list
+  random due
+    Print a random task due on the first due date in your list
+  random due [offset]
+    Print a random task due on the [offset] due date in your list
+</pre></code>
+"Project page":https://github.com/zoechrome/todo.txt-random
+"Download file":https://raw.githubusercontent.com/zoechrome/todo.txt-random/master/random
