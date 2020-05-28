@@ -65,6 +65,7 @@ h3. Table of Contents
 ** "count - handle items with count":#count
 ** "clock - Track time for tasks through GNOME hamster":#hamster-clock
 ** "random - choose a task randomly":#random
+** "today - Display tasks tagged for today":#today--see-todays-tasks
 
 h1(#installation). Installation
 
@@ -1128,3 +1129,26 @@ h2(#random). random -- choose a task randomly
 </pre></code>
 "Project page":https://github.com/zoechrome/todo.txt-random
 "Download file":https://raw.githubusercontent.com/zoechrome/todo.txt-random/master/random
+
+h2(#today--see-todays-tasks). today - Display tasks tagged for today
+
+Any task with t:YYYY-MM-DD matching today's date will be displayed.
+
+Example:
+<pre><code>$ date +%Y-%m-%d
+2020-05-28
+$ todo.sh list
+1 2020-05-27 A task I plan to do in a days time t:2020-05-28
+2 2020-05-28 A task I want to do today t:2020-05-28
+3 2020-05-28 A task I want to do tomorrow t:2020-05-29
+4 2020-05-28 A task without a date on it
+$ todo.sh today
+===================================
+Tasks for today:
+===================================
+1 2020-05-27 A task I plan to do in a days time t:2020-05-28
+2 2020-05-28 A task I want to do today t:2020-05-28
+</code></pre>
+
+"Project page":https://github.com/mence/todotxt-today
+"Download file":https://raw.githubusercontent.com/mence/todotxt-today/master/today
