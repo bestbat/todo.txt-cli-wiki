@@ -62,4 +62,4 @@ brew install todo-txt
 
 - Something missing? Todo.txt is extensible; many users have already written Add-ons listed on the [[Todo.sh Add on Directory]] page.
 
-- Having problems? Have a look at the [[Troubleshooting]] page, or ask on the friendly [mailing list](http://groups.yahoo.com/group/todotxt/).
+- Having problems? Have a look at the [[Troubleshooting]] page, or ask on the in the [discussions group](https://github.com/todotxt/todo.txt-cli/discussions)
