@@ -1,1 +1,0 @@
-[sdf](https://github.com/todotxt/todo.txt-cli/wiki/_new?wiki%5Bname%5D=_Footer)
