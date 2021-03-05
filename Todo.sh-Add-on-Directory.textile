@@ -776,8 +776,8 @@ TODO: 60 added.
 60 here is another task +context +project
 </pre>
 
-"Project page":https://github.com/sachinrudr/todotxt-study-suite
-"Download file":https://raw.githubusercontent.com/sachinrudr/todotxt-study-suite/master/.todo.actions.d/addr
+"Project page":https://github.com/rscircus/todotxt-study-suite
+"Download file":https://raw.githubusercontent.com/rscircus/todotxt-study-suite/master/.todo.actions.d/addr
 
 
 h2(#lsgp--lsgc--prints-in-columns-organized-by-either-context-or-group).  lsgp / lsgc - prints in columns organized by either context or group
@@ -806,8 +806,8 @@ this guy
 this guy   
 </pre>
 
-"Project page":https://github.com/sachinrudr/todotxt-study-suite
-"Download file":https://github.com/sachinrudr/todotxt-study-suite/tree/master/.todo.actions.d
+"Project page":https://github.com/rscircus/todotxt-study-suite
+"Download file":https://github.com/rscircus/todotxt-study-suite/tree/master/.todo.actions.d
 
 h2(#pomodori-todo-a-pomodoro-counter-implementation-for-todo-txt). pomodori-todo.txt - A pomodoro counter implementation for todo.txt
 
