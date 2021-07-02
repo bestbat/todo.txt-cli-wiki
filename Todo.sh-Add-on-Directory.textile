@@ -1172,4 +1172,4 @@ h2(#painless-recurring). Use add-and-do-in-one-step + aliases
 alias tx="t add x"
 alias ta="t archive"
 
-"Project Page": https://github.com/vcg3rd/todo.txt-painless-recurring/blob/main/README.md
+"Project Page":https://github.com/vcg3rd/todo.txt-painless-recurring/blob/main/README.md
