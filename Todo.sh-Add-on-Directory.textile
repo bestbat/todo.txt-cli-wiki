@@ -1168,11 +1168,10 @@ todo.sh autopri 2
 "Project Page":https://github.com/chrisbeardy/todo.txt-autopri
 
 h2(#painless-recurring). 
-(#add-and-do--add-and-pri-in-one-step) + aliases
+add-and-do--add-and-pri-in-one-step + aliases
 
-```
 alias tx="t add x"
 alias ta="t archive"
-```
+
 
 "Project Page": https://github.com/vcg3rd/todo.txt-painless-recurring/blob/main/README.md
