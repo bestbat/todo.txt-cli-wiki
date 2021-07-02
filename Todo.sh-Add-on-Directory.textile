@@ -1167,7 +1167,8 @@ todo.sh autopri 2
 
 "Project Page":https://github.com/chrisbeardy/todo.txt-autopri
 
-h2(#painless-recurring). Use add-and-do-in-one-step + aliases
+h2(#painless-recurring). Painless-recurring tasks
+Use add-and-do-in-one-step aliases
 
 alias tx="t add x"
 alias ta="t archive"
