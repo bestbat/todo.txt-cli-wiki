@@ -67,7 +67,6 @@ h3. Table of Contents
 ** "random - choose a task randomly":#random
 ** "today - Display tasks tagged for today":#today--see-todays-tasks
 ** "autopri - Autoprioritise tasks based on time till due":#autoprioritise-tasks
-** "painless-recurring - Who needs an add-on script? Just uses aliases!":#painless-recurring
 
 h1(#installation). Installation
 
@@ -1167,11 +1166,3 @@ todo.sh autopri 2
 
 "Project Page":https://github.com/chrisbeardy/todo.txt-autopri
 
-h2(#painless-recurring). Painless-recurring tasks
-
-Use add-and-do-in-one-step plus aliases
-
-alias tx="t add x"
-alias ta="t archive"
-
-"Project Page":https://github.com/vcg3rd/todo.txt-painless-recurring/blob/main/README.md
