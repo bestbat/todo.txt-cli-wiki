@@ -67,6 +67,7 @@ h3. Table of Contents
 ** "random - choose a task randomly":#random
 ** "today - Display tasks tagged for today":#today--see-todays-tasks
 ** "autopri - Autoprioritise tasks based on time till due":#autoprioritise-tasks
+** "dorecur – Add new tasks as required for recurrence":#dorecur
 
 h1(#installation). Installation
 
@@ -1166,3 +1167,31 @@ todo.sh autopri 2
 
 "Project Page":https://github.com/chrisbeardy/todo.txt-autopri
 
+h2(#dorecur). dorecur – Add new tasks as required for recurrence
+
+*dorecur* provides a drop-in replacement for the *do* action. It handles recurring tasks by adding a new task when the old task is finished. It does not require an external scheduler such as cron.
+
+Normal recurrence example (based on date of completion):
+
+<pre><code>$ todo-txt ls
+1 Water flowers t:2021-01-01 rec:5d
+$ date -I
+2021-01-02
+$ todo-txt do 1
+1 x 2021-01-02 Water flowers t:2021-01-01 rec:5d
+TODO: 1 marked as done.
+1 Water flowers t:2021-01-07 rec:5d
+TODO: 1 added.
+</code></pre>
+
+Strict recurrence example (based on original start/due dates):
+
+<pre><code>$ todo-txt ls
+1 Send birthday greeting to friend t:2021-04-04 rec:+1y
+$ todo-txt do 1
+1 x 2021-04-05 Send birthday greeting to friend t:2021-04-04 rec:+1y
+TODO: 1 marked as done.
+1 Send birthday greeting to friend t:2022-04-04 rec:+1y
+</code></pre>
+
+"Project Page":https://github.com/owenh000/todo.txt-cli-dorecur
