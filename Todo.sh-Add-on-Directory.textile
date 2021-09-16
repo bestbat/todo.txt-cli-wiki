@@ -10,11 +10,11 @@ h3. Table of Contents
 ** "hiding - Hide specified tasks during listing":#hiding
 
 * New/Enhanced Actions
-** "Add with created-on date":#add-with-created-on
-** "Add and do or prioritize in one step":#add-and-do--add-and-pri-in-one-step
+** "add – Add with created-on date":#add-with-created-on
+** "add – Add and do or prioritize in one step":#add-and-do--add-and-pri-in-one-step
 ** "addu - Add if unique/doesn't already exist":#addu
-** "Archive only selected done items":#archive-only-selected-done-items 
-** "Edit in a designated text editor":#edit-open-in-text-editor
+** "archive – Archive only selected done items":#archive-only-selected-done-items 
+** "edit – Edit in a designated text editor":#edit-open-in-text-editor
 ** "graph – Visualize done tasks – «Don’t break the chain» for todo.txt":#graph-visualize-done-tasks
 ** "cd - Display directory paths":#cd-display-directory-paths
 ** "due - List tasks by due date":#due-list-tasks-by-due-date
@@ -44,12 +44,12 @@ h3. Table of Contents
 ** "revive - re-add items from archive":#revive-re-add-items-from-archive
 ** "again - Complete and re-add tasks, updating due and deferral dates":#again-recurring-tasks-made-easy
 ** "top - Shows as many tasks as you can see in your terminal":#top-see-the-top-tasks
-** "XP - print a readable guide of your accomplishments.":#xp--print-a-readable-guide-of-your-accomplishments
+** "xp - print a readable guide of your accomplishments.":#xp--print-a-readable-guide-of-your-accomplishments
 ** "addr - add task with the projects and contexts of the last added task.":#addr--add-task-with-the-projects-and-contexts-of-the-last-added-task
 ** "lsgc - prints tasks in columns organized by context":#lsgp--lsgc--prints-in-columns-organized-by-either-context-or-group
 ** "lsgp - prints tasks in columns organized by project":#lsgp--lsgc--prints-in-columns-organized-by-either-context-or-group
-** "pomodori-todo - A pomodoro counter implementation for todo.txt":#pomodori-todotxt--a-pomodoro-counter-implementation-for-todotxt
-** "outline- Plan with an outline, sync your next actions":#outline--plan-with-an-outline-sync-your-next-actions
+** "pomodori-todo - A pomodoro counter implementation for todo.txt":#pomodori-todo
+** "outline – Plan with an outline, sync your next actions":#outline
 ** "note - Take notes related to tasks":#note--take-notes-related-to-tasks
 ** "donow - Activity time tracker":#donow--activity-time-tracker
 ** "chcon - Change context":#chcon--change-context
@@ -111,7 +111,7 @@ Variations:
 
 h1. New or Enhanced Commands/Actions
 
-h2(#add-with-created-on). Add with created-on date
+h2(#add-with-created-on). __add­__: Add with created-on date
 
 Replaces the existing todo.txt CLI action with one that prepends the task with the date it was created on, consistent with the todo.txt standard.
 
@@ -132,7 +132,7 @@ where `YYYY-MM-DD` is today's date, being added to the `todo.txt` file.
 "Project Page":https://github.com/DoctorRadar/todotxt_cli_date_add
 
 
-h2(#add-and-do--add-and-pri-in-one-step). __add__ and __do__ / __add__ and __pri__ in one step
+h2(#add-and-do--add-and-pri-in-one-step). __add__: __add__ and __do__ / __add__ and __pri__ in one step
 
 This is the example detailed here: [[Creating Add-ons: Examples]]
 
@@ -152,7 +152,7 @@ Variations:
 * __add__ and __do__  "Gina's addx":http://github.com/ginatrapani/todo.txt-cli/blob/addons/.todo.actions.d/addx
 * __add__ and __pri__ "Gina's adda":http://github.com/ginatrapani/todo.txt-cli/blob/addons/.todo.actions.d/adda
 
-h2(#addu). Add if unique
+h2(#addu). __addu__: Add if unique
 
 This will add a task only if it doesn't already exist.
 
@@ -162,7 +162,7 @@ This will add a task only if it doesn't already exist.
 
 "Download file":https://raw.githubusercontent.com/markcaudill/todo.txt-addu/master/addu
 
-h2(#archive-only-selected-done-items). Archive only selected done items
+h2(#archive-only-selected-done-items). __archive__: Archive only selected done items
 
 This allows to archive selectively one single item or a set of items matching a given keyword.
 For example to archive all done items related to project1:
@@ -730,7 +730,7 @@ _License: GPLv3_
 
 "Project page":https://github.com/Thann/todo-cli-plugins
 
-h2(#xp--print-a-readable-guide-of-your-accomplishments).  XP - print a readable guide of your accomplishments. 
+h2(#xp--print-a-readable-guide-of-your-accomplishments). __xp__: print a readable guide of your accomplishments. 
 
 XP prints the tasks completed on each day starting (x) number of days ago. You may also omit days on which no tasks were completed.  
 
@@ -760,7 +760,7 @@ _License: GPLv3_
 
 "Project page":https://github.com/gr0undzer0/xp
 
-h2(#addr--add-task-with-the-projects-and-contexts-of-the-last-added-task).  addr - add task with the projects and contexts of the last added task.
+h2(#addr--add-task-with-the-projects-and-contexts-of-the-last-added-task). __addr__: add task with the projects and contexts of the last added task.
 
 A helpful todo.sh command when you are adding lots of related tasks. It simply appends the tags of the most recent item to the item you add.
 
@@ -781,7 +781,7 @@ TODO: 60 added.
 "Download file":https://raw.githubusercontent.com/rscircus/todotxt-study-suite/master/.todo.actions.d/addr
 
 
-h2(#lsgp--lsgc--prints-in-columns-organized-by-either-context-or-group).  lsgp / lsgc - prints in columns organized by either context or group
+h2(#lsgp--lsgc--prints-in-columns-organized-by-either-context-or-group). __lsgp/lsgc__: prints in columns organized by either context or group
 
 A print method for todo.sh that uses the entire terminal instead of just one column. It splits up your todo.txt either by context or by project. Although not shown below, it does show line numbers next to each task so you can easily refer to them.
 
@@ -810,14 +810,14 @@ this guy
 "Project page":https://github.com/rscircus/todotxt-study-suite
 "Download file":https://github.com/rscircus/todotxt-study-suite/tree/master/.todo.actions.d
 
-h2(#pomodori-todo-a-pomodoro-counter-implementation-for-todo-txt). pomodori-todo.txt - A pomodoro counter implementation for todo.txt
+h2(#pomodori-todo). __pomodori-todo__: A pomodoro counter implementation for todo.txt
 
 This plugin allows estimating pomodori, running a pomodoro countdown, and manually adding pomodori to todo items. Examples, installation instructions and a screenshot are available on the project page.
 
 "Project page":https://github.com/metalelf0/pomodori-todo.txt
 
 
-h2(#outline-plan-with-an-outline-sync-your-next-actions). outline- Plan with an outline, sync your next actions
+h2(#outline). __outline__: Plan with an outline, sync your next actions
 
 **outline** is an extension for command line "todo.txt":https://github.com/ginatrapani/todo.txt-cli that allows you to plan your projects in a tab-indented outline, and sync only the *next actions* with todo.txt. Actions for editing and displaying your outline, syncing outline.txt with todo.txt, and completing tasks directly from the outline, are also provided.
 
@@ -851,7 +851,7 @@ using the *sync* action
 More actions are available for editing, displaying, and synchronizing the outline. For more information see the "project page":https://github.com/samuelsnyder/outline-todo.txt
 
 
-h2(#note--take-notes-related-to-tasks). note - Take notes related to tasks
+h2(#note--take-notes-related-to-tasks). __note__: Take notes related to tasks
 
 This add-on allows to take notes related to tasks. Notes are stored in text files where you can write down any information related with the task. Just one file per task is allowed.
 
@@ -886,7 +886,7 @@ Licence: "GPL":http://www.gnu.org/copyleft/gpl.html
 "Project page":https://github.com/mgarrido/todo.txt-cli/tree/note/todo.actions.d
 
 
-h2(#donow--activity-time-tracker). donow - Activity time tracker
+h2(#donow--activity-time-tracker). __donow__: Activity time tracker
 
 Donow add-on allows to keep track of the total time spent on an activity
 
@@ -923,7 +923,7 @@ Author: Carlo Lobrano
 "Project page":https://github.com/clobrano/todo.txt-cli/tree/master/todo.actions.d
 
 
-h2(#chcon--change-context). chcon - Change context
+h2(#chcon--change-context). __chcon__: Change context
 
 Chcon allows fast replacement or deletion of the context tag (and whatever follows that in the task description).
 
@@ -945,7 +945,7 @@ Author: Kaarle Ritvanen
 "Project page":https://github.com/kunkku/todo.txt-cli-chcon
 
 
-h2(#rmf--remove-file). rm - Remove from file
+h2(#rmf--remove-file). __rm__: Remove from file
 
 Plugin for applying the "rm" action, which either removes a specified line or a term within that line, to any file in the todo directory
 
@@ -954,37 +954,37 @@ Usage: `todo.sh rmf FILENAME #ITEM [TERM]`
 "Project page":https://github.com/samuelsnyder/rmf-todo.txt
 
 
-h2(#wp--weekly-planner). wp - A weekly planner addon
+h2(#wp--weekly-planner). __wp__: A weekly planner addon
 
 The basic idea of this planning mechanism is that on a per-week basis, we want to dedicate a certain percentage of time for various task groups. Total amount of time available for each task groups is mentioned in the allocations.conf file. This addon and its associated commands help to make sure that we spend the desired amount of time in various task
 
 "Project page":https://github.com/rameshg87/todo.txt-weekly-planner
 
-h2(#all_repri--reprioritize-all). all_repri - Make a uniform priority change to all prioritized items
+h2(#all_repri--reprioritize-all). __all_repri__: Make a uniform priority change to all prioritized items
 
 This addon is for anybody who prioritizes items in at least two levels, completes the highest priority items, and then wants to increase the priority level of the remaining tasks. all_repri will increase or decrease the priority level of all and only already prioritized items by a given number of priority levels.
 
 "Project page":https://github.com/bapfeld/all_repri 
 
-h2(#stale--prune-stale-todos). stale - Move stale todos into a stale.txt file
+h2(#stale--prune-stale-todos). __stale__: Move stale todos into a stale.txt file
 
 This action provides a shorthand for moving todos into and out of a stale.txt file, where you would keep todos that you haven't got to in a while and that don't really fit into a specific outline.
 
 "Project page":https://github.com/tgdnt/stale
 
-h2(#remind--create-apple-reminders). remind - Create Apple Reminders out of your todos (Mac only)
+h2(#remind--create-apple-reminders). __remind__: Create Apple Reminders out of your todos (Mac only)
 
 This action creates an Apple Reminder out of a todo. It also includes an optional customized do action that will find the matching Apple Reminder and delete it once you mark the todo as done.
 
 "Project page":https://github.com/tgdnt/remind
 
-h2(#book--create-calendar-events). book - Create calendar events out of your todos
+h2(#book--create-calendar-events). __book__: Create calendar events out of your todos
 
 This action creates a calendar event out of a todo. It requires "khal":https://lostpackets.de/khal/ and - to enable cloud sync - "vdirsyncer":https://vdirsyncer.pimutils.org/en/stable/.
 
 "Project page":https://github.com/tgdnt/book
 
-h2(#tedit--edit-single-tasks). tedit - Edit single task lines in the text editor of your choice
+h2(#tedit--edit-single-tasks). __tedit__: Edit single task lines in the text editor of your choice
 
 This action lets you edit a single task in the editor of your choice, ($EDITOR environmental variable).
 
@@ -1006,7 +1006,7 @@ and afterwards just save and exit. Doubtful, you decide to check your changes an
 
 "Project page":https://github.com/severoraz/todotxt-cli-tedit
 
-h2(#setdue--set-duedates). setdue - Set or modify the due-date of one or several already-existing items
+h2(#setdue--set-duedates). __setdue__: Set or modify the due-date of one or several already-existing items
 
 Specify the due-date you want in any of the supported formats (listed in project page) and apply it to a batch of items simultaneously.
 
@@ -1022,7 +1022,7 @@ $ todo.sh ls
 
 "Project page":https://github.com/severoraz/todo.txt_cli-setdue
 
-h2(#many). many - make the same change on multiple tasks
+h2(#many). __many__: make the same change on multiple tasks
 
 Instead of just listing one ITEM# you can enter multiple ITEM# and even ranges for any ACTION (that takes a ITEM#) or use a search term.
 
@@ -1076,7 +1076,7 @@ TODO: 2 of 2 tasks shown
 "Project page":https://github.com/renyuneyun/todo.txt-count
 "Download file":https://raw.githubusercontent.com/renyuneyun/todo.txt-count/master/count
 
-h2(#hamster-clock). Clock: Track time for tasks through GNOME hamster
+h2(#hamster-clock). __clock__: Track time for tasks through GNOME hamster
 
 This addon allows you to clock in tasks through hamster, the GNOME time tracker.
 
@@ -1120,7 +1120,7 @@ Total:  1min
 "Project page":https://github.com/codysork/todo.sh-hamster-clock
 "Download file":https://raw.githubusercontent.com/codysork/todo.sh-hamster-clock/master/.todo.actions.d/clock
 
-h2(#random). random -- choose a task randomly
+h2(#random). __random__: choose a task randomly
 
 <pre><code>  random
     Print a random task from your list
@@ -1132,7 +1132,7 @@ h2(#random). random -- choose a task randomly
 "Project page":https://github.com/zoechrome/todo.txt-random
 "Download file":https://raw.githubusercontent.com/zoechrome/todo.txt-random/master/random
 
-h2(#today--see-todays-tasks). today - Display tasks tagged for today
+h2(#today--see-todays-tasks). __today__: Display tasks tagged for today
 
 Any task with t:YYYY-MM-DD matching today's date will be displayed.
 
@@ -1155,7 +1155,7 @@ Tasks for today:
 "Project page":https://github.com/mence/todotxt-today
 "Download file":https://raw.githubusercontent.com/mence/todotxt-today/master/today
 
-h2(#autoprioritise-tasks). Autoprioritise tasks
+h2(#autoprioritise-tasks). __autopri__: Autoprioritise tasks
 
 Autoprioritise tasks X days before thet are due.
 
@@ -1167,7 +1167,7 @@ todo.sh autopri 2
 
 "Project Page":https://github.com/chrisbeardy/todo.txt-autopri
 
-h2(#dorecur). dorecur – Add new tasks as required for recurrence
+h2(#dorecur). __dorecur__: Add new tasks as required for recurrence
 
 *dorecur* provides a drop-in replacement for the *do* action. It handles recurring tasks by adding a new task when the old task is finished. It does not require an external scheduler such as cron.
 
